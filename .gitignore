@@ -18,3 +18,4 @@ chroma_db/
 
 # Jupyter checkpoints
 .ipynb_checkpoints/
+OmniParser/
