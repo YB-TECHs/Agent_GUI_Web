@@ -1,0 +1,74 @@
+{
+  "question": "Je veux une adresse et des numéro de téléphone",
+  "url": "https://www.facebook.com/yrbrtechs",
+  "titre": "YB-TECHs | Yaoundé | Facebook",
+  "resultats": {
+    "CONTACTS_EMAIL": [
+      "ybtechs.io@gmail.com"
+    ],
+    "CONTACTS_TEL": [
+      "106851293",
+      "6 59 28 72 21"
+    ],
+    "IDENTITE": [
+      "YB-TECHs",
+      "Intro",
+      "Photos",
+      "YB-TECHs"
+    ],
+    "SERVICES_PRODUITS": [
+      "Confidentialité·",
+      "Conditions générales·",
+      "Publicités·",
+      "Choix publicitaires·"
+    ],
+    "RESEAUX_SOCIAUX": {
+      "facebook": "https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&next=https%3A%2F%2Fwww.facebook.com%2Fyrbrtechs",
+      "instagram": "https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F106851293&h=AUBgcuBlNdKhFjCqDQIzyqyG5LdCPrty-lbPoXdFIq70KHeQjWPxbhlKgTVEoOHv3804CW5EksLDw07uncU6VED9AWB38BD4nFfT6egJj2_VsuFSHiWJWTig6i0W2KeD7gSmDny87ory1YVcI8VD",
+      "linkedin": "https://l.facebook.com/l.php?u=https%3A%2F%2Ffr.linkedin.com%2Fcompany%2Fybtechs&h=AUCH4io1N64k9rirNVFNTr4LbE-m73jaPzJr_JhcvcgpoWLjqzho9FAXb5Ll-2yhp548W-1etmTh-rMQdEVSG6ct3Gc7gP5PdopntTtKxfV1iJCqqgVhgQWjNT6s7hSjC-d9HHz7QdxmBbv_4nr3ag",
+      "tiktok": "https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.tiktok.com%2F%40yb.techs&h=AUAQctU0yirX7OAgoF2KlDEkFgoVJB0n7JcWjP899NCIF3-WU4PCodvs1DSjHKLuG7jUapGl6xm4r8Vr_rLY62EA1Tu2Ms3Tjsd83V4VjM_QVTRz-zERq8uJIcB3hC6gcRGixhsLXcehfKMtQRlHdA"
+    },
+    "LIENS_UTILES": [
+      {
+        "texte": "Se connecter",
+        "href": "https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&next=https%3A%2F%2Fwww.facebook.com%2Fyrbrtechs"
+      },
+      {
+        "texte": "Informations de compte oubliées ?",
+        "href": "https://www.facebook.com/recover/initiate?ars=royal_blue_bar"
+      },
+      {
+        "texte": "103followers",
+        "href": "https://www.facebook.com/yrbrtechs/followers/"
+      },
+      {
+        "texte": "21suivi(e)s",
+        "href": "https://www.facebook.com/yrbrtechs/following/"
+      },
+      {
+        "texte": "Publications",
+        "href": "/yrbrtechs/"
+      },
+      {
+        "texte": "À propos",
+        "href": "https://www.facebook.com/yrbrtechs/about"
+      },
+      {
+        "texte": "Photos",
+        "href": "https://www.facebook.com/yrbrtechs/photos"
+      },
+      {
+        "texte": "YB-TECHs",
+        "href": "https://www.facebook.com/yrbrtechs"
+      },
+      {
+        "texte": "106851293",
+        "href": "https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F106851293&h=AUBgcuBlNdKhFjCqDQIzyqyG5LdCPrty-lbPoXdFIq70KHeQjWPxbhlKgTVEoOHv3804CW5EksLDw07uncU6VED9AWB38BD4nFfT6egJj2_VsuFSHiWJWTig6i0W2KeD7gSmDny87ory1YVcI8VD"
+      },
+      {
+        "texte": "fr.linkedin.com/company/ybtechs",
+        "href": "https://l.facebook.com/l.php?u=https%3A%2F%2Ffr.linkedin.com%2Fcompany%2Fybtechs&h=AUCH4io1N64k9rirNVFNTr4LbE-m73jaPzJr_JhcvcgpoWLjqzho9FAXb5Ll-2yhp548W-1etmTh-rMQdEVSG6ct3Gc7gP5PdopntTtKxfV1iJCqqgVhgQWjNT6s7hSjC-d9HHz7QdxmBbv_4nr3ag"
+      }
+    ]
+  }
+}

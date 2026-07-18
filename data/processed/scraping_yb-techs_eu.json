@@ -1,0 +1,88 @@
+{
+  "question": "contacts",
+  "url": "https://yb-techs.eu/",
+  "titre": "YB-Techs: Solutions digitales innovantes et sur mesure | YB-TECHS",
+  "resultats": {
+    "CONTACTS_EMAIL": [
+      "ybtechs.io@gmail.com"
+    ],
+    "CONTACTS_TEL": [
+      "6 76 65 71 62",
+      "6 59 28 72 21"
+    ],
+    "LOCALISATION": [
+      "14200 hérouville-saint clair, france opening hours monday to frid",
+      "2026.  all rights reserved."
+    ],
+    "IDENTITE": [
+      "Innovate with YB-TECHs",
+      "About Us",
+      "3",
+      "5",
+      "Our Services",
+      "Customer Reviews",
+      "Our Location"
+    ],
+    "SERVICES_PRODUITS": [
+      "About the CEO",
+      "Data analysis & AI strategy– from planning to implementation",
+      "Tailored AI solutions– designed to unlock your company’s full potential"
+    ],
+    "RESEAUX_SOCIAUX": {
+      "linkedin": "/httpswwwlinkedincominyris-brice-wandji-piugie",
+      "facebook": "https://www.facebook.com/yrbrtechs",
+      "instagram": "https://www.instagram.com/106851293",
+      "tiktok": "https://tiktok.com/"
+    },
+    "INFORMATIONS": [
+      "Turning Data and Technology into Business Growth",
+      "We collect, structure, and analyze your data to extract actionable insights. Your information thus becomes a real lever for growth and performance.",
+      "We design AI models and algorithms tailored to your specific needs to automate, predict, and optimize your processes.",
+      "Our solutions use AI to recognize, identify, and secure. From image recognition to biometrics, we develop intelligent systems for greater efficiency and accuracy.",
+      "AtYB-TECHS (Why Be Techs), we transform data into actionable insights and AI-powered solutions for SMEs across five continents.",
+      "Our mission:empowering small and medium-sized businesseswith cutting-edge AI toolsthat boost efficiency, enhance decision-making, and drive growth."
+    ],
+    "LIENS_UTILES": [
+      {
+        "texte": "Accueil",
+        "href": "/"
+      },
+      {
+        "texte": "Services",
+        "href": "/services"
+      },
+      {
+        "texte": "Expertise",
+        "href": "/expertise"
+      },
+      {
+        "texte": "Contact",
+        "href": "/contact"
+      },
+      {
+        "texte": "About the CEO",
+        "href": "/httpswwwlinkedincominyris-brice-wandji-piugie"
+      },
+      {
+        "texte": "Accueil",
+        "href": "/"
+      },
+      {
+        "texte": "Services",
+        "href": "/services"
+      },
+      {
+        "texte": "Expertise",
+        "href": "/expertise"
+      },
+      {
+        "texte": "Contact",
+        "href": "/contact"
+      },
+      {
+        "texte": "About the CEO",
+        "href": "/httpswwwlinkedincominyris-brice-wandji-piugie"
+      }
+    ]
+  }
+}
