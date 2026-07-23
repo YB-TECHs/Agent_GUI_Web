@@ -1,0 +1,39 @@
+{
+  "question": "contacts",
+  "url": "https://yb-techs.eu/",
+  "source": "selenium",
+  "timestamp": "2026-07-23T10:48:01.018192",
+  "resultats": {
+    "CONTACTS_EMAIL": [
+      "ybtechs.io@gmail.com"
+    ],
+    "CONTACTS_TEL": [
+      "+237 6 76 65 71 62",
+      "+33 6 59 28 72 21"
+    ],
+    "LOCALISATION": [
+      "14200 hérouville-saint clair, france opening hours monday to frid",
+      "2026.  all rights reserved."
+    ],
+    "IDENTITE": [
+      "Innovate with YB-TECHs",
+      "About Us",
+      "3",
+      "5",
+      "Our Services",
+      "Customer Reviews",
+      "Our Location"
+    ],
+    "INFORMATIONS": [
+      " Your information thus becomes a real lever for growth and performance",
+      " We design AI models and algorithms tailored to your specific needs to automate, predict, and optimize your processes",
+      " Our solutions use AI to recognize, identify, and secure",
+      " From image recognition to biometrics, we develop intelligent systems for greater efficiency and accuracy",
+      " AI Consulting Digital Consulting & Support About Us At YB-TECHS (Why Be Techs) , we transform data into actionable insights and AI-powered solutions for SMEs across five continents"
+    ],
+    "RESEAUX_SOCIAUX": {
+      "linkedin": "/httpswwwlinkedincominyris-brice-wandji-piugie",
+      "facebook": "https://www.facebook.com/yrbrtechs"
+    }
+  }
+}

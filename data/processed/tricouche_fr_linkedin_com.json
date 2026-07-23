@@ -1,0 +1,37 @@
+{
+  "question": "localisation",
+  "url": "https://fr.linkedin.com/company/ybtechs",
+  "source": "selenium",
+  "timestamp": "2026-07-23T10:41:56.599447",
+  "resultats": {
+    "CONTACTS_EMAIL": [],
+    "CONTACTS_TEL": [],
+    "LOCALISATION": [
+      "2020 employés chez yb-techs yris brice wandji piugie, phd voir t",
+      "2025 ",
+      "2026 à propos accessibilité conditions générales d’utilisation d",
+      "rue françois 1er 75008 paris, île-de-france, fr obtenir l’itiné",
+      "83390 (near marseille) france 🇫🇷"
+    ],
+    "IDENTITE": [
+      "YB-TECHs",
+      "Services et conseil en informatique",
+      "Hérouville-St-Clair, Normandy377 abonnés",
+      "À propos",
+      "Employés chez YB-TECHs",
+      "Yris Brice Wandji Piugie, PhD",
+      "Lieux",
+      "Nouvelles"
+    ],
+    "INFORMATIONS": [
+      "YB-TECHs | LinkedIn Accepter et s’inscrire sur LinkedIn En cliquant sur Continuer pour vous inscrire ou vous identifier, vous acceptez les Conditions d’utilisation , la Politique de confidentialité et la Politique relative aux cookies de LinkedIn",
+      " Suivre Voir un employé Signaler cette entreprise À propos YB-TECHs is a data collection and data engineering company focused on building high-quality, reliable datasets for AI, biometric, and digital identity systems",
+      "\n\nWe support organizations in acquiring and structuring multimodal data (behavioral, biometric, UX, voice, image, time-series) to power next-generation AI models, including LLMs and security-critical systems",
+      "\n\nWe enable companies to build trustworthy, high-performance AI systems by starting where it matters most: the data",
+      " Signaler ce post Top AI Tools for Public Health"
+    ],
+    "RESEAUX_SOCIAUX": {
+      "linkedin": "/legal/cookie-policy?trk=linkedin-tc_auth-button_cookie-policy"
+    }
+  }
+}
