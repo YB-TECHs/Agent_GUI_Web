@@ -1,0 +1,11 @@
+[
+  {"url": "https://yb-techs.eu/", "question": "contacts", "attendu": "selenium"},
+  {"url": "https://yb-techs.eu/", "question": "services proposés", "attendu": "selenium"},
+  {"url": "https://yb-techs.eu/", "question": "réseaux sociaux", "attendu": "selenium"},
+  {"url": "https://yb-techs.eu/", "question": "équipe fondatrice", "attendu": "selenium"},
+  {"url": "https://yb-techs.eu/", "question": "localisation des bureaux", "attendu": "selenium"},
+  {"url": "tests/fixtures/ocr/IMG1.png", "question": "texte visible sur la capture", "attendu": "ocr"},
+  {"url": "tests/fixtures/ocr/IMG2.png", "question": "montant et date de la facture", "attendu": "ocr"},
+  {"url": "tests/fixtures/omni/IMG1.png", "question": "boutons visibles à l'écran", "attendu": "omniparser"},
+  {"url": "tests/fixtures/omni/IMG2.png", "question": "icônes du menu principal", "attendu": "omniparser"}
+]
