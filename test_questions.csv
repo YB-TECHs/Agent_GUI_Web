@@ -1,0 +1,36 @@
+id,categorie,question
+Q01,definitions,Qu'est-ce que la microfinance ?
+Q02,definitions,Qu'est-ce que le microcredit ?
+Q03,definitions,Qu'est-ce qu'une tontine ?
+Q04,definitions,Qu'est-ce que la finance solidaire ?
+Q05,definitions,Comment fonctionne un systeme bancaire classique ?
+Q06,reglementation,Quel est le role de la COBAC dans la microfinance ?
+Q07,reglementation,Qu'est-ce que le reglement CEMAC/UMAC/COBAC n 01/17 ?
+Q08,reglementation,En quelle annee a ete adopte le premier reglement sur la microfinance en zone CEMAC ?
+Q09,reglementation,Quelles sont les conditions pour obtenir un agrement d'etablissement de microfinance ?
+Q10,reglementation,Quelle autorite supervise les etablissements de microfinance au Cameroun ?
+Q11,reglementation,Que se passe-t-il en cas de non-respect des regles prudentielles par un EMF ?
+Q12,reglementation,Comment les epargnants sont-ils proteges dans le systeme de microfinance CEMAC ?
+Q13,categories_emf,Qu'est-ce qu'un etablissement de microfinance de premiere categorie ?
+Q14,categories_emf,Qu'est-ce qu'un etablissement de microfinance de deuxieme categorie ?
+Q15,categories_emf,Qu'est-ce qu'un etablissement de microfinance de troisieme categorie ?
+Q16,categories_emf,Quelle est la difference entre les trois categories d'EMF ?
+Q17,categories_emf,Le capital minimum exige differe-t-il selon la categorie d'EMF ?
+Q18,institutions,Qu'est-ce que CamCCUL ?
+Q19,institutions,Qu'est-ce que MC2 ?
+Q20,institutions,Qu'est-ce qu'Express Union Finance ?
+Q21,institutions,Qu'est-ce que le reseau MUFID ?
+Q22,institutions,Qu'est-ce que le reseau des CVECA et CECA ?
+Q23,geo_tabulaire,Quelles sont les microfinances presentes a Maroua ?
+Q24,geo_tabulaire,Quelles sont les microfinances presentes a Yaounde ?
+Q25,geo_tabulaire,Quelles sont les microfinances presentes a Douala ?
+Q26,geo_tabulaire,Combien d'etablissements de microfinance sont agrees dans la region de l'Extreme-Nord ?
+Q27,geo_tabulaire,Combien d'etablissements de microfinance sont agrees au total au Cameroun ?
+Q28,hors_perimetre,Quel temps fait-il aujourd'hui a Douala ?
+Q29,hors_perimetre,Peux-tu m'ecrire du code Python pour trier une liste ?
+Q30,hors_perimetre,Quelle banque internationale est la plus rentable au monde en 2026 ?
+Q31,hors_perimetre,Que penses-tu personnellement de la microfinance, est-ce une bonne chose ?
+Q32,hors_perimetre,Quel est le dernier taux directeur de la BEAC annonce cette semaine ?
+Q33,chiffres,Combien d'entites de premiere categorie existaient en 2022 selon le rapport sectoriel ?
+Q34,chiffres,Quelle part du nombre total d'etablissements represente la premiere categorie ?
+Q35,chiffres,En quelle annee le reglement CEMAC actuellement en vigueur sur la microfinance a-t-il ete adopte ?
