@@ -1,0 +1,842 @@
+﻿id,categorie,question,reponse,nb_documents_recuperes,score_similarite,temps_reponse_secondes,statut,source,corrige_bug_decoupage_region,timestamp
+Q01,definitions,Qu'est-ce que la microfinance ?,"La microfinance est un système qui fournit des services financiers à des ménages pauvres, notamment le crédit, l'épargne, l'assurance et les services de transfert de fonds, pour améliorer leur niveau de vie et constituer un patrimoine.",23,,296.68,succes,S2,False,2026-07-30 10:27:24
+Q02,definitions,Qu'est-ce que le microcredit ?,"Le microcrédit consiste en l'attribution de prêts de faible montant à des entrepreneurs ou à des artisans qui ne peuvent pas accéder aux prêts bancaires classiques. Il se développe surtout dans les pays en développement, où il permet de concrétiser des microprojets, favorisant l'activité et la création de richesses.",22,,184.73,succes,S2,False,2026-07-30 10:30:29
+Q03,definitions,Qu'est-ce qu'une tontine ?,Une tontine est une association collective d’épargne qui réunit des épargnants pour investir en commun dans un actif financier ou dans un bien dont la propriété revient à une partie seulement des souscripteurs.,23,,196.3,succes,S2,False,2026-07-30 10:33:45
+Q04,definitions,Qu'est-ce que la finance solidaire ?,"La finance solidaire est un concept économique qui applique aux secteurs financiers les principes de l'économie sociale et solidaire, en s'appuyant sur des règles éthiques telles que le principe de solidarité et de subsidiarité. Elle fait partie de la finance éthique et fournit une réponse alternative ou complémentaire au financement bancaire.",21,,181.91,succes,S2,False,2026-07-30 10:36:47
+Q05,definitions,Comment fonctionne un systeme bancaire classique ?,"Voici une réponse détaillée :
+
+Un système bancaire classique est composé de plusieurs parties qui travaillent ensemble pour fournir des services financiers aux consommateurs et aux entreprises. Voici les étapes clés du fonctionnement d'un système bancaire classique :
+
+1. **Crédit** : Le système bancaire commence par la création de crédit, qui consiste à prêter de l'argent à des clients sous forme de dépôts ou de prêts. Les banques acquièrent ces crédits en achetant des titres d'emission publique ou en empruntant de l'argent auprès de la Banque centrale.
+2. **Reserve obligatoire** : Pour garantir la stabilité du système, les banques sont tenues de maintenir une réserve obligatoire sur leurs dépôts. Cette réserve est utilisée pour couvrir les pertes potentielles en cas de défaut de paiement des clients.
+3. **Prêts** : Les banques peuvent ensuite prêter ce crédit aux consommateurs et aux entreprises, sous forme de prêts à court terme ou de crédits à long terme.
+4. **Depôts** : En parallèle, les consommateurs et les entreprises déposent leur argent dans les banques, qui l'utilisent pour financer leurs opérations.
+5. **Banque centrale** : La Banque centrale est responsable de la régulation du système bancaire et de la stabilisation de la monnaie. Elle fixe les taux d'intérêt, émet des billets et contrôle la masse monétaire en circulation.
+
+Cependant, le système bancaire classique a des limites importantes, notamment :
+
+* **Risque de crédit** : Les banques risquent de ne pas récupérer leur crédit si les clients ne paient pas leurs dettes.
+* **Incertitude du marché** : Le système bancaire est sensible aux fluctuations du marché et aux changements dans la demande et l'offre de crédits.
+* **Cycles économiques** : Les banques sont souvent influencées par les cycles économiques, ce qui peut affecter leur capacité à prêter des crédits.
+
+Pour atténuer ces risques, les banques ont développé des stratégies supplémentaires, telles que :
+
+* **Diversification de leurs activités** : Les banques diversifient leurs activités pour réduire leur exposition au risque.
+* **Amélioration des processus de prêt** : Les banques améliorent leurs processus de prêt pour mieux évaluer le crédit des clients et réduire les pertes potentielles.
+* **Diversification des investissements** : Les banques diversifient leurs investissements pour réduire leur exposition au risque.
+
+En résumé, un système bancaire classique fonctionne grâce à la création de crédit, aux réserves obligatoires, aux prêts et aux dépôts. Cependant, ce système est sujet à des risques tels que le risque de crédit, l'incertitude du marché et les cycles économiques. Les banques doivent développer des stratégies pour atténuer ces risques et assurer la stabilité du système.",25,,339.87,succes,S2,False,2026-07-30 10:42:27
+Q06,reglementation,Quel est le role de la COBAC dans la microfinance ?,"La Commission Bancaire de l'Afrique centrale (COBAC) joue un rôle clé dans la régulation et le contrôle de l'activité des établissements de microfinance en zone CEMAC. Selon les règlements COBAC, la COBAC est responsable de superviser les établissements de microfinance pour garantir qu'ils opèrent de manière solide et prudentielle.
+
+La COBAC fixe également des normes de gestion et règles prudentielles pour les établissements de microfinance, telles que la fixation du capital social minimum, la classification des catégories d'établissements de microfinance, et la supervision des activités financières. Elle assure également une bonne gestion des risques et une transparence dans les opérations des établissements.
+
+En outre, la COBAC est chargée de régler les litiges entre les établissements de microfinance et leurs clients, ainsi que de fixer les sanctions pénales en cas de non-conformité aux règlements. Elle est également responsable de veiller à ce que les établissements de microfinance respectent les normes de gouvernance et de conformité.
+
+Il convient de noter que la COBAC a également des mesures pour lutter contre l'exploitation des bénéficiaires des IMF, telles que la fixation d'un encours maximum de crédit accordé à un client, ainsi que la supervision des opérations des établissements de microfinance.",20,,387.25,succes,S2,False,2026-07-30 10:48:54
+Q07,reglementation,Qu'est-ce que le reglement CEMAC/UMAC/COBAC n 01/17 ?,Je ne dispose pas de cette information dans mes documents.,17,,230.42,succes,S2,False,2026-07-30 10:52:45
+Q08,reglementation,En quelle annee a ete adopte le premier reglement sur la microfinance en zone CEMAC ?,"Il n'y a pas d'année précise mentionnée dans le texte pour l'adoption du premier réglement sur la microfinance en zone CEMAC. Cependant, il est indiqué que le règlement COBAC N°01/17/CEMAC/UMAC/COBAC a été adopté en 2017, mais ce n'est pas nécessairement le premier réglement sur la microfinance dans la zone CEMAC.",23,,136.98,succes,S2,False,2026-07-30 10:55:02
+Q09,reglementation,Quelles sont les conditions pour obtenir un agrement d'etablissement de microfinance ?,"Pour obtenir un agrément d'établissement de microfinance au Cameroun, il est nécessaire de remplir certaines conditions et de suivre une procédure spécifique. Cependant, je ne dispose pas des détails précis sur ces conditions et cette procédure dans mes documents.
+
+Je ne disposing pas de cette information dans mes documents.",22,,266.42,succes,S2,False,2026-07-30 10:59:28
+Q10,reglementation,Quelle autorite supervise les etablissements de microfinance au Cameroun ?,"La réponse est le MINISTERE DES FINANCES, en plus du secretariat général qui regroupe notamment la direction générale du trésor, de la coopération financière et monétaire. Enfin, l'Autorité des marchés financiers (AMF) supervise également les établissements de microfinance au Cameroun.",23,,121.93,succes,S2,False,2026-07-30 11:01:30
+Q11,reglementation,Que se passe-t-il en cas de non-respect des regles prudentielles par un EMF ?,"Il n'est pas possible d'obtenir une réponse précise au sein du document fourni. Cependant, je peux vous aider à comprendre les différentes catégories et réglementations relatives aux microfinances dans la zone CEMAC.
+
+La microfinance est un système financier qui permet aux personnes sans accès à des crédits traditionnels d'obtenir des prêts ou des investissements pour lancer leurs projets économiques. Les établissements de microfinance (EMF) sont des institutions financières spécialisées dans le financement du micro-entrepreneurisme.
+
+Dans la zone CEMAC, il existe une réglementation spécifique pour les EMF, notamment :
+
+1. Le Règlement COBAC EMF : Ce règlement établit les conditions et modalités d'agrément des établissements de microfinance, ainsi que les normes de gestion des risques.
+2. Les Règlements COBAC issus du nouveau règlement CEMAC : Ces réglementations fixent les formes juridiques des établissements de microfinance en fonction des catégories d’établissements.
+3. Le Règlement relatif à la classification a la comptabilisation et au provisionnement des créances des établissements de microfinances : Ce règlement établit les normes pour la classification et la comptabilisation des créances des EMF.
+
+En cas de non-respect des règles prudentielles par un EMF, il est possible que le banque centrale ou les autorités réglementaires prennent des mesures contraignantes. Cependant, je n'ai pas trouvé d'information spécifique sur les conséquences du non-respect des règles.
+
+Je vous recommande de consulter les sources officielles et les documents réglementaires pour obtenir des informations plus précises et à jour sur la microfinance dans la zone CEMAC.",23,,250.02,succes,S2,False,2026-07-30 11:05:40
+Q12,reglementation,Comment les epargnants sont-ils proteges dans le systeme de microfinance CEMAC ?,"La protection des épargnants dans le système de microfinance CEMAC est assurée par le dispositif prudentiel mis en place par la Commission bancaire de l'Afrique centrale (COBAC). Ce dispositif réglementaire vise à renforcer la solvabilité et la stabilité du secteur tout en garantissant une protection adéquate pour les épargnants.
+
+Le règlement CEMAC, notamment le règlement N° 01/02/CEMAC/UMAC/COBAC de 2002, fixe les normes prudentielles déterminantes pour l'exercice de l'activité. Ce règlement protège les épargnants en établissant des dispositions qui visent à prévenir les risques et à assurer la sécurité de leurs investissements.
+
+Par ailleurs, les institutions de microfinance doivent se conformer aux normes et directives fixées par COBAC pour garantir la protection des épargnants. Ces institutions sont également soumises à un système de surveillance et de contrôle pour s'assurer de leur adéquation aux exigences réglementaires.
+
+En résumé, le système de microfinance CEMAC est conçu pour protéger les épargnants en établissant des dispositions prudentielles qui visent à prévenir les risques et à assurer la sécurité de leurs investissements. Les institutions de microfinance doivent se conformer aux normes et directives fixées par COBAC pour garantir la protection des épargnants.",23,,227.15,succes,S2,False,2026-07-30 11:09:27
+Q13,categories_emf,Qu'est-ce qu'un etablissement de microfinance de premiere categorie ?,"Un établissement de microfinance de première catégorie est un organisme non bancaire qui fournit des services de crédit, d'épargne et d'autres activités financières à des personnes physiques ou morales. Ces organisations sont souvent constituées par des groupes de solidarité, des associations coopératives ou des mutuelles, et sont gérées par un conseil d'administration composé de représentants des membres.
+
+Dans le contexte du rapport présenté, les établissements de microfinance de première catégorie sont classés en trois groupes : 
+
+1. Les établissements de microfinance de troisième catégorie qui sont des organisations non bancaires qui fournissent des services de crédit et d'épargne à des personnes physiques ou morales.
+2. Les établissements de microfinance de deuxième catégorie qui sont des organisations qui ont été agréées par la Banque centrale de l'Afrique centrale (BEAC) et qui fournissent des services de crédit, d'épargne et d'autres activités financières à des personnes physiques ou morales.
+3. Les établissements de microfinance de première catégorie qui sont des organisations qui ont été agréées par la BEAC et qui fournissent des services de crédit, d'épargne et d'autres activités financières à des personnes physiques ou morales.
+
+Ces établissements de microfinance de première et deuxième catégorie sont souvent dotés d'un statut juridique spécifique et sont soumis à certaines réglementations en matière de contrôle bancaire.",24,,224.92,succes,S2,False,2026-07-30 11:13:12
+Q14,categories_emf,Qu'est-ce qu'un etablissement de microfinance de deuxieme categorie ?,"Selon le texte fourni, un établissement de microfinance de deuxième catégorie est une structure qui effectue des placements auprès des banques commerciales de l'Etat d'implantation et de la BEAC. C'est une structure à but non lucratif qui est soumise à un réglementaire contraignant pour garantir une bonne gestion des risques et protéger les avoirs des épargnants.",25,,145.98,succes,S2,False,2026-07-30 11:15:38
+Q15,categories_emf,Qu'est-ce qu'un etablissement de microfinance de troisieme categorie ?,"C'est un établissement qui accorde des crédits à ses clients.
+
+Voici le détail de la définition :
+
+Première catégorie : il s'agit des établissements à caractère associatif, coopératif ou mutualiste. Ils collectent l'épargne de leurs propres membres et l'utilisent exclusivement pour accorder des crédits à ces mêmes membres. Ils ne peuvent donc pas servir un public extérieur à leurs adhérents. C'est dans cette catégorie que se classent, par exemple, les coopératives regroupées au sein du réseau CamCCUL, ainsi que les MC2.
+
+Deuxième catégorie : ce sont des établissements constitués sous forme de société anonyme, qui peuvent à la fois collecter l'épargne du public en général et accorder des crédits à des tiers, sans que ces opérations soient limitées à un cercle de membres.",24,,176.87,succes,S2,False,2026-07-30 11:18:35
+Q16,categories_emf,Quelle est la difference entre les trois categories d'EMF ?,"Je suis désolé, mais il semble que vous n'avez pas fourni suffisamment d'informations pour répondre à la question. La question semble être liée à des études sur l'évolution des affaires financières et les tontines en Afrique, mais je n'ai pas trouvé de contexte clair enough pour fournir une réponse précise.
+
+Cependant, je peux essayer de vous donner quelques informations générales sur les trois catégories d'EMF (Épargne Mutuelle ou Tontine) que vous avez mentionnées :
+
+1. Les « tontines immobilières » : ces sont des types de tontines qui permettent aux participants d'économiser pour acheter une propriété.
+2. Les « tontines financières » : ces sont des types de tontines qui permettent aux participants d'économiser pour des objectifs financiers plus generaux, tels que l'épargne ou la formation professionnelle.
+3. Les « associations tontinières » : ces sont des types de sociétés mutuelles qui permettent aux membres de partager les risques et les avantages financiers, souvent avec un objectif commun tel que l'économie d'échelle ou le financement de projets.
+
+Il est important de noter que les tontines en Afrique peuvent varier considérablement en fonction du pays et des régions, et que ces catégories ne sont peut-être pas exhaustives.",24,,205.02,succes,S2,False,2026-07-30 11:22:00
+Q17,categories_emf,Le capital minimum exige differe-t-il selon la categorie d'EMF ?,"Non, le capital minimum requis est fixé à 10 milliards de FCFA pour tous les établissements de microfinance, quelle que soit leur catégorie. Cependant, il convient de noter que les réglementations COBAC EMF R-2017/01, R-2017/03, R-2017/04 et R-2017/05 précisent des règlements spécifiques pour chaque catégorie d'EMF.",23,,138.41,succes,S2,False,2026-07-30 11:24:19
+Q18,institutions,Qu'est-ce que CamCCUL ?,"CamCCUL est l'abréviation du nom de l'organisation, qui signifie ""Cameroon Cooperative Credit Union League Ltd"". C'est une fédération de cooperative de crédit au Cameroun.",25,,125.69,succes,S2,False,2026-07-30 11:26:24
+Q19,institutions,Qu'est-ce que MC2 ?,"Je ne connais pas l'explication de ""MC2"" dans le texte fourni. Il semble qu'il s'agisse d'un acronyme ou d'une sigle qui n'est pas expliquée explicitement dans le contenu du livre. Si vous pouvez fournir plus de contexte ou une explication claire, je pourrai essayer de vous aider à comprendre ce que signifie ""MC2"".",25,,129.72,succes,S2,False,2026-07-30 11:28:34
+Q20,institutions,Qu'est-ce qu'Express Union Finance ?,"Expresse Union Finance S.A (EUF SA) est un établissement de finance solidaire basé à Yaoundé, cameroun.",25,,115.59,succes,S2,False,2026-07-30 11:30:30
+Q21,institutions,Qu'est-ce que le reseau MUFID ?,"Il semble qu'il y ait eu une erreur dans la copie du document. Voici une réponse claire et concise :
+
+**Le réseau MUFID** est un réseau de microfinance camerounais qui se concentre sur l'origine locale des crédits et les opérations de micro-épargne et de micro-crédit. Le réseau MUFID a pour objectif de fournir des services financiers aux populations rurales et urbaines du Cameroun, en particulier aux plus pauvres.
+
+Le réseau est composé d'organismes de prévention et de lutte contre la pauvreté (OPLP) qui ont rejoint forces pour créer un réseau de microfinance communautaire. Les organismes membres du réseau MUFID sont autorisés à emprunter des fonds du Fonds international de développement industrialisé (FIDI) auprès du Ministère du Financement (MINFIN), qui sont ensuite déboursés aux members pour financer leurs activités de microfinance.
+
+Le réseau MUFID a pour vocation d'améliorer la qualité de vie des Camerounais en leur fournissant accès à des services financiers, tels que des prêts et des épargnes à faible taux d'intérêt, ainsi qu'en favorisant l'économie locale.",25,,198.48,succes,S2,False,2026-07-30 11:33:48
+Q22,institutions,Qu'est-ce que le reseau des CVECA et CECA ?,"Le réseau des CVECA (Caisse Villageoise d'Épargne et de Crédit Autogérée) et CECA (Coopérative de Crédit Autogérée) sont des organisations mutualistes qui offrent des services financiers à leurs membres. Ils sont tenus de constituer un fonds de solidarité pour faire face aux pertes et doivent se doter d'un organe faîtier pour promotion, encadrement, formation et surveillance.
+
+Ils ont une structure de gestion basée sur la participation et la responsabilité des membres, ce qui les rend adaptés à l' environnement local. Les CVECA et CECA sont souvent présents dans les communautés rurales et urbaines où les banques conventionnelles ne sont pas toujours accessibles.
+
+Ce type d'organisations est intéressant car ils offrent une solution financière adaptée aux besoins des populations locales, en leur permettant de gérer leurs propres finances et de prendre des décisions basées sur leurs besoins spécifiques. Cependant, il est important de noter que les CVECA et CECA peuvent avoir des limites dans leur capacité à offrir des services financiers de qualité élevée, en raison de la manque d'infrastructure et de ressources.
+
+Le réseau des CVECA et CECA est également intéressant car il peut constituer une alternative aux banques traditionnelles qui sont souvent perçues comme étant inaccessibles ou trop coûteuses pour les populations locales. Cependant, il est important de noter que le développement de ces organisations nécessite un soutien structurant et financier pour atteindre son plein potentiel.
+
+En résumé, le réseau des CVECA et CECA représente une solution financière innovante qui offre à ses membres l'accès aux services de crédit et d'épargne. Cependant, il est important de prendre en compte les défis et les limites associés à cette forme d'organisation pour développer son potentiel et offrir des services financiers de qualité élevée aux populations locales.",24,,222.77,succes,S2,False,2026-07-30 11:37:31
+Q23,geo_tabulaire,Quelles sont les microfinances presentes a Maroua ?,"Il n'est pas possible d'établir une liste précise de toutes les microfinances présentées à Maroua sans accéder à des informations à jour et spécifiques sur l'activité économique de la ville. Cependant, je peux vous fournir quelques détails généraux sur comment les microfinances fonctionnent et leur présence dans différentes régions, y compris le Cameroun.
+
+Les microfinances sont des institutions financières spécialisées qui proposent des services de crédit, d'épargne et d'autres produits financiers à des clients qui ne peuvent pas être attirés par les banques traditionnelles. Elles sont souvent présentes dans les zones rurales ou défavorisées où le accès au crédit classique est limité.
+
+Au Cameroun, la présence de microfinances peut varier selon la région et le type d'activité économique. En général, il existe plusieurs types de microfinances qui proposent des services tels que des prêts à taux intéressants, des assurances, des produits financiers innovants, etc.
+
+Pour obtenir une liste précise des microfinances présentes à Maroua, je vous recommanderais de contacter directement les institutions financières locales ou de rechercher sur Internet pour trouver des informations à jour sur les activités économiques et financières de la ville.",24,,206.26,succes,S2,False,2026-08-01 02:02:42
+Q24,geo_tabulaire,Quelles sont les microfinances presentes a Yaounde ?,Je ne dispose pas de cette information dans mes documents.,12,0.1061,143.18,succes,S2,True,2026-08-02 21:25:53
+Q25,geo_tabulaire,Quelles sont les microfinances presentes a Douala ?,"Selon le document fourni, voici quelques-unes des microfinances présentées à Douala :
+
+1. La Financière Générale Douala
+2. First Trust Savings and Loans (FIRSTTRUST)
+3. Caisse Coopérative d’Epargne et de Crédit pour les Initiatives Communes du Septentrion (CECICS)
+4. Caisse de Développement d’Epargne et de Crédit d’Afrique (CDECA) - Ex COOPEC MAYO-REY
+5. SOCOOPEC de la Solidarité du Cameroun en surnom Caisse d’Epargne et de Crédit de la « Solidarité » (CEPAC SOLIDARITE)
+6. Caisse d’Epargne et de Crédit pour les Initiatives Locales du Wouri (CECIL)
+
+Il est important de noter que cette liste n'est pas exhaustive, car le document fourni ne présente qu'une partie des microfinances présentées à Douala.
+
+Les informations sont basées sur le nombre d'immatriculation au CNC, qui peut varier en fonction du moment où le document a été établi.",24,,192.41,succes,S2,False,2026-08-01 01:56:32
+Q26,geo_tabulaire,Combien d'etablissements de microfinance sont agrees dans la region de l'Extreme-Nord ?,"Selon le tableau ci-dessus, il y a 2 établissements de microfinance agréés dans la région de l'Adamaoua :
+
+1. Caisse d’Epargne et de Financement en Afrique (CEFA)
+2. Savana Islamic Cooperative Finance S.A
+
+Il n'y a pas non plus d'autres établissements mentionnés dans la liste pour cette région.",24,,137.02,succes,S2,False,2026-07-30 11:50:07
+Q27,geo_tabulaire,Combien d'etablissements de microfinance sont agrees au total au Cameroun ?,"Il n'y a pas de réponse directe à cette question car le texte fourni ne contient pas d'information spécifique sur le nombre d'établissements de microfinance agréés au Cameroun. Cependant, nous pouvons en déduire que le secteur de la microfinance en zone CEMAC compte 521 établissements agréés et en activité au total, dont certains sont situés dans chaque pays de la zone, dont le Cameroun.
+
+Pour connaître le nombre exact d'établissements de microfinance agréés au Cameroun, il faudrait consulter une source plus spécifique ou une base de données qui fournit des informations sur les établissements de microfinance en CEMAC, notamment dans ce pays.",23,,159.23,succes,S2,False,2026-07-30 11:52:46
+Q28,hors_perimetre,Quel temps fait-il aujourd'hui a Douala ?,"Je suis malheureux, mais je ne peux pas fournir une réponse précise au moment où vous vous posez votre question. Cependant, je peux vous donner des informations sur comment trouver la température actuelle à Douala.
+
+Pour connaître la température actuelle à Douala, vous pouvez utiliser les services de recherche d'informations en ligne tels que Google ou accéder aux sites Web météorologiques qui fournissent des données en temps réel pour différentes villes du monde, notamment Douala. 
+
+Vous pouvez rechercher « Température à Douala » ou « Météo Douala » sur Internet et sélectionner la date actuelle pour obtenir les informations concernant la température et d’autres météorologiques.",25,,154.72,succes,S2,False,2026-07-30 11:55:21
+Q29,hors_perimetre,Peux-tu m'ecrire du code Python pour trier une liste ?,"Voici un exemple de code Python qui trie une liste :
+```
+def trier_liste(liste):
+    return sorted(liste)
+
+# Exemple d'utilisation
+liste = [4, 2, 9, 6, 5, 1]
+triée_liste = trier_liste(liste)
+print(triée_liste)  # [1, 2, 4, 5, 6, 9]
+```
+Ce code définit une fonction `trier_liste` qui prend en entrée une liste et la trie en utilisant la méthode `sorted`. La fonction renvoie la liste triée. L'exemple d'utilisation montre comment utiliser cette fonction pour trier la liste `[4, 2, 9, 6, 5, 1]`, qui devient `[1, 2, 4, 5, 6, 9]` après le tri.
+
+Si vous souhaitez trier la liste par ordre inverse (c'est-à-dire en descendant), vous pouvez utiliser la méthode `reverse=True` :
+```
+def trier_liste(liste):
+    return sorted(liste, reverse=True)
+
+# Exemple d'utilisation
+liste = [4, 2, 9, 6, 5, 1]
+triée_liste = trier_liste(liste)
+print(triée_liste)  # [9, 6, 5, 4, 2, 1]
+```
+Cela sortira la liste dans l'ordre inverse.",25,,182.63,succes,S2,False,2026-07-30 11:58:23
+Q30,hors_perimetre,Quelle banque internationale est la plus rentable au monde en 2026 ?,"Je ne peux pas fournir de réponse précise sur laquelle banque internationale est la plus rentable au monde en 2026, car cela peut varier d'une année à l'autre et dépend de divers facteurs tels que les performances financières, le chiffre d'affaires, etc.",24,,122.32,succes,S2,False,2026-07-30 12:00:26
+Q31,hors_perimetre,Que penses-tu personnellement de la microfinance,Je ne dispose pas de cette information dans mes documents.,23,,239.04,succes,S2,False,2026-07-30 12:04:25
+Q32,hors_perimetre,Quel est le dernier taux directeur de la BEAC annonce cette semaine ?,"Je suis désolé, mais je n'ai pas trouvé d'information sur le dernier taux directeur de la BEAC qui a été annoncé cette semaine. La réponse à votre question est donc « non disponible » ou « inconnue ».",24,,131.12,succes,S2,False,2026-07-30 12:06:36
+Q33,chiffres,Combien d'entites de premiere categorie existaient en 2022 selon le rapport sectoriel ?,"Il n'y a pas d'information spécifique dans le texte fourni pour répondre à cette question. Cependant, je peux essayer de trouver une réponse basée sur les informations disponibles.
+
+Selon le rapport du secteur financier du Forum économique mondial (FEMI) 2022, il y avait 4 500 microentreprises en Afrique subsaharienne, soit environ 1 200 d'entre elles appartenant à la première catégorie de microfinance. Cependant, je n'ai pas pu trouver une source précise confirmant le nombre exact d'entités de première catégorie existantes en 2022.
+
+Pour une réponse plus précise, il faudrait consulter le rapport sectoriel ou les documents spécifiques du FEMI 2022.",25,,158.05,succes,S2,False,2026-07-30 12:09:14
+Q34,chiffres,Quelle part du nombre total d'etablissements represente la premiere categorie ?,La première catégorie représente 8% du nombre total d'établissements de microfinance en zone CEMAC.,25,,124.43,succes,S2,False,2026-07-30 12:11:18
+Q35,chiffres,En quelle annee le reglement CEMAC actuellement en vigueur sur la microfinance a-t-il ete adopte ?,"Il n'y a pas d'année précise mentionnée dans le texte pour l'adoption du règlement CEMAC actuellement en vigueur sur la microfinance. Cependant, il est possible de faire une évaluation de cette information en fonction des dates mentionnées dans le texte.
+
+Le texte mentionne plusieurs réglements et instructions COBAC adoptés entre 2002 et 2017, notamment :
+
+* Règlement COBAC EMF 2002/01 relatif au champ d'application des règlements COBAC sur les normes prudentielles des établissements de microfinance
+* Règlement COBAC EMF 2002/04 relatif aux fonds propres nets
+* Règlement COBAC EMF 2017/09 relatif aux modifications de situation des établissements de microfinance
+
+Ces réglements ont été adoptés à différentes périodes, mais sans préciser exactement l'année d'adoption. Cependant, le dernier réglement mentionné (COBAC EMF 2017/09) a été adopté en 2017.
+
+En conséquence, il est possible de supposer que les réglements COBAC sur la microfinance actuellement en vigueur sont ceux adoptés entre 2002 et 2017. Cependant, il conviendrait d'enquêter pour obtenir une information plus précise et à jour sur l'adoption récente des réglementations.",23,,204.84,succes,S2,False,2026-07-30 12:14:43
+S3-001,geo_tabulaire,Quelles sont les microfinances presentes a Yaounde ?,Je ne dispose pas de cette information dans mes documents.,12,0.1061,114.0,succes,S3,False,2026-08-02 21:25:53
+S3-002,geo_tabulaire,Quelles sont les microfinances presentes a Douala ?,Je ne dispose pas de cette information dans mes documents.,12,0.0936,69.46,succes,S3,False,2026-08-01 01:56:32
+S3-003,geo_tabulaire,Quelles sont les microfinances presentes a Bafoussam ?,"D'après le contexte fourni, il est possible de répondre à la question suivante :
+
+Les microfinances présentes à Bafoussam sont la Cooperative Credit Union (BATOCCUL) et la Caisse Populaire Coopérative de l’Université de Dschang (SCECUDS).",12,0.1078,158.59,succes,S3,True,2026-08-02 21:28:32
+S3-004,geo_tabulaire,Quelles sont les microfinances presentes a Bamenda ?,"Selon les informations fournies, je ne dispose pas de cette information dans mes documents.",12,0.0973,83.13,succes,S3,False,2026-08-01 02:00:30
+S3-005,geo_tabulaire,Quelles sont les microfinances presentes a Garoua ?,Je ne dispose pas de cette information dans mes documents.,12,0.0989,66.53,succes,S3,False,2026-08-01 02:01:36
+S3-006,geo_tabulaire,Quelles sont les microfinances presentes a Maroua ?,Je ne dispose pas de cette information dans mes documents.,12,0.0967,65.5,succes,S3,False,2026-08-01 02:02:42
+S3-007,geo_tabulaire,Quelles sont les microfinances presentes a Ngaoundere ?,"D'après le contexte fourni, il est possible de répondre aux questions suivantes :
+
+- Les microfinances présentes à Ngaoundéré sont :
+  - Le RESEAU MUFID UNION (6 MUFID DE NGAOUNDERE)
+  - Le CACCUL (Caisse Populaire Coopérative du Plateau)
+  - La NGACCUL (Ngaoundéré Coopérative Credit Union)
+
+- Concernant les IMF qui prétendent viser les plus pauvres, il est difficile de généraliser l'efficacité de la microfinance pour plusieurs raisons : 
+    1. Le biais de sélection, 
+    2. La fongibilité de l'aide.
+
+- Les scandales dans le monde de la microfinance soulignent la possibilité de dérives de ce système et mettent en exergue la nécessité d’un réel encadrement.",12,0.0937,161.81,succes,S3,False,2026-08-01 02:05:24
+S3-008,geo_tabulaire,Quelles sont les microfinances presentes a Bertoua ?,"D'après le texte fourni, il est mentionné que la Microfinance de MUFID DE BERTOUA a son siège à B.P 670 Bertoua.",12,0.097,87.89,succes,S3,True,2026-08-02 21:30:00
+S3-009,geo_tabulaire,Quelles sont les microfinances presentes a Ebolowa ?,"D'après le contexte fourni, il apparaît que plusieurs établissements de microfinance sont présents à Ebolowa. Selon le tableau 15 en annexes, on trouve :
+
+* EBOLOWA
+* FODIS (Fonds Commun d’Investissement du Sud)
+* Société Coopérative Régionale des CVECA et CECA du Sud EBOLOWA
+
+Cependant, il convient de noter que le tableau 11 ne fournit pas d'informations spécifiques sur les microfinances présentes à Ebolowa.",12,0.0895,115.84,succes,S3,False,2026-08-01 02:09:17
+S3-010,geo_tabulaire,Quelles sont les microfinances presentes a Buea ?,"Selon les informations disponibles, à Buea, on note que deux établissements de microfinance sont présents :
+
+1.  Le BUEA P T Cooperative Credit Union LTD (BPTCCUL) dont le siège est situé à B.P 483 BUEA.
+2.  La Police Savings and Loans Cooperative (BPCCUL) dont le siège est situé à GREAT SOPPO, au cœur de BUEA.",12,0.1005,92.61,succes,S3,False,2026-08-01 02:10:50
+S3-011,geo_tabulaire,Quelles sont les microfinances presentes a Limbe ?,Je ne dispose pas de cette information dans mes documents.,12,0.0906,84.94,succes,S3,False,2026-08-01 02:12:15
+S3-012,geo_tabulaire,Quelles sont les microfinances presentes a Kribi ?,Je ne dispose pas de cette information dans mes documents.,12,0.0993,68.34,succes,S3,False,2026-08-01 02:13:23
+S3-013,geo_tabulaire,Quelles sont les microfinances presentes a Edea ?,Je ne dispose pas de cette information dans mes documents.,12,0.0972,63.61,succes,S3,False,2026-08-01 02:14:27
+S3-014,geo_tabulaire,Quelles sont les microfinances presentes a Dschang ?,"D'après les informations fournies, il y a au moins deux établissements de microfinance présents à Dschang :
+
+1. DSCHANG
+2. BUSINES AND CAREER MICROFINANCE LTD (BCM) SA",12,0.1306,61.46,succes,S3,False,2026-08-01 02:15:29
+S3-015,geo_tabulaire,Quelles sont les microfinances presentes a Kumba ?,"Selon le contexte fourni, les établissements de microfinance présents à Kumba sont :
+
+1. KUMBA Central Savings and Loans Cooperative Society
+2. KUMBA Town Savings and Loans Cooperative Society (KUCCUL)
+3. KUMBA II Sub Division (SEROCCU)",12,0.0977,95.8,succes,S3,False,2026-08-01 02:17:04
+S3-016,geo_tabulaire,Quelles sont les microfinances presentes a Nkongsamba ?,"Selon l'encadré 131, il existe deux microfinance presentes à Nkongsamba :
+
+1. MUFID DE NKONGSAMBA 
+2. RURAL Nkongsamba 
+
+Je ne dispose pas de cette information dans mes documents.",12,0.0969,103.28,succes,S3,False,2026-08-01 02:18:48
+S3-017,geo_tabulaire,Quelles sont les microfinances presentes a Sangmelima ?,Je ne dispose pas de cette information dans mes documents.,12,0.089,86.58,succes,S3,False,2026-08-01 02:20:14
+S3-018,geo_tabulaire,Quelles sont les microfinances presentes a Bafia ?,Je ne dispose pas de cette information dans mes documents.,12,0.1227,106.8,succes,S3,False,2026-08-01 02:22:01
+S3-019,geo_tabulaire,Quelles sont les microfinances presentes a Mbalmayo ?,"Selon le tableau ci-dessus, les microfinances présentent à Mbalmayo sont :
+
+* Caisse Populaire Coopérative de Mbalmayo (CAPOCOM) ;
+* Société Coopérative d'Epargne et de Crédit des Promotrices Matures (CEC), également entendue comme un ensemble d'établissements agréés animés par un même objectif.",12,0.089,94.87,succes,S3,False,2026-08-01 02:23:36
+S3-020,geo_tabulaire,Quelles sont les microfinances presentes a Guider ?,"Selon le tableau 15 en annexes, il est possible de citer les microfinances suivantes qui ont une présence à Guider :
+
+- Société Coopérative d'Epargne et de Crédit de Guider (SOCECGUI)
+- Caisse Populaire Cooperative d’Epargne et de Crédit de POLI (COOPECPO)",12,0.1371,107.93,succes,S3,False,2026-08-01 02:25:24
+S3-021,geo_tabulaire,Quelles sont les microfinances presentes a Mokolo ?,"Selon le tableau mentionné, il y a deux microfinances présentes à Mokolo :
+
+1. MUCADEC de MOKOLO 
+2. MUFID UNION Organe Faîtier",12,0.0915,153.98,succes,S3,True,2026-08-02 21:32:34
+S3-022,geo_tabulaire,Quelles sont les microfinances presentes a Mora ?,Je ne dispose pas de cette information dans mes documents.,12,0.1022,88.14,succes,S3,False,2026-08-01 02:28:42
+S3-023,geo_tabulaire,Quelles sont les microfinances presentes a Tibati ?,"Selon le contexte fourni, il y a au moins 2 établissements de microfinance présentés à Tibatí :
+
+1. MUFID DE TIBATI 
+BP : 32 TIBATI
+Tel: 222 19 61 12 / 
+222 19 62 20
+PCA: ALI SOLIHOU
+DG: Mme. MAMBO Honorine épse
+DAHIROU
+CAC : IBRAHIMA HASSANOU",12,0.0804,92.45,succes,S3,False,2026-08-01 02:30:14
+S3-024,geo_tabulaire,Quelles sont les microfinances presentes a Mbouda ?,Je ne dispose pas de cette information dans mes documents.,12,0.1226,75.13,succes,S3,False,2026-08-01 02:31:29
+S3-025,geo_tabulaire,Quelles sont les microfinances presentes a Bandjoun ?,Je ne dispose pas de cette information dans mes documents.,12,0.1045,95.7,succes,S3,False,2026-08-01 02:33:05
+S3-026,geo_tabulaire,Quelles sont les microfinances presentes a Bafang ?,Je ne dispose pas de cette information dans mes documents.,12,0.1124,73.48,succes,S3,False,2026-08-01 02:34:18
+S3-027,geo_tabulaire,Quelles sont les microfinances presentes a Fundong ?,"Il y a une seule microfinance présente à Fundong, qui est la FUNDONG Cooperative Credit Union FUNDONG P.C.A, dirigée par KFUANCHUH FRANCIS sous le numéro 00353/MINEFI du 27/07/2001 EMF/2011/0112.",12,0.0925,94.27,succes,S3,False,2026-08-01 02:35:53
+S3-028,geo_tabulaire,Quelles sont les microfinances presentes a Wum ?,Je ne dispose pas de cette information dans mes documents.,12,0.0807,69.17,succes,S3,False,2026-08-01 02:37:02
+S3-029,geo_tabulaire,Quelles sont les microfinances presentes a Bali ?,"Selon l'encadré 05 : Promoteurs de l’activité des microfinances en zone CEMAC, au niveau de Bali, il existe les établissements suivants :
+
+* BALI Central Cooperative Credit Union LTD (BACCUL)
+* BALI Centre
+* BAMCCUL (Bambui Cooperative Credit Union)
+
+Ces établissements sont mentionnés dans la liste des promoteurs de l'activité des microfinances en zone CEMAC.",12,0.0598,83.7,succes,S3,False,2026-08-01 02:38:26
+S3-030,geo_tabulaire,Quelles sont les microfinances presentes a Batouri ?,"Selon le tableau 15 en annexes, MUFID DE BATOURI est présent à Batouri.",12,0.0969,84.36,succes,S3,False,2026-08-01 02:39:50
+S3-031,geo_tabulaire,Quelles sont les microfinances presentes a Obala ?,Je ne dispose pas de cette information dans mes documents.,12,0.1075,75.51,succes,S3,False,2026-08-01 02:41:05
+S3-032,geo_tabulaire,Quelles sont les microfinances presentes a Loum ?,"D'après les informations disponibles, il existe au moins trois établissements de microfinance mentionnés dans le contexte :
+
+1. MUFID D'LOUM LOUM (PCA : MOUNE MAHOP François)
+2. MUFID DE NJOMBE (B.P. 52 NJOMBE, PCA : Mme. BESSALA Julienne)
+
+Il est possible que d'autres établissements de microfinance soient présents à Loum, mais ces deux ne sont pas mentionnés dans l'information disponible.",12,0.0835,100.22,succes,S3,False,2026-08-01 02:42:46
+S3-033,geo_tabulaire,Quelles sont les microfinances presentes a Manjo ?,Je ne dispose pas de cette information dans mes documents.,12,0.0875,78.06,succes,S3,False,2026-08-01 02:44:04
+S3-034,geo_tabulaire,Quelles sont les microfinances presentes a Melong ?,"Selon le texte fourni, il y a au moins trois établissements de microfinance mentionnés sous le nom de ""MELONG"" :
+
+* MUFID DE MELONG (N° 0000337/MINFI du 22/04/2020)
+* MUFID DE MELONG (N° 0000345/MINFI du 22/04/2020)
+
+Il est possible qu'il y ait d'autres établissements de microfinance avec le nom ""MELONG"", mais ce sont les seules deux mentions spécifiques trouvées dans le texte.",12,0.134,103.31,succes,S3,False,2026-08-01 02:45:47
+S3-035,geo_tabulaire,Quelles sont les microfinances presentes a Penja ?,Je ne dispose pas de cette information dans mes documents.,12,0.0837,70.51,succes,S3,False,2026-08-01 02:46:58
+S3-036,geo_tabulaire,Quelles sont les microfinances presentes a Tiko ?,Je ne dispose pas de cette information dans mes documents.,12,0.0753,83.01,succes,S3,False,2026-08-01 02:48:21
+S3-037,geo_tabulaire,Quelles sont les microfinances presentes a Muyuka ?,Je ne dispose pas de cette information dans mes documents.,12,0.0844,66.26,succes,S3,False,2026-08-01 02:49:27
+S3-038,geo_tabulaire,Quelles sont les microfinances presentes a Mamfe ?,"D'après l'annexe 15, il est mentionné que les établissements de microfinance présents à Mamfe sont :
+
+- PWD MAMFE Cooperative
+- Credit Union LTD (PWDMCCUL) 
+- Self-Reliance Savings and Loans Cooperative Society (SEROCCU)
+- SONEL Workers Cooperative (SOWOCCUL)",12,0.0968,107.64,succes,S3,False,2026-08-01 02:51:14
+S3-039,geo_tabulaire,Quelles sont les microfinances presentes a Ndop ?,Je ne dispose pas de cette information dans mes documents.,12,0.1286,74.06,succes,S3,False,2026-08-01 02:52:29
+S3-040,geo_tabulaire,Quelles sont les microfinances presentes a Nkambe ?,"Selon le contexte fourni, il est possible de trouver l'information suivante :
+
+Dans le texte, il est mentionné que NKAMBE Town Cooperative Credit Union NKTACCUL est présent à Nkambe. C'est ainsi qu'il apparaît au tableau 13 : Principaux services proposés par les établissements de microfinance, dans la section ""Liste des établissements de microfinance"".
+
+Cependant, il n'est pas possible d'obtenir plus d'informations sur les autres microfinances présentes à Nkambe.",12,0.1019,97.06,succes,S3,False,2026-08-01 02:54:06
+S3-041,geo_tabulaire,Quelles sont les microfinances presentes a Mindif ?,Je ne dispose pas de cette information dans mes documents.,12,0.105,75.71,succes,S3,False,2026-08-01 02:55:21
+S3-042,geo_tabulaire,Quelles sont les microfinances presentes a Gazawa ?,"Selon le contexte fourni, il n'y a aucune information spécifique sur les microfinances présentes à Gazawa. Cependant, je peux vous dire que le Coop-CA MUFID de Gazawa est mentionné dans la liste des établissements de microfinance indépendants du Cameroun.",12,0.0601,118.34,succes,S3,False,2026-08-01 02:57:20
+S3-043,geo_tabulaire,Quelles sont les microfinances presentes a Founangue ?,Je ne dispose pas de cette information dans mes documents.,12,0.1282,79.34,succes,S3,False,2026-08-01 02:58:39
+S3-044,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Yaounde ?,"D'après les informations présentes dans le contexte, voici une liste d'établissements de microfinance situés à Yaoundé :
+
+1. UNITY COOPERATIVE SOCIETY (UNICS)
+2. UNIVERS FINANCE CAMEROUN S A
+3. VISION FINANCE S. A",12,0.128,99.83,succes,S3,False,2026-08-01 03:00:19
+S3-045,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Douala ?,"D'après les informations fournies, voici les établissements de microfinance situés à Douala :
+
+1. Coopérative d'Epargne et de Crédit Garantie Mutuelle pour l’Investissement (CEGAMI)
+2. Mutuelle Communautaire de Croissance DE YABASSI (MC² de YABASSI)
+3. Société Coopérative d’Assistance de Prévoyance d’Epargne et de Crédit du Cameroun (SOCAPEC)
+
+Ces établissements sont mentionnés dans l'annexe du document ""ANALYSE SECTORIELLE : LA BANQUE ET LA MICROFINANCE EN ZONE CEMAC"" avec les informations suivantes :
+
+- N° Dénomination Localisation Dirigeants Agrément Numéro d’immatriculation au CNC
+- PCA (Président de la Commission Administrative) - DG (Directeur Général) - CAC (Cabinet du Directeur Général)
+
+Il est important de noter que ces informations sont contenues dans un document spécifique et ne constituent pas une source universelle d'information.",12,0.1152,210.47,succes,S3,True,2026-08-02 21:36:04
+S3-046,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Bafoussam ?,"Oui, selon la documentation fournie, il y a au moins une établissement de microfinance situé à Bafoussam :
+
+* MUFID DE BAFOUSSAM 
+Rural 
+Bafoussam Rural 
+BP : 1399 
+Bafoussam 
+PCA : TAKOUO TAGHEU Calvin J 
+DG : NAMDA MPAMPI Salomee  
+DGA: KUE WEMBE Sebastien 
+CAC : NOUBISSI Pierre Collins 
+000376/MINFI du 
+22/04/2020 EMF/2011/0147",12,0.1302,177.88,succes,S3,True,2026-08-02 21:39:03
+S3-047,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Bamenda ?,"Selon les informations disponibles, voici quelques établissements de microfinance situés à Bamenda :
+
+1. ALAMANDUM COMMUNITY CREDIT AND SAVINGS PLC
+2. 151 Mutual Guarantee Financing Company (MUGFIG)
+3. Opus Securitaris Solidarity Ltd (OPSECS)
+4. Micro Credit investment and Saving Company (MICRE)
+
+Il est possible que d'autres établissements de microfinance soient présents à Bamenda, mais ces quatre sont les seuls mentionnés dans le contexte fourni.",12,0.1271,106.86,succes,S3,False,2026-08-01 03:06:02
+S3-048,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Garoua ?,"D'après les informations disponibles dans le contexte, il n'y a que 1 établissement de microfinance situé à Garoua :
+
+* Caisse Coopérative d’Epargne et de Crédit pour les Initiatives Communes du Septentrion (CECICS) 
+Carrefour Yelwa 
+B.P 859 Garoua",12,0.1241,59.91,succes,S3,False,2026-08-01 03:07:02
+S3-049,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Maroua ?,"D'après les informations disponibles, je peux vous lister les établissements de microfinance situés à Maroua :
+
+1. 75 CREDIT DU SAHEL S.A (CDS) - Quartier Founangue, B.P 720 Mra
+2. Société Coopérative Régionale des CVECA et CECA de l’Extrême-Nord - Maroua 
+    PCA : MASSING IENBA 
+    DG : NGOUYAMSA DAIROU 
+    DGA : OUDJABISSA AGONOKO Theodore",12,0.1336,164.64,succes,S3,True,2026-08-02 21:41:48
+S3-050,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Ngaoundere ?,"D'après le contexte fourni, voici les établissements de microfinance situés à Ngaoundéré :
+
+1. Société Coopérative Régionale des CVECA et CECA de l’Adamaoua (N°000404/MINFI du 05/05/2021)
+2. Caisse Populaire Coopérative du Plateau (N°00353/MINEFI du 27/07/2001)
+3. Ngaoundéré Coopérative Credit Union (NGACCUL) (N°0000299/MINFI du 22/04/2020)
+
+Il y a peut-être d'autres établissements de microfinance situés à Ngaoundéré, mais je ne dispose pas des informations nécessaires pour les lister.",12,0.1099,141.2,succes,S3,False,2026-08-01 03:11:14
+S3-051,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Bertoua ?,"Selon les informations disponibles dans le contexte, voici la liste des établissements de microfinance situés à Bertoua :
+
+* MUFID DE BERTOUA : 
+  + Adresse : B.P 670 Bertoua
+  + Président du conseil d'administration (PCA) : EMASSI Jacques
+  + Directeur général (DG) : WAMBO Emmanuel",12,0.1192,112.09,succes,S3,False,2026-08-01 03:13:06
+S3-052,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Ebolowa ?,"D'après le contexte fourni, je peux vous indiquer que l'établissement de microfinance situé à Ebolowa est :
+
+* La Société Coopérative Régionale des CVECA et CECA du Sud EBOLOWA, dont la PCA (Président de la Commission Administration) est MANDENG JOB Alphonse Daudet.",12,0.1119,103.45,succes,S3,False,2026-08-01 03:14:49
+S3-053,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Buea ?,"D'après le contexte fourni, je peux vous indiquer que les établissements de microfinance situés à Buea sont :
+
+1. BUEA P T Cooperative Credit Union LTD (BPTCCUL)
+2. BUEA Police Savings and Loans Cooperative (BPCCUL)
+
+Ces informations sont contenues dans le texte fourni, notamment dans la section ""Exploitation des bénéficiaires des IMF ?"" et la liste des établissements de microfinance mentionnée en annexe.",12,0.1325,105.3,succes,S3,False,2026-08-01 03:16:34
+S3-054,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Limbe ?,"Je peux vous fournir une liste des établissements de microfinance situés à Limbe, selon le tableau 11 :
+
+- NKONGNI Savings and Loans Cooperative Society (NKONGNI Funds) 
+
+Néanmoins, il est important de noter que cette liste pourrait ne pas être exhaustive.",12,0.1197,102.41,succes,S3,False,2026-08-01 03:18:17
+S3-055,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Kribi ?,Je ne dispose pas de cette information dans mes documents.,12,0.1254,60.61,succes,S3,False,2026-08-01 03:19:17
+S3-056,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Edea ?,"Selon les informations disponibles dans le contexte, je peux vous fournir la liste des établissements de microfinance situés à Edéa :
+
+- Société Coopérative Régionale des CVECA et CECA du littoral d'Edéa
+  - DG : TJEGA Joseph Pascal
+  - CAC : NGAMBI Marcel
+  - N°000397/MINFI du 05/05/2021",12,0.1147,74.81,succes,S3,False,2026-08-01 03:20:32
+S3-057,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Dschang ?,"D'après le contexte fourni, j'ai trouvé une mention d'un établissement de microfinance situé à Dschang :
+
+* Caisse Populaire Coopérative de l'Université de Dschang (SCECUDS) 
+ * DSCHANG
+ * PCA : GUIATANG BENARD 
+ * DG : TSANANG Sadrack",12,0.1529,91.89,succes,S3,False,2026-08-01 03:22:04
+S3-058,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Kumba ?,"D'après le contexte fourni, je peux vous lister les établissements de microfinance situés à Kumba :
+
+1. Credit Union LTD (KUCCUL) - Treasury street Buea, road KUMBA
+2. KUMBA Town Savings and Loans Cooperative Society - B.P 334 KUMBA
+3. SONEL Workers Cooperative Credit Union (SOWOCCUL) - Down Beach, B.P 28 LIMBE
+
+Il convient de noter que ces informations ne sont pas exhaustives et que d'autres établissements de microfinance peuvent également être présents à Kumba.",12,0.1226,144.47,succes,S3,True,2026-08-02 21:44:12
+S3-059,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Nkongsamba ?,"Je ne dispose pas d'informations spécifiques sur les établissements de microfinance situés à Nkongsamba. Cependant, je peux vous donner quelques informations générales :
+
+Dans le contexte du Guide de la microfinance proposé, il est mentionné que plusieurs institutions sont mentionnées comme étant actives dans la région de l'Est du Cameroun, notamment à Nkongsamba.
+
+Cependant, je n'ai pas trouvé d'informations spécifiques sur les établissements de microfinance situés à Nkongsamba. Je vous recommande de consulter le Guide de la microfinance ou de rechercher auprès des organisations locales pour obtenir plus d'informations précises.",12,0.1186,102.39,succes,S3,False,2026-08-01 03:25:22
+S3-060,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Sangmelima ?,"Selon mes informations, il existe une seule entreprise de microfinance située à Sangmelima :
+
+* Société Coopérative d'Epargne et de crédit FERRUDJAL LA FOURMILLIERE
+* Numéro d'immatriculation au CNC : 312
+* Dirigeants :
+ + PCA (Président du Conseil d'Administration) : Mme AYOLO OKALLA
+ + DG (Directeur Général) : Mme EMVOUTOU NTYAME Epse",12,0.1073,87.39,succes,S3,False,2026-08-01 03:26:49
+S3-119,reglementation,Quel organisme delivre l'agrement des etablissements de microfinance en zone CEMAC ?,La Commission Bancaire de l'Afrique Centrale (COBAC) est chargée de délivre l'agrément des établissements de microfinance en zone CEMAC.,12,0.1673,132.05,succes,S3,False,2026-08-01 04:36:51
+S3-120,reglementation,Quelles sont les obligations comptables d'un etablissement de microfinance ?,Je ne dispose pas de cette information dans mes documents.,12,0.1122,85.8,succes,S3,False,2026-08-01 04:38:17
+S3-121,reglementation,Que signifie le sigle COBAC ?,Le sigle COBAC désigne l'Organisation des banques africaines et centrafricaines.,12,0.0696,109.41,succes,S3,False,2026-08-01 04:40:07
+S3-122,reglementation,Que signifie le sigle CEMAC ?,Le sigle CEMAC est l'acronyme de la Communauté économique et monétaire de l'Afrique centrale.,12,0.0777,111.7,succes,S3,False,2026-08-01 04:41:58
+S3-123,reglementation,Que signifie le sigle UMAC ?,Je ne dispose pas de cette information dans mes documents.,12,0.0487,101.84,succes,S3,False,2026-08-01 04:43:40
+S3-124,reglementation,Un etablissement de microfinance peut-il collecter l'epargne du grand public ?,"Non, un établissement de microfinance ne peut pas collecter l'épargne du grand public. En effet, selon la définition fournie dans le contexte, les établissements de microfinance de première catégorie sont des sociétés coopératives avec un conseil d'administration, tandis que ceux de deuxième et troisième catégorie sont des sociétés anonymes avec un conseil d'administration. Parmi ces dernières, seuls ceux qui ne collectent l'épargne auprès du grand public peuvent être considérés comme des établissements de microfinance, mais même dans ce cas, la collecte de l'épargne est limitée aux membres du groupe.",12,0.1321,138.73,succes,S3,False,2026-08-01 04:45:59
+S3-125,reglementation,Quelles sanctions la COBAC peut-elle appliquer a un EMF en infraction ?,Je ne dispose pas de cette information dans mes documents.,12,0.0894,126.72,succes,S3,False,2026-08-01 04:48:06
+S3-126,reglementation,Quelle est la difference entre un EMF et une banque commerciale ?,Je ne dispose pas de cette information dans mes documents.,12,0.0676,156.5,succes,S3,False,2026-08-01 04:50:42
+S3-127,reglementation,Un EMF de premiere categorie peut-il servir des clients non-membres ?,"Non, un EMF de première catégorie ne peut pas servir de clients non-membres. Selon les règles strictes définies pour ces établissements, ils collectent l'épargne de leurs propres membres et utilisent exclusivement ce fonds pour accorder des crédits à ces mêmes membres.",12,0.0839,160.59,succes,S3,False,2026-08-01 04:53:23
+S3-128,reglementation,Quel est le role du Conseil National du Credit (CNC) ?,Je ne dispose pas de cette information dans mes documents.,12,0.0714,93.89,succes,S3,False,2026-08-01 04:54:57
+S3-129,reglementation,Qu'est-ce qu'un numero d'immatriculation au CNC ?,"Un numéro d'immatriculation au CNC (Centre National des Coopératives) est un code unique attribué à chaque établissement ou organisation qui est inscrit au registre national des coopératives. Il sert de référence pour identifier l'établissement et permet de vérifier sa régularité, son statut juridique et ses obligations en matière de coopération.",12,0.0888,135.84,succes,S3,False,2026-08-01 04:57:13
+S3-130,reglementation,Quelles informations doit contenir une demande d'agrement EMF ?,Je ne dispose pas de cette information dans mes documents.,12,0.1312,109.31,succes,S3,False,2026-08-01 04:59:02
+S3-131,reglementation,Comment un EMF change-t-il de categorie ?,"Pour changer de catégorie, un établissement de microfinance (EMF) doit répondre à certaines conditions. En général, le changement de catégorie est motivé par des raisons telles que :
+
+1)  l'augmentation du montant des dépôts : L'établissement doit dépasser le seuil de 50 milliards FCFA et les EMF qui s'y retrouvent sont réclassés dans la deuxième catégorie.
+
+2)   La remise en question de ses statuts.",12,0.0621,139.53,succes,S3,False,2026-08-01 05:01:21
+S3-132,reglementation,Quelles sont les regles de gouvernance imposees aux dirigeants d'un EMF ?,Je ne dispose pas de cette information dans mes documents.,12,0.0697,100.75,succes,S3,False,2026-08-01 05:03:02
+S3-133,reglementation,Quel est le capital minimum pour un EMF de troisieme categorie ?,Le capital minimum requis pour un EMF de troisième catégorie est de 300 millions FCFA.,12,0.1065,152.86,succes,S3,False,2026-08-01 05:05:35
+S3-134,reglementation,Quel est le capital minimum pour un EMF de deuxieme categorie ?,Le capital social minimum pour un établissement de microfinance (EMF) de deuxième catégorie est de 300 millions FCFA.,12,0.1201,162.64,succes,S3,False,2026-08-01 05:08:18
+S3-135,reglementation,La COBAC supervise-t-elle aussi les banques commerciales ?,"Non, je ne dispose pas d'information spécifique sur l'existence d'une réglementation ou d'un organisme supervisé appelé COBAC pour les banques commerciales. Cependant, il est possible que la mention de ""COBAC"" dans le contexte des établissements de microfinance soit liée aux textes réglementaires génériques mentionnés plus tôt (Règlements R-2003/03, R-2005/01, R-2008/01, R-2009/01, R-2009/02 et R-2020/01/R-2020/04), qui s'appliquent aux établissements de crédit en général, y compris les banques commerciales.",12,0.0995,124.36,succes,S3,False,2026-08-01 05:10:22
+S3-136,reglementation,Qu'est-ce que le fonds de garantie des EMF ?,Je ne dispose pas de cette information dans mes documents.,12,0.085,134.83,succes,S3,False,2026-08-01 05:12:37
+S3-137,reglementation,Quels documents un EMF doit-il transmettre a la COBAC chaque annee ?,Je ne dispose pas de cette information dans mes documents.,12,0.1018,135.76,succes,S3,False,2026-08-01 05:14:53
+S3-138,reglementation,Un EMF peut-il operer dans plusieurs pays de la zone CEMAC ?,"Non, selon les informations disponibles, un EMF (Établissement de Microfinance) est principalement activé et réglementé en une seule zone de la CEMAC. Il n'est pas mentionné qu'un EMF puisse opérer dans plusieurs pays de la zone CEMAC.",12,0.1067,6141.95,succes,S3,False,2026-08-01 06:57:15
+S3-159,definitions,Explique-moi simplement ce qu'est la microfinance.,"La microfinance est un terme qui désigne les services financiers et économiques offerts aux personnes à faible revenu ou pauvres, en particulier pour aider à lancer ou à développer de petites entreprises. Cela peut inclure le prêt, la garantie, l'épargne et d'autres produits financiers conçus pour répondre aux besoins spécifiques des populations dans ce secteur.",12,0.1146,119.54,succes,S3,False,2026-08-01 06:59:14
+S3-160,definitions,A quoi sert le microcredit concretement ?,"Le microcrédit consiste en l'attribution de prêts de faible montant à des entrepreneurs ou à des artisans qui ne peuvent pas accéder aux prêts bancaires classiques. Il permet de concrétiser des microprojets, favorisant l'activité et la création de richesses.",12,0.1516,84.54,succes,S3,False,2026-08-01 07:00:39
+S3-161,definitions,Comment fonctionne une tontine traditionnelle ?,"Une tontine traditionnelle fonctionne sur le principe suivant :
+
+1. Des participants collectent des cotisations à un fonds commun.
+2. Les cotisations sont accumulées dans la caisse de la tontine jusqu'à ce que les membres décident d'effectuer un partage, c'est-à-dire de redistribuer tout l'argent accumulé aux membres au prorata de ce qu'ils ont cotisé.
+3. Lorsqu'un participant meurt ou quitte le groupe, sa part est répartie entre les survivants.
+4. Le dernier participant à rester dans la tontine récupère finalement le capital total.
+
+Ce système permet une certaine sécurité et stabilité financière aux participants, car ils savent que leurs cotisations sont accumulées pour leur bénéfice à long terme.",12,0.0861,123.57,succes,S3,False,2026-08-01 07:02:42
+S3-162,definitions,Quelle est la difference entre microcredit et credit bancaire classique ?,"La différence entre microcrédit et crédit bancaire classique tient à plusieurs facteurs :
+
+*   Le montant emprunté : Le microcrédit est destiné aux petites sommes, souvent inférieures à 1 000 euros.
+*   Les taux d'intérêt : Les taux d'intérêt des microcrédits sont généralement plus élevés que ceux du crédit bancaire classique, ce qui peut rendre les prêts plus difficiles à rembourser pour les emprunteurs.
+*   L'objectif du prêt : Le microcrédit est destiné à aider les petites entreprises ou les ménages à accéder au crédit et à financer leurs projets, tandis que le crédit bancaire classique est souvent utilisé pour acheter des biens de consommation ou pour financer des investissements.
+*   La durée du prêt : Les microcrédits ont généralement une durée plus courte que les prêts classiques, ce qui peut rendre les emprunteurs plus vulnérables à la pauvreté.
+
+Il est important de noter que ces distinctions ne sont pas toujours claires et peuvent varier selon les institutions financières.",12,0.086,155.82,succes,S3,False,2026-08-01 07:05:18
+S3-163,definitions,Pourquoi la microfinance existe-t-elle ?,Je ne dispose pas de cette information dans mes documents.,12,0.1143,92.39,succes,S3,False,2026-08-01 07:06:50
+S3-164,definitions,Qui sont les beneficiaires typiques de la microfinance ?,"Selon le Guide de la microfinance, les bénéficiaires typiques de la microfinance sont des ménages très pauvres capables d'initiatives économiques. Cependant, il est également admis que le microcrédit trouve toute sa pertinence chez les ménages juste au-dessus du seuil de pauvreté, mais encore vulnérables.",12,0.1218,115.8,succes,S3,False,2026-08-01 07:08:46
+S3-165,definitions,Quels sont les risques de la microfinance pour les emprunteurs ?,"Les risques de la microfinance pour les empruteurs incluent l'usure, qui consiste à accumuler des emprunts aux taux croissants pour rembourser les précédents. Cela peut entraîner une spirale d'emprunts qui devient de plus en plus difficile à faire face. De plus, certains emprunteurs peuvent être exposés à la fongibilité de l'aide, ce qui signifie qu'ils peuvent utiliser des prêts pour investir dans des activités qui n'ont pas besoin de capital, plutôt que de les utiliser pour répondre à leurs besoins immédiats.",12,0.1078,97.19,succes,S3,False,2026-08-01 07:10:23
+S3-166,definitions,La microfinance reduit-elle vraiment la pauvrete ?,"Non, il n'est pas évident que la microfinance réduise la pauvreté. Les critiques suggèrent que l'efficacité de la microfinance pour réduire la pauvreté est difficile à prouver et qu'il existe des risques importants d'endetter les plus pauvres qui n'ont pas les capacités de remboursement, ce qui pourrait contribuer à l'accroissement des inégalités.",12,0.1634,117.05,succes,S3,False,2026-08-01 07:12:21
+S3-167,definitions,Quels services propose typiquement un EMF a ses clients ?,Je ne dispose pas de cette information dans mes documents.,12,0.073,135.59,succes,S3,False,2026-08-01 07:14:36
+S3-168,definitions,Quelle est l'origine historique du microcredit ?,"L'origine historique du microcrédit se trouve dans la pratique de prêt sur gage à taux faibles ou nuls des monts-de-piété, les tontines en pays émergents, dans les mutuelles de crédit agricole et les banques populaires créées en Europe à la fin du XIXe siècle. Une activité de micro-crédit est également attestée chez des marchands comme Luis Alfonso Condesil en Andalousie à la fin du XVe siècle, qui prêtait des sommes infimes avec des délais longs et des facilités de remboursement pour soutenir la croissance locale.",12,0.1111,108.54,succes,S3,False,2026-08-01 07:16:25
+S3-169,definitions,Quels sont les avantages d'une tontine par rapport a une banque ?,"Les avantages d'une tontine par rapport à une banque sont :
+
+*   La possibilité de faire fructifier un capital de départ, ce qui peut être bénéfique pour les personnes qui ont un surplus d'argent et souhaitent le déposer de manière sécurisée.
+*   L'épargne à fréquence régulière, ce qui permet aux participants d'économiser de manière efficace et de se préparer à des besoins futurs.
+*   La protection contre la mortalité et l'invalidité, grâce à l'assurance décès invalidité qui protège les héritiers.
+
+En revanche, les banques peuvent offrir des avantages tels que :
+
+*   Un accès facile aux crédits, même pour les personnes qui n'ont pas de revenus minimum.
+*   Des taux d'intérêt compétitifs et une flexibilité dans les conditions de prêt.
+
+Cependant, il convient de noter que la microfinance est un sujet complexe et débattu, et qu'il est difficile de généraliser l'efficacité de la microfinance pour plusieurs raisons.",12,0.1028,198.34,succes,S3,False,2026-08-01 07:19:43
+S3-170,definitions,Comment une association collective d'epargne fonctionne-t-elle ?,"Une association collective d'épargne est un type de tontine qui réunit des épargnants pour investir en commun dans un actif financier ou un bien. Les épargnants contribuent de leur côté et reçoivent une rémunération un peu moins élevée que celle qu'ils auraient obtenue directement du marché.
+
+Les membres de l'association collective d'épargne reçoivent nettement plus que ce qu'ils ont cotisé, permettant ainsi à la somme récupérée de faire face à des dépenses importantes prévisibles ou à être investie à long terme.",12,0.0831,97.18,succes,S3,False,2026-08-01 07:21:20
+S3-171,definitions,Quels sont les acteurs principaux du secteur de la microfinance en zone CEMAC ?,"Les acteurs principaux du secteur de la microfinance en zone CEMAC sont les établissements de microfinance (EMF) et les promoteurs individuels locaux. Les EMF sont des institutions financières spécialisées dans le prêt à court terme aux particuliers, tandis que les promoteurs individuels locaux sont des personnes physiques ou morales originaires de la zone CEMAC qui participent ou sont à l'origine de la création des structures de microfinance.",12,0.1759,188.32,succes,S3,False,2026-08-01 07:24:29
+S3-172,definitions,Quelle est la place des femmes dans les programmes de microfinance ?,"La place des femmes dans les programmes de microfinance est une caractéristique clé de ce mouvement. En effet, les femmes sont souvent considérées comme une cible prioritaire pour la microfinance en raison de leur rôle dans l'économie domestique et leur expérience de gestion du budget familial.
+
+Selon certaines études, les femmes bénéficient en moyenne d'un accès plus facile à la microfinance que les hommes, ce qui peut être dû à leur capacité à mobiliser des ressources familiales pour financer leurs projets. Cependant, il est important de noter que les effets de la microfinance sur les femmes sont souvent dépendants de facteurs tels que leur niveau d'éducation, leur accès à l'information et leur capacité à prendre des décisions financières autonomes.
+
+Les promoteurs individuels locaux, souvent des personnes physiques ou morales originaire de la zone CEMAC, participent souvent à la création des structures de microfinance dans un but lucratif ou non. Les établissements de microfinance de la zone CEMAC reposent sur ce type de promoteurs, qui sont parfois des sociétés coopératives ou des sociétés anonymes avec conseil d'administration.",12,0.0946,177.75,succes,S3,False,2026-08-01 07:27:26
+S3-173,definitions,Quels sont les criteres pour qu'un EMF soit considere solide financierement ?,Je ne dispose pas de cette information dans mes documents.,12,0.1242,139.13,succes,S3,False,2026-08-01 07:29:45
+S3-189,institutions,Qu'est-ce que la Cooperative d'Epargne et de Credit et d'Investissement Agricole du Cameroun ?,"La Cooperative d'Epargne et de Credit et d'Investissement Agricole du Cameroun, connue sous le nom de CECIAC, est une banque coopérative. Elle a été créée en 1979 et a son siège à Yaoundé, au Cameroun.",12,0.0871,182.43,succes,S3,False,2026-08-01 07:32:48
+S3-190,institutions,Qu'est-ce que la Societe Cooperative d'Epargne et de Credit SOCEC ?,"La Société Coopérative d'Epargne et de Crédit, également connue sous le nom de SOCEC, est une banque coopérative qui opère au Cameroun. Elle a été créée en 1979 et est issue d'une fusion entre deux sociétés coopératives : la SOCEGEC et la SOCECPROB. La SOCEC est un exemple de structure de microfinance qui utilise une approche mutualiste, où ses membres détiennent des parts et sont également ses clients.",12,0.1006,174.72,succes,S3,False,2026-08-01 07:35:43
+S3-191,institutions,Qu'est-ce que le CAPFINANCE ?,Je ne dispose pas d'informations spécifiques sur l'organisation et ses missions dans mes documents.,12,0.1379,128.78,succes,S3,False,2026-08-01 07:37:51
+S3-192,institutions,Qu'est-ce que le reseau People Finance ?,Je ne dispose pas de cette information dans mes documents.,12,0.1231,126.85,succes,S3,False,2026-08-01 07:39:58
+S3-193,institutions,Qu'est-ce que le Credit du Sahel S.A ?,Le Credit du Sahel S.A est une institution de crédit camerounaise. Il s'agit d'un établissement de microfinance qui offre des services de prêt et de crédit à des microentrepreneurs et aux consommateurs dans le contexte régional de l’extreme-nord.,12,0.0708,174.99,succes,S3,False,2026-08-01 07:42:53
+S3-194,institutions,Qu'est-ce que la Cooperative Siloe Epargne Financiere au Cameroun ?,"La Cooperative Siloe Epargne Financière au Cameroun (SEPFI COOP-CA) est une institution financière qui offre des services de microfinance et d'épargne aux ménages. Elle est une coopérative, ce qui signifie que ses membres sont également les propriétaires et les dirigeants de l'organisation. L'objectif de SEPFI COOP-CA est de fournir des services financiers accessibles et à des taux d'intérêt raisonnables aux ménages du Cameroun, en particulier aux groupes vulnérables.",12,0.084,202.07,succes,S3,False,2026-08-01 07:46:15
+S3-195,institutions,Qu'est-ce que l'African Development Credit (ADEC) ?,Je ne dispose pas de cette information dans mes documents.,12,0.0656,137.44,succes,S3,False,2026-08-01 07:48:33
+S3-196,institutions,Qu'est-ce que la Mutuelle Camerounaise d'Epargne et Credit MUCADEC ?,"La Mutuelle Camerounaise d'Epargne et de Crédit (MUCADEC) est une mutuelle camerounaise qui offre des services d'épargne et de crédit aux membres. Elle est organisée en plusieurs filiales, notamment la filiale MUKOLO et la filiale WARDA. La MUCADEC est agréée par le ministère du Finances et est inscrite au registre du commerce et des sociétés sous le numéro 0000198/MINFI du 08/12/2011.",12,0.1183,194.54,succes,S3,False,2026-08-01 07:51:47
+S3-197,institutions,Qu'est-ce que la Mutuelle Financiere des Femmes Dynamiques du Cameroun ?,"La Mutuelle Financière des Femmes Dynamiques du Cameroun est une mutuelle coopérative qui propose des services de microfinance à ses membres. Il s'agit d'une organisation non lucrative qui vise à soutenir les femmes et les menages défavorisés dans le pays, en leur offrant des crédits et des services financiers pour améliorer leur situation économique.
+
+Elle a son siège à Yaoundé et est agréée par la Commission nationale des établissements financiers (CNC). Elle dispose de plusieurs bureaux dans différentes régions du Cameroun, notamment en zone CEMAC.",12,0.0706,268.58,succes,S3,False,2026-08-01 07:56:16
+S3-198,institutions,Qu'est-ce que les Caisses d'Epargne Populaire et d'Investissement SA ?,Je ne dispose pas de cette information dans mes documents.,12,0.1037,125.35,succes,S3,False,2026-08-01 07:58:21
+S3-061,scenario,"Si j'habite a Yaounde, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Je ne dispose pas de cette information dans mes documents.,12,0.1188,131.91,succes,S3,False,
+S3-062,scenario,"Si j'habite a Douala, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Je ne dispose pas de cette information dans mes documents.,12,0.1204,99.01,succes,S3,False,2026-08-01 11:00:27
+S3-063,scenario,"Si j'habite a Bafoussam, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Je ne dispose pas de cette information dans mes documents.,12,0.1242,89.17,succes,S3,False,2026-08-01 11:01:56
+S3-064,scenario,"Si j'habite a Bamenda, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Je ne dispose pas de cette information dans mes documents.,12,0.1137,54.84,succes,S3,False,2026-08-01 11:02:51
+S3-065,scenario,"Si j'habite a Garoua, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Je ne dispose pas de cette information dans mes documents.,12,0.1135,76.27,succes,S3,False,2026-08-01 11:04:07
+S3-066,scenario,"Si j'habite a Maroua, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Je ne dispose pas de cette information dans mes documents.,12,0.1209,76.92,succes,S3,False,2026-08-01 11:05:24
+S3-067,scenario,"Si j'habite a Ngaoundere, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Je ne dispose pas de cette information dans mes documents.,12,0.118,46.29,succes,S3,False,2026-08-01 11:06:10
+S3-068,scenario,"Si j'habite a Bertoua, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Je ne dispose pas de cette information dans mes documents.,12,0.1208,74.52,succes,S3,False,2026-08-01 11:07:25
+S3-069,scenario,"Si j'habite a Ebolowa, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Je ne dispose pas de cette information dans mes documents.,12,0.1187,72.78,succes,S3,False,2026-08-01 11:08:38
+S3-070,scenario,"Si j'habite a Buea, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Je ne dispose pas de cette information dans mes documents.,12,0.1153,56.74,succes,S3,False,2026-08-01 11:09:34
+S3-071,scenario,"Si j'habite a Limbe, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Je ne dispose pas de cette information dans mes documents.,12,0.1069,78.74,succes,S3,False,2026-08-01 11:10:53
+S3-072,scenario,"Si j'habite a Kribi, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Je ne dispose pas de cette information dans mes documents.,12,0.1127,102.86,succes,S3,False,2026-08-01 11:12:36
+S3-073,scenario,"Si j'habite a Edea, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Je ne dispose pas de cette information dans mes documents.,12,0.11,61.01,succes,S3,False,2026-08-01 11:13:37
+S3-074,scenario,"Si j'habite a Dschang, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Je ne dispose pas de cette information dans mes documents.,12,0.1271,89.11,succes,S3,False,2026-08-01 11:15:06
+S3-075,scenario,"Si j'habite a Kumba, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Je ne dispose pas de cette information dans mes documents.,12,0.1133,56.05,succes,S3,False,2026-08-01 11:16:02
+S3-076,scenario,"Si j'habite a Nkongsamba, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Je ne dispose pas de cette information dans mes documents.,12,0.1242,77.75,succes,S3,False,2026-08-01 11:17:20
+S3-077,scenario,"Si j'habite a Sangmelima, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Je ne dispose pas de cette information dans mes documents.,12,0.1142,87.84,succes,S3,False,2026-08-01 11:18:48
+S3-078,scenario,"Si j'habite a Bafia, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Je ne dispose pas de cette information dans mes documents.,12,0.0954,103.94,succes,S3,False,2026-08-01 11:20:32
+S3-079,scenario,"Si j'habite a Mbalmayo, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Je ne dispose pas de cette information dans mes documents.,12,0.1136,91.38,succes,S3,False,2026-08-01 11:22:03
+S3-080,scenario,"Si j'habite a Guider, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Je ne dispose pas de cette information dans mes documents.,12,0.1294,90.77,succes,S3,False,2026-08-01 11:23:34
+S3-081,scenario,"Si j'habite a Mokolo, vers quel type d'etablissement de microfinance devrais-je me tourner ?","Puisque tu habites à Mokolo, je ne dispose pas de cette information dans mes documents pour savoir exactement quelle catégorie d'établissements de microfinance est présente dans la région.",12,0.1102,71.19,succes,S3,False,2026-08-01 11:24:45
+S3-082,scenario,"Si j'habite a Mora, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Je ne dispose pas de cette information dans mes documents.,12,0.1165,75.27,succes,S3,False,2026-08-01 11:26:00
+S3-083,scenario,"Si j'habite a Tibati, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Je ne dispose pas de cette information dans mes documents.,12,0.0998,84.02,succes,S3,False,2026-08-01 11:27:24
+S3-084,scenario,"Si j'habite a Mbouda, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Je ne dispose pas de cette information dans mes documents.,12,0.1245,58.7,succes,S3,False,2026-08-01 11:28:23
+S3-085,scenario,"Si j'habite a Bandjoun, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Je ne dispose pas de cette information dans mes documents.,12,0.1135,50.2,succes,S3,False,2026-08-01 11:29:13
+S3-086,scenario,"Si j'habite a Bafang, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Je ne dispose pas de cette information dans mes documents.,12,0.1235,43.47,succes,S3,False,2026-08-01 11:29:57
+S3-087,scenario,"Si j'habite a Fundong, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Je ne dispose pas de cette information dans mes documents.,12,0.1136,36.89,succes,S3,False,2026-08-01 11:30:33
+S3-088,scenario,"Si j'habite a Wum, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Je ne dispose pas de cette information dans mes documents.,12,0.1024,9.34,succes,S3,False,2026-08-01 11:30:43
+S3-089,scenario,"Si j'habite a Bali, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Je ne dispose pas de cette information dans mes documents.,12,0.0856,57.97,succes,S3,False,2026-08-01 11:31:41
+S3-090,scenario,"Si j'habite a Batouri, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Je ne dispose pas de cette information dans mes documents.,12,0.1146,31.72,succes,S3,False,2026-08-01 11:32:13
+S3-091,scenario,"Si j'habite a Obala, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Je ne dispose pas de cette information dans mes documents.,12,0.1243,56.22,succes,S3,False,2026-08-01 11:33:09
+S3-092,scenario,"Si j'habite a Loum, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Je ne dispose pas de cette information dans mes documents.,12,0.1064,84.65,succes,S3,False,2026-08-01 11:34:33
+S3-093,scenario,"Si j'habite a Manjo, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Je ne dispose pas de cette information dans mes documents.,12,0.1115,70.38,succes,S3,False,2026-08-01 11:35:44
+S3-094,scenario,"Si j'habite a Melong, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Je ne dispose pas de cette information dans mes documents.,12,0.1234,106.59,succes,S3,False,2026-08-01 11:37:30
+S3-095,scenario,"Si j'habite a Penja, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Je ne dispose pas de cette information dans mes documents.,12,0.1057,30.47,succes,S3,False,2026-08-01 11:38:01
+S3-096,scenario,"Si j'habite a Tiko, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Je ne dispose pas de cette information dans mes documents.,12,0.1013,70.0,succes,S3,False,2026-08-01 11:39:11
+S3-097,scenario,"Si j'habite a Muyuka, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Je ne dispose pas de cette information dans mes documents.,12,0.1135,96.42,succes,S3,False,2026-08-01 11:40:47
+S3-098,scenario,"Si j'habite a Mamfe, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Je ne dispose pas de cette information dans mes documents.,12,0.1141,76.97,succes,S3,False,2026-08-01 11:42:04
+S3-099,scenario,"Si j'habite a Ndop, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Je ne dispose pas de cette information dans mes documents.,12,0.1285,32.68,succes,S3,False,2026-08-01 11:42:37
+S3-100,scenario,"Si j'habite a Nkambe, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Je ne dispose pas de cette information dans mes documents.,12,0.1162,57.24,succes,S3,False,2026-08-01 11:43:34
+S3-101,scenario,"Si j'habite a Mindif, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Je ne dispose pas de cette information dans mes documents.,12,0.1129,55.24,succes,S3,False,2026-08-01 11:44:29
+S3-102,scenario,"Si j'habite a Gazawa, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Je ne dispose pas de cette information dans mes documents.,12,0.0936,57.75,succes,S3,False,2026-08-01 11:45:27
+S3-103,scenario,"Si j'habite a Founangue, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Je ne dispose pas de cette information dans mes documents.,12,0.1274,53.87,succes,S3,False,2026-08-01 11:46:21
+S3-104,scenario,Recommande-moi une cooperative d'epargne adaptee si je suis base a Yaounde.,Je ne dispose pas de cette information dans mes documents.,12,0.1269,114.11,succes,S3,False,2026-08-01 11:48:15
+S3-105,scenario,Recommande-moi une cooperative d'epargne adaptee si je suis base a Douala.,Je ne dispose pas de cette information dans mes documents.,12,0.121,91.75,succes,S3,False,2026-08-01 11:49:47
+S3-106,scenario,Recommande-moi une cooperative d'epargne adaptee si je suis base a Bafoussam.,Je ne dispose pas de cette information dans mes documents.,12,0.1311,95.11,succes,S3,False,2026-08-01 11:51:22
+S3-107,scenario,Recommande-moi une cooperative d'epargne adaptee si je suis base a Bamenda.,Je ne dispose pas de cette information dans mes documents.,12,0.1153,68.49,succes,S3,False,2026-08-01 11:52:31
+S3-108,scenario,Recommande-moi une cooperative d'epargne adaptee si je suis base a Garoua.,Je ne dispose pas de cette information dans mes documents.,12,0.109,54.07,succes,S3,False,2026-08-01 11:53:25
+S3-109,scenario,Recommande-moi une cooperative d'epargne adaptee si je suis base a Maroua.,Je ne dispose pas de cette information dans mes documents.,12,0.1205,67.59,succes,S3,False,2026-08-01 11:54:32
+S3-110,scenario,Recommande-moi une cooperative d'epargne adaptee si je suis base a Ngaoundere.,Je ne dispose pas de cette information dans mes documents.,12,0.1121,92.84,succes,S3,False,2026-08-01 11:56:05
+S3-111,scenario,Recommande-moi une cooperative d'epargne adaptee si je suis base a Bertoua.,Je ne dispose pas de cette information dans mes documents.,12,0.1195,89.85,succes,S3,False,2026-08-01 11:57:35
+S3-112,scenario,Recommande-moi une cooperative d'epargne adaptee si je suis base a Ebolowa.,Je ne dispose pas de cette information dans mes documents.,12,0.1139,75.97,succes,S3,False,2026-08-01 11:58:51
+S3-113,scenario,Recommande-moi une cooperative d'epargne adaptee si je suis base a Buea.,Je ne dispose pas de cette information dans mes documents.,12,0.0983,83.97,succes,S3,False,2026-08-01 12:00:15
+S3-114,scenario,Recommande-moi une cooperative d'epargne adaptee si je suis base a Limbe.,Je ne dispose pas de cette information dans mes documents.,12,0.1066,101.14,succes,S3,False,2026-08-01 12:01:56
+S3-115,scenario,Recommande-moi une cooperative d'epargne adaptee si je suis base a Kribi.,Je ne dispose pas de cette information dans mes documents.,12,0.1007,65.86,succes,S3,False,2026-08-01 12:03:02
+S3-116,scenario,Recommande-moi une cooperative d'epargne adaptee si je suis base a Edea.,Je ne dispose pas de cette information dans mes documents.,12,0.1016,73.39,succes,S3,False,2026-08-01 12:04:15
+S3-117,scenario,Recommande-moi une cooperative d'epargne adaptee si je suis base a Dschang.,Je ne dispose pas de cette information dans mes documents.,12,0.1078,68.6,succes,S3,False,2026-08-01 12:05:24
+S3-118,scenario,Recommande-moi une cooperative d'epargne adaptee si je suis base a Kumba.,Je ne dispose pas de cette information dans mes documents.,12,0.1135,96.09,succes,S3,False,2026-08-01 12:07:00
+S3-139,reglementation,Quel texte reglemente actuellement la microfinance en zone CEMAC ?,"Le texte qui règle actuellement la microfinance en zone CEMAC est le nouveau règlement CEMAC/UMAC/COBAC relatif aux conditions d'exercice et de contrôle de l'activité de microfinance, adopté le 27 septembre 2017.",12,0.1677,97.94,succes,S3,False,2026-08-01 12:08:38
+S3-140,reglementation,Qui compose le conseil d'administration d'un EMF de premiere categorie ?,Je ne dispose pas de cette information dans mes documents.,12,0.0987,135.78,succes,S3,False,2026-08-01 12:10:54
+S3-141,reglementation,Quelles sont les regles de ratio prudentiel imposees a un EMF ?,"Selon le tableau 8, les règles de ratio prudentiel imposées à un EMF sont :
+
+1. Ratio couverture des risques : 1100%
+2. Ratio couverture des immobilisations : 110000%
+3. Limitation des participations : 55%
+4. Ratio relatif aux lignes de financement : 5500%
+5. Ratio de liquidité (à court terme) : 110000%
+
+Ces ratios sont des exigences minimales pour les établissements de microfinance (EMF) afin de garantir une certaine stabilité financière et minimiser les risques encourus.",12,0.1305,176.88,succes,S3,False,2026-08-01 12:13:51
+S3-142,reglementation,Un EMF doit-il publier ses comptes annuels ?,Je ne dispose pas de cette information dans mes documents.,12,0.0987,113.23,succes,S3,False,2026-08-01 12:15:44
+S3-143,reglementation,Quel est le role du commissaire aux comptes (CAC) dans un EMF ?,Le commissaire aux comptes (CAC) est chargé de superviser et de contrôler l'administration et les opérations financières d'un établissement de microfinance (EMF). Il vérifie que les activités de l'EMF sont conformes à la réglementation en vigueur et qu'elle respecte les obligations légales et contractuelles.,12,0.0837,137.7,succes,S3,False,2026-08-01 12:18:01
+S3-144,reglementation,Comment la COBAC controle-t-elle les EMF sur le terrain ?,"Je ne dispose pas d'informations spécifiques sur les méthodes de contrôle des établissements de microfinance (EMF) par la Commission bancaire des États centrafricains (COBAC) en zone CEMAC. Les réglementations et les contrôles sont en place pour assurer une bonne gestion des risques, mais je n'ai pas les détails exacts sur les modalités de contrôle opérationnel ou les inspections effectuées par la COBAC.",12,0.087,155.97,succes,S3,False,2026-08-01 12:20:37
+S3-145,reglementation,Un EMF peut-il faire faillite ? Que se passe-t-il alors ?,"Bienvenue dans notre discussion sur la microfinance au Cameroun !
+
+À propos de vos questions, voici quelques réponses :
+
+1. Les IMF qui prétendent viser les plus pauvres atteignent-elles vraiment leurs objectifs ?
+Je ne dispose pas de cette information dans mes documents.
+
+2. N'est-il pas risqué d'endetter les plus pauvres qui n'auront pas les capacités de remboursement ?
+Oui, c'est un risque connu dans le système financier. Les IMF sont tenues de respecter des normes prudentielles pour éviter ces risques.
+
+3. N'est-il pas préférable de viser un public moins pauvre afin de créer une dynamique économique qui profitera indirectement aux pauvres ?
+Cette question est discutée dans les critiques de la microfinance. Certains pensent que cibler les populations les plus pauvres peut ne pas être l'approche la plus efficace pour éliminer la pauvreté.
+
+4. Si la microfinance n'atteint pas les pauvres, ne risque-t-elle pas de contribuer à l'accroissement des inégalités ?
+Oui, c'est une critique souvent faite à la microfinance. Certains pensent que l'accès aux crédits peut accroître les inégalités sociales et économiques.
+
+5. Sur ces questions, les auteurs du Guide de la microfinance proposent quelques réponses...
+Je ne dispose pas de cette information dans mes documents.
+
+6. Analyse sectorielle : La banque et la microfinance en zone CEMAC
+...mais j'ai pu trouver des informations sur l'inclusion financière au niveau des opérations avec la clientèle.
+La qualité du portefeuille de crédits s'est améliorée, mais les créances en souffrance restent un problème.
+
+7. Exploitation des bénéficiaires des IMF ?
+Les auteurs du Guide de la microfinance proposent des réponses à cette question...
+Je ne dispose pas de cette information dans mes documents.
+
+8. Critiques de la microfinance
+...mais j'ai pu trouver des informations sur les normes prudentielles des EMF.
+Les EMF sont tenues de respecter des normes prudentielles pour éviter les risques.
+
+J'espère que cela répond à vos questions !",12,0.1061,261.86,succes,S3,False,2026-08-01 12:24:59
+S3-146,reglementation,Quelles obligations de transparence un EMF a-t-il envers ses membres ?,"Un EMF a l'obligation de garantir la transparence dans sa gestion, notamment en ce qui concerne les informations suivantes :
+
+- La composition et le fonctionnement de son conseil d'administration
+- Le montant du capital social ainsi que la répartition des actions entre ses membres
+- Les conditions d'emprunt, y compris les taux d'intérêt et les échéances de remboursement
+- Le montant des prises de participation et la nature des activités dans lesquelles ces participations sont investies
+- La répartition des bénéfices ou pertes entre ses membres et les organes de gestion",12,0.0781,146.25,succes,S3,False,2026-08-01 12:27:26
+S3-147,reglementation,Existe-t-il une assurance-depot pour les clients des EMF ?,"Oui, il existe un système d'assurance-depot pour les clients des EMF. Le système de couverture des immobilisations par les ressources disponibles (Règlement COBAC EMF 2002/09) impose aux EMF de présenter en permanence une couverture minimale des immobilisations par les ressources permanentes, qui est calculée comme suit :
+
+Ratio couverture des immobilisations = Ratio des immobilisations / Ratio fonds propres nets
+
+Cette ratio doit être supérieure ou égale à 110000%.",12,0.0731,158.64,succes,S3,False,2026-08-01 12:30:04
+S3-148,reglementation,Quel est le processus de retrait d'agrement d'un EMF ?,Je ne dispose pas de cette information dans mes documents.,12,0.0778,109.72,succes,S3,False,2026-08-01 12:31:54
+S3-149,reglementation,Un dirigeant d'EMF peut-il cumuler plusieurs mandats ?,"Oui, un dirigeant d'EMF peut cumuler plusieurs mandats. Le règlement COBAC EMF R-2017/09 précise que ""les membres du Conseil d’administration ou de l’organe délibérant des sociétés coopératives et des sociétés anonymes peuvent cumuler leurs fonctions avec autres offices"".",12,0.0809,125.34,succes,S3,False,2026-08-01 12:33:59
+S3-150,reglementation,Comment se fait le controle interne dans un EMF ?,Je ne dispose pas de cette information dans mes documents.,12,0.0795,128.89,succes,S3,False,2026-08-01 12:36:08
+S3-151,reglementation,Quelles regles s'appliquent aux operations de credit entre EMF ?,"Selon le Tableau 8 : Récapitulatif des normes prudentielles de la COBAC, les établissements de microfinance (EMF) sont soumis à plusieurs règles et réglementaires. Cependant, je n'ai trouvé aucune information spécifique concernant les règles applicables aux opérations de crédit entre EMF.
+
+Cependant, le Règlement COBAC EMF 2002/01 relatif au champ d’application des règlements COBAC sur les normes prudentielles des établissements de microfinance peut être lié à ces questions. Cet article peut donner un aperçu de la réglementation générale qui s'applique aux EMF.
+
+Je ne dispose pas de cette information dans mes documents spécifiques concernant le secteur de la microfinance en zone CEMAC.",12,0.0866,172.2,succes,S3,False,2026-08-01 12:39:00
+S3-152,reglementation,Un EMF peut-il fusionner avec un autre EMF ?,"Oui, un établissement de microfinance (EMF) peut fusionner avec un autre établissement de microfinance. Cela est autorisé par le règlement COBAC EMF du 2017/05. Cette réglementation permet aux établissements de microfinance d'assumer leurs risques et de renforcer leur position sur le marché.",12,0.0638,190.11,succes,S3,False,2026-08-01 12:42:10
+S3-153,reglementation,Quel role joue le ministere des Finances dans la supervision des EMF ?,"Le Ministère des Finances joue un rôle important dans la supervision des Établissements de Microfinance (EMF) en tant qu'autorité monétaire nationale. Cependant, la décision finale de l'agrément est dépendante d'un avis conforme émis par la COBAC elle-même, ce qui montre que le caractère à la fois national et communautaire de la supervision du secteur est pris en compte.",12,0.0776,141.97,succes,S3,False,2026-08-01 12:44:32
+S3-154,reglementation,Comment un client peut-il porter plainte contre un EMF ?,"Pour porter une plainte contre un établissement de microfinance (EMF), le client doit généralement suivre les étapes suivantes :
+
+1.  Contacter directement l'EMF pour résoudre le problème ;
+2.  Si la résolution n'est pas possible, contacter un organisme de régulation ;
+3.  Enfin, si nécessaire, saisir une procédure judiciaire.
+
+Ces démarches peuvent varier en fonction du pays et des réglementations locales.",12,0.0676,144.91,succes,S3,False,2026-08-01 12:46:57
+S3-155,reglementation,Quels criteres definissent la solvabilite d'un EMF ?,Je ne dispose pas de cette information dans mes documents.,12,0.0951,99.34,succes,S3,False,2026-08-01 12:48:37
+S3-156,reglementation,Existe-t-il un delai de traitement standard pour une demande d'agrement ?,Je ne dispose pas de cette information dans mes documents.,12,0.1276,97.31,succes,S3,False,2026-08-01 12:50:14
+S3-157,reglementation,Quelles obligations de formation existent pour les dirigeants d'EMF ?,"Je ne dispose pas d'informations spécifiques sur les obligations de formation pour les dirigeants d'EMF dans mes documents. Cependant, je peux vous dire que la réglementation COBAC EMF R-2003/03 prévoit l'importance du développement des compétences et connaissances pour les responsables des établissements de microfinance.",12,0.0842,127.59,succes,S3,False,2026-08-01 12:52:22
+S3-158,reglementation,Un EMF etranger peut-il s'implanter au Cameroun sans agrement local ?,"Non, un établissement de microfinance étranger ne peut pas s'implanter au Cameroun sans obtenir l'autorisation préalable de l'Autorité de régulation et de supervision du système financier (AMF), qui est compétente pour autoriser ou refuser l'accueil des établissements de microfinance dans le pays.",12,0.0795,145.64,succes,S3,False,2026-08-01 12:54:47
+S3-174,definitions,Qu'est-ce que la finance solidaire concretement ?,"La finance solidaire se manifeste sous différentes formes, notamment :
+
+* Renoncement à un gain monétaire (renoncement à une partie des intérêts) ;
+* Non-rémunération du capital (crédit gratuit) ;
+* Partage des risques (partage des pertes et des bénéfices ou octroi de crédits des personnes sans patrimoine) ;
+* Financement de personnes en situation d'exclusion ou d'activités solidaires.
+
+Ces formes de solidarité s'inscrivent dans différents registres philosophiques.",12,0.1926,82.64,succes,S3,False,2026-08-01 12:56:10
+S3-175,definitions,Quelle est la difference entre finance solidaire et microfinance ?,"La différence entre finance solidaire et microfinance réside dans leur objectif et leur approche. La microfinance se concentre principalement sur l'accès aux services financiers pour les populations pauvres, en offrant des crédits et des investissements à ces groupes. En revanche, la finance solidaire vise à corriger les impacts négatifs de la finance traditionnelle et à promouvoir une économie plus équitable et solidaire, en prenant en compte les besoins sociaux et environnementaux.
+
+La microfinance se concentre sur le développement de systèmes de crédit pour les populations pauvres, tandis que la finance solidaire cherche à aller au-delà des simples prêts et investissements, pour intégrer des considérations sociales et environnementales dans sa prise de décision.",12,0.106,111.11,succes,S3,False,2026-08-01 12:58:01
+S3-176,definitions,Comment fonctionne le systeme bancaire classique en comparaison d'un EMF ?,Je ne dispose pas de cette information dans mes documents.,12,0.0881,111.05,succes,S3,False,2026-08-01 12:59:52
+S3-177,definitions,Qu'est-ce qu'un club d'investisseurs solidaires ?,"Un club d'investisseurs solidaires est un groupe de personnes qui mobilisent l'épargne des particuliers afin de constituer un capital collectif, qui est ensuite investi soit sous forme de participation au capital d'entreprise, soit en accordant des prêts dans le cadre de projets d'activités. Il y a une relation directe entre les épargnants et les emprunteurs.",12,0.1039,83.64,succes,S3,False,2026-08-01 13:01:16
+S3-178,definitions,Quels sont les debats autour de la delimitation du microcredit ?,"Les débats entrou lesquels s'entrent en ligne pour préciser quelles étaient les frontières de la microfinance portent notamment sur le point de vue selon lequel il faudrait restreindre l'usage du microcrédit à la production de biens ou de services, typiquement, la création ou le développement de micro-entreprise. Cette restriction est opposée par les acteurs du secteur privé qui soulignent que la « fongibilité » de l'argent rend illusoire cette restriction, et qu'en tout état de cause, ce n'est pas à des riches de déterminer comment les pauvres doivent utiliser leur argent.",12,0.1603,91.79,succes,S3,False,2026-08-01 13:02:48
+S3-179,definitions,Le microcredit doit-il cibler en priorite les plus pauvres ?,"La question du ciblage des plus pauvres par les programmes de microfinance est complexe et nécessite une réponse nuancée. Selon la réponse proposée, il n'est pas possible d'atteindre tous les pauvres en premier, car ce serait difficile de déterminer si le bénéficiaire aurait pu accéder à l'argent du marché localement sans l'aide d'une IMF.
+
+Cependant, les programmes de microfinance doivent viser les ménages très pauvres capables d'initiatives économiques et offrir des services financiers accompagnés de services additionnels nécessitant des subventions durables. C'est chez ces ménages que le microcrédit trouve toute sa pertinence, car ils ont les capacités de remboursement et peuvent investir dans des projets à valeur ajoutée.
+
+Il est également important de noter que la microfinance implique de mettre sur pied des institutions locales permanentes et que ces institutions doivent être autosuffisantes pour atteindre un plus grand nombre de pauvres.",12,0.1538,128.67,succes,S3,False,2026-08-01 13:04:56
+S3-180,definitions,Quels scandales ont deja touche le secteur de la microfinance ?,Je ne dispose pas de cette information dans mes documents.,12,0.1,93.47,succes,S3,False,2026-08-01 13:06:30
+S3-181,definitions,Comment le CGAP definit-il la bonne utilisation de l'argent des donateurs ?,"Le CGAP définit la bonne utilisation de l'argent des donateurs en mettant l'accent sur l'importance d'intégrer les besoins financiers des populations pauvres dans un système financier national. Selon le Guide de la microfinance, il revient au gouvernement de rendre possibles les services financiers, pas forcément de les fournir. Les fonds donateurs devraient compléter les capitaux privés plutôt que de se substituer à eux, et les donateurs devraient mettre l'accent sur le potentiel de création des institutions locales.",12,0.1458,124.84,succes,S3,False,2026-08-01 13:08:35
+S3-182,definitions,Quels sont les criteres d'exploitation abusive des beneficiaires d'IMF ?,"Selon le contexte fourni, les critères d'exploitation abusive des bénéficiaires d'IMF ne sont pas explicitement mentionnés. Cependant, l'article 1155% ((EEMMFF  CCaatt..11)) et l'article 2255%%  ((EEMMFF  CCaatt..22 eett 33)) mentionnent des conditions relatives aux prêts donnés aux bénéficiaires, telles que la proportion de leurs fonds propres nets ou fonds patrimoniaux nets qui peuvent être utilisés. Cependant, il n'est pas possible d'en déduire des critères spécifiques d'exploitation abusive.
+
+Il est également mentionné que les EMF sont tenues de respecter un rapport minimum entre leurs emplois (engagements) et leurs ressources (article 7700%% ((EEMMFF  CCaatt..11)eett22)), mais ce n'est pas nécessairement lié à l'exploitation abusive des bénéficiaires.
+
+Enfin, le contexte mentionne les risques élevés pour de petites sommes et la nécessité d'un encadrement solide des institutions de microfinance pour éviter les dérives. Cependant, il n'est pas possible d'en déduire des critères spécifiques d'exploitation abusive.
+
+En conclusion, je ne dispose pas de cette information dans mes documents.",12,0.1877,141.6,succes,S3,False,2026-08-01 13:10:56
+S3-183,definitions,Quelle est l'evolution recente du cadre juridique de la microfinance en CEMAC ?,"La réponse à votre question est la suivante :
+
+En 2017, le nouveau règlement CEMAC/UMAC/COBAC relatif aux conditions d'exercice et de contrôle de l'activité de microfinance a été adopté. Ce texte a remplacé le règlement CEMAC N°01/02/CEMAC/UMAC/COBAC de 2002 et a apporté des modifications significatives à la réglementation du secteur.",12,0.1533,124.66,succes,S3,False,2026-08-01 13:13:01
+S3-184,definitions,Qu'est-ce qu'une societe de capital-risque solidaire ?,"Une société de capital-risque solidaire est un type d'organisation qui fonctionne comme un club d'investisseurs solidaires, mais à plus grande échelle. Elle mobilise l'épargne des particuliers afin de constituer un capital collectif, qui est ensuite investi soit sous forme de participation au capital d'entreprise, soit en accordant des prêts dans le cadre de projets d'activités.",12,0.1014,87.36,succes,S3,False,2026-08-01 13:14:28
+S3-185,definitions,Quels types de clubs d'investisseurs existent en finance solidaire ?,"Il existe deux types de clubs d'investisseurs solidaires en finance solidaire : 
+
+* Les clubs d'investisseurs pour une gestion alternative et locale de l'épargne solidaire (CIGALES) qui affectent des investissements de proximité dans des sociétés ou des associations qui respectent les dimensions sociales, culturelles, écologiques. Cet exemple est donné à titre d'exemple.
+* Les clubs d'investisseurs solidaires qui fonctionnent un peu comme les clubs d'investisseurs traditionnels, mais avec une approche plus solidaire et locale.",12,0.1216,72.23,succes,S3,False,2026-08-01 13:15:40
+S3-186,definitions,Le microcredit favorise-t-il vraiment l'inclusion bancaire ?,Je ne dispose pas de cette information dans mes documents.,12,0.097,77.25,succes,S3,False,2026-08-01 13:16:58
+S3-187,definitions,Quelles sont les limites du microcredit pour les plus pauvres ?,"Les limites du microcrédit pour les plus pauvres sont nombreuses et soulèvent plusieurs questions. D'abord, le microcrédit n'est pas un outil adapté pour toucher les ""indigents"", c'est-à-dire ""les plus pauvres des pauvres"". En effet, il est difficile de garantir que le bénéficiaire n'aurait pas pu avoir accès au marché du crédit localement sans l'aide d'une organisation. De plus, le succès des microcrédits ne s'appuie pas seulement sur la gestion des prêts, mais aussi sur les investissements dans des projets à valeur ajoutée, ce qui peut être difficile à évaluer.
+
+Ensuite, il est risqué de mettre en place un système de prêt pour les plus pauvres, car ces derniers n'ont souvent pas les capacités de remboursement. Cela peut créer une dépendance aux prêts et augmenter le surendettement. Il est également préférable de viser un public moins pauvre afin de créer une dynamique économique qui profite indirectement aux pauvres.
+
+Enfin, si la microfinance ne parvient pas à atteindre les pauvres, elle peut contribuer à l'accroissement des inégalités. Cela souligne l'importance de considérer les limites du microcrédit et de travailler sur des solutions plus globales pour améliorer la situation des populations les plus démunies.",12,0.1257,133.31,succes,S3,False,2026-08-01 13:19:11
+S3-188,definitions,Comment mesure-t-on l'efficacite technique d'une institution financiere ?,"On peut mesurer l'efficacité technique d'une institution financière en utilisant le système de cotation des banques ""SYSCO"" mis en place par la COBAC. Ce système définit une note de performance pour chaque banque, allant de 1 à 4C, en fonction de sa capacité à respecter les normes réglementaires et prudentielles.",12,0.0896,133.12,succes,S3,False,2026-08-01 13:21:24
+S3-199,institutions,Qu'est-ce que First Trust Savings and Loans ?,"First Trust Savings and Loans est une société financière de prêt solidaire coopérative qui fonctionne en collectant l'épargne des particuliers grâce à des livrets d'épargne et la vente de parts sociales, puis en placent sous forme de prêts à des projets présentant une utilité sociale marquée.",12,0.0675,168.93,succes,S3,False,2026-08-01 13:24:13
+S3-200,institutions,Qu'est-ce que la Caisse de Developpement d'Epargne et de Credit d'Afrique ?,"La Caisse de Développement d'Epargne et de Crédit d'Afrique (CDECA) est une organisation qui offre des services financiers, notamment l'épargne et le crédit, à des populations dans plusieurs pays africains. Elle est présente au Cameroun et participe à la promotion du développement économique et social dans la région. La CDECA est gérée par une équipe de dirigeants et est agréée par le gouvernement camerounais, ce qui lui confère un statut officiel.",12,0.1073,167.24,succes,S3,False,2026-08-01 13:27:00
+S3-201,chiffres,Quel est le montant total des depots collectes par les EMF en zone CEMAC en 2023 ?,Le montant total des dépôts collectés par les établissements de microfinance (EMF) en zone CEMAC en 2023 est de 1 489 milliards XAF.,12,0.1472,199.42,succes,S3,False,2026-08-01 13:30:20
+S3-202,chiffres,Quel est le montant de l'encours des credits accordes par les EMF en zone CEMAC en 2023 ?,1 306 milliards FCFA.,12,0.1899,177.17,succes,S3,False,2026-08-01 13:33:17
+S3-203,chiffres,Combien y a-t-il d'EMF de deuxieme categorie en zone CEMAC ?,Je ne dispose pas de cette information dans mes documents.,12,0.104,145.47,succes,S3,False,2026-08-01 13:35:42
+S3-204,chiffres,Combien y a-t-il d'EMF de troisieme categorie en zone CEMAC ?,Je ne dispose pas de cette information dans mes documents.,12,0.0972,132.28,succes,S3,False,2026-08-01 13:37:55
+S3-205,chiffres,Quel est le ratio credit/depots dans le secteur de la microfinance CEMAC ?,Je ne dispose pas de cette information dans mes documents.,12,0.1409,93.98,succes,S3,False,2026-08-01 13:39:29
+S3-206,chiffres,Combien d'etablissements de microfinance existent en Guinee Equatoriale ?,Deux établissements de microfinance existent en Guinée Equatoriale.,12,0.1149,152.41,succes,S3,False,2026-08-01 13:42:01
+S3-207,chiffres,Quelle proportion des EMF sont des reseaux plutot que des etablissements independants ?,Je ne dispose pas d'informations précises sur la proportion des établissements de microfinance (EMF) qui sont des réseaux plutôt que des établissements indépendants dans la zone CEMAC.,12,0.11,175.39,succes,S3,False,2026-08-01 13:44:56
+S3-208,chiffres,Combien d'EMF au total etaient agrees et en activite en zone CEMAC recemment ?,"Selon le Graphe 28 : Répartition du nombre d’établissements de microfinance agréés et en activité par pays au 31 décembre 2023, il y avait 627 620 établissements de microfinance agréés et en activité en zone CEMAC.",12,0.1418,155.22,succes,S3,False,2026-08-01 13:47:32
+S3-209,chiffres,Quel pourcentage des EMF de la zone CEMAC sont bases au Cameroun ?,Je ne dispose pas de cette information dans mes documents.,12,0.0971,158.63,succes,S3,False,2026-08-01 13:50:10
+S3-210,chiffres,Quelle est l'evolution du nombre d'EMF entre 2010 et 2010 en Guinee Equatoriale ?,"Je ne dispose pas d'information sur le nombre d'EMF en Guinée Equatoriale pour l'année 2010. L'inquiétant est que pour 2023, il n'y a qu'une seule établissement de microfinance.",12,0.0697,192.9,succes,S3,False,2026-08-01 13:53:23
+S3-211,chiffres,Quel est le nombre moyen de clients par EMF de premiere categorie ?,Je ne dispose pas de cette information dans mes documents.,12,0.0982,157.07,succes,S3,False,2026-08-01 13:56:00
+S3-212,chiffres,Quel pourcentage des depots CEMAC est concentre sur les EMF de deuxieme categorie ?,Je ne dispose pas de cette information dans mes documents.,12,0.1449,161.07,succes,S3,False,2026-08-01 13:58:41
+S3-213,chiffres,Combien de reseaux d'EMF existent en zone CEMAC ?,Je ne dispose pas de cette information dans mes documents.,12,0.0948,121.98,succes,S3,False,2026-08-01 14:00:43
+S3-214,chiffres,Quel est le taux de croissance annuel du secteur de la microfinance CEMAC ?,"Le taux de croissance annuel moyen du secteur de la microfinance en zone CEMAC entre 2019 et 2023 est de 15,8% selon les données fournies.",12,0.1124,145.85,succes,S3,False,2026-08-01 14:03:09
+S3-215,chiffres,Quelle est la part de marche des trois plus grands reseaux d'EMF au Cameroun ?,Je ne dispose pas de cette information dans mes documents.,12,0.0856,125.11,succes,S3,False,2026-08-01 14:05:14
+S3-216,ambigue,Et pour les femmes ?,"Selon les informations fournies, il est difficile de définir un impact positif ou négatif unique sur les femmes en général. Cependant, certains exemples suggèrent que le microcrédit peut apporter des bénéfices, tels que l'accès à une source de revenu indépendante et une augmentation de la dignité et de l'autonomie.
+
+Cependant, il est également mentionné que les effets du microcrédit sur les femmes peuvent être limités et même renforcer certaines dynamiques de domination masculine, surtout dans le contexte où les conditions structurelles d'oppression des femmes ne sont pas modifiées.",12,0.0742,121.57,succes,S3,False,2026-08-01 14:07:16
+S3-217,ambigue,C'est risque ou pas ?,"""Je ne dispose pas de cette information dans mes documents.""",12,0.0933,104.02,succes,S3,False,2026-08-01 14:09:00
+S3-218,ambigue,Ca marche comment exactement ?,"La question posée dans le contexte du Guide de la microfinance relève des critiques contre la microfinance, en particulier quant à sa capacité réelle à réduire la pauvreté. Il est important de noter que les auteurs du Guide reconnaissent l'importance de la microfinance pour soutenir le développement économique et social, mais soulignent également les défis et les limites potentielles de ce système.
+
+Selon certains critiques, la microfinance ne garantit pas nécessairement une réduction significative de la pauvreté. En effet, si les microentrepreneurs sont en mesure d'accéder à des crédits et à des services financiers, ils peuvent également être confrontés à des défis tels que l'épuisement des ressources, la concurrence accrue ou les risques associés à la récession économique.
+
+En outre, certains critiques soulignent que la microfinance peut parfois aggraver la pauvreté si elle ne est pas mise en œuvre de manière responsable et transparente. Par exemple, si les fonds alloués aux projets de microfinance sont mal gérés ou si les conditions d'emprunt sont trop rigoureuses, cela peut entraîner une augmentation du chômage ou des difficultés économiques pour les populations les plus vulnérables.
+
+En conclusion, la question ""Ca marche comment exactement ?"" reflète les incertitudes et les critiques entourant la microfinance, en particulier quant à sa capacité réelle à réduire la pauvreté. Il est essentiel de considérer ces critiques et d'aborder la microfinance avec une perspective critique pour évaluer ses effets réels sur le terrain.",12,0.0622,177.52,succes,S3,False,2026-08-01 14:11:57
+S3-219,ambigue,Est-ce que c'est fiable ?,Je ne dispose pas de cette information dans mes documents.,12,0.0595,93.32,succes,S3,False,2026-08-01 14:13:31
+S3-220,ambigue,Combien ca coute ?,Je ne dispose pas de cette information dans mes documents.,12,0.0365,80.81,succes,S3,False,2026-08-01 14:14:52
+S3-221,ambigue,Qui peut en beneficier ?,"Le microcrédit personnel est destiné aux personnes désirant créer ou reprendre une entreprise, mais dont les ressources sont insuffisantes pour pouvoir prétendre à un prêt classique. Il vise principalement les personnes qui ont besoin de financer des projets ou des besoins tels que des formations professionnelles, l'achat d'un véhicule, de l'équipement pour le logement, des frais de santé...",12,0.1262,119.16,succes,S3,False,2026-08-01 14:16:51
+S3-222,ambigue,C'est mieux qu'une banque ?,Je ne dispose pas de cette information dans mes documents.,12,0.0927,87.93,succes,S3,False,2026-08-01 14:18:19
+S3-223,ambigue,Depuis quand ca existe ?,"Je ne dispose pas d'informations précises sur la date exacte de création des Accords de Bâle, mais je peux vous dire qu'ils ont été édictés pour la première fois en 1988.",12,0.084,102.55,succes,S3,False,2026-08-01 14:20:01
+S3-224,ambigue,Est-ce accessible a tout le monde ?,"""Je ne dispose pas de cette information dans mes documents.""",12,0.0513,103.78,succes,S3,False,2026-08-01 14:21:45
+S3-225,ambigue,Quels sont les inconvenients ?,"Il est difficile d’affirmer que la microfinance réduit automatiquement la pauvreté, car de nombreuses critiques soulignent les risques financiers et les dérives de ce système. Les exemples de réussites individuelles dues à la microfinance sont souvent difficiles à généraliser en raison des biais de sélection et de la fongibilité de l'aide.",12,0.1126,107.23,succes,S3,False,2026-08-01 14:23:32
+S3-226,ambigue,Et si je n'ai pas de garantie ?,"Il ne semble pas y avoir de réponse spécifique à la question posée ""Et si je n'ai pas de garantie ?"". Cependant, il existe des informations sur les risques associés à la microfinance et aux prêts en particulier.
+
+Selon certaines réglementations, les établissements de crédit doivent s'assurer que les clients ne sont pas endettés au-delà d'un plafond de 22,5% des fonds propres nets pour chaque bénéficiaire. De plus, il interdit aux établissements de crédit de s'engager en faveur de l'ensemble de leurs grands clients pour un niveau de risque supérieur à un plafond de 800%. Cela vise à limiter les risques associés à la microfinance.
+
+Il est important de noter que ces règles sont en place pour protéger les établissements de crédit et les clients, mais elles ne fournissent pas de garantie absolue. Il est donc essentiel de bien comprendre les conditions et les risques liés à tout prêt ou investissement dans la microfinance.
+
+En résumé, il n'y a pas de réponse spécifique à la question posée, mais il existe des règles réglementaires pour protéger les établissements de crédit et les clients.",12,0.0818,165.01,succes,S3,False,2026-08-01 14:26:17
+S3-227,ambigue,C'est long comme demarche ?,Il semble que vous souhaitez savoir si les démarches associées à la microfinance sont longues. Je ne dispose pas de cette information dans mes documents.,12,0.1145,108.91,succes,S3,False,2026-08-01 14:28:06
+S3-228,ambigue,Ca vaut le coup ?,Je ne dispose pas de cette information dans mes documents.,12,0.0879,98.96,succes,S3,False,2026-08-01 14:29:45
+S3-229,ambigue,Et pour les jeunes entrepreneurs ?,"Les jeunes entrepreneurs sont souvent sous-représentés dans le monde de la microfinance, qui se concentre souvent sur des projets d'entreprises traditionnelles ou sectorielles. La microfinance peut être bénéfique pour les jeunes entrepreneurs, mais elle n'est pas toujours adaptée à leurs besoins spécifiques.
+
+Il est vrai que la microfinance peut aider les jeunes entrepreneurs à accéder au crédit et à développer leur entreprise, mais il est important de prendre en compte les contraintes particulières auxquelles ils sont confrontés. En effet, les jeunes entrepreneurs ont souvent des difficultés pour accéder aux matières premières, obtenir des compétences de gestion et de sociabilité, ainsi que trouver une demande viable.
+
+Il est donc crucial d'adapter la microfinance à leur situation, en offrant des services de crédit et de formation qui répondent spécifiquement à leurs besoins. Cela pourrait inclure des programmes de mentorat, des ateliers de compétences de gestion et de développement des entreprises, ainsi que des outils pour aider les jeunes entrepreneurs à trouver des partenaires commerciaux et à développer leur réseau.
+
+En fin de compte, la microfinance peut être un outil puissant pour les jeunes entrepreneurs, mais il est important de l'utiliser de manière stratégique et adaptée à leurs besoins spécifiques.",12,0.0552,153.16,succes,S3,False,2026-08-01 14:32:18
+S3-230,ambigue,Qu'est-ce qui change par rapport a avant ?,"Selon l'analyse sectorielle, la banque et la microfinance dans la zone CEMAC ont connu des mutations importantes au cours des quatre dernières décennies. Les principaux changements apportés sont :
+
+* Le renforcement de la qualité et de l'exigence en Fonds Propres avec un ratio de solvabilité qui passe de 8% à 10,5%.
+* L'amélioration de la gestion de la trésorerie, notamment avec l'introduction des ratios LCR (Liquid Coverage Ratio) et NSFR (Net Stable Funding Ratio), dont les seuils sont fixés à respectivement 1 et 12 mois.
+* L'instauration d'un nouveau ratio pour encadrer la taille de bilan des banques en maîtrisant l'effet de levier (>3%).
+
+Ces changements visent à renforcer la stabilité du secteur financier dans la zone CEMAC et à prévenir les risques de défaillance des établissements financiers.",12,0.0889,163.98,succes,S3,False,2026-08-01 14:35:02
+S3-231,ambigue,C'est pareil partout ?,Je ne dispose pas de cette information dans mes documents.,12,0.0701,96.3,succes,S3,False,2026-08-01 14:36:39
+S3-232,ambigue,Et en cas de probleme ?,Je ne dispose pas de cette information dans mes documents.,12,0.0875,90.05,succes,S3,False,2026-08-01 14:38:09
+S3-233,ambigue,Ca depend de quoi ?,"Il n'est pas évident que la microfinance réduit la pauvreté sans condition ni critique supplémentaires. La question est complexe et nécessite une analyse approfondie des résultats, des impacts, des débouchés et des conséquences à long terme de l'investissement dans la microfinance.",12,0.0871,87.09,succes,S3,False,2026-08-01 14:39:36
+S3-234,ambigue,Il y a des conditions particulieres ?,Je ne dispose pas de cette information dans mes documents.,12,0.0807,110.67,succes,S3,False,2026-08-01 14:41:26
+S3-235,ambigue,"Et concretement, ca donne quoi ?",Je ne dispose pas de cette information dans mes documents.,12,0.1054,97.1,succes,S3,False,2026-08-01 14:43:04
+S3-236,hors_perimetre,Quelle heure est-il a Yaounde en ce moment ?,"Je ne dispose pas d'informations sur l'heure actuelle à Yaoundé, car le contexte fourni ne contient aucune information sur la date ou l'heure actuelle. Il n'est pas possible de déterminer quelle heure est il exactement à Yaoundé sans connaître ces informations.",12,0.037,110.59,succes,S3,False,2026-08-01 14:44:54
+S3-237,hors_perimetre,Peux-tu me donner une recette de ndole ?,"Je ne dispose pas d'informations sur les recettes de nourriture, notamment pour le plat de ""ndole"" mentionné dans votre question. La microfinance est un sujet sur lequel je peux vous fournir des informations générales et des réponses aux questions que vous posez sur ce thème au Cameroun.",12,0.0554,117.95,succes,S3,False,2026-08-01 14:46:52
+S3-238,hors_perimetre,Qui a gagne la derniere Coupe d'Afrique des Nations ?,Je ne dispose pas de cette information dans mes documents.,12,0.0508,127.77,succes,S3,False,2026-08-01 14:49:00
+S3-239,hors_perimetre,Peux-tu traduire 'microfinance' en anglais ?,"La microfinance est traduite par ""microcredit"" ou ""microfinance"" dans certains contextes.",12,0.0827,81.99,succes,S3,False,2026-08-01 14:50:22
+S3-240,hors_perimetre,Quel est le taux de change actuel FCFA/Euro ?,Je ne dispose pas de cette information dans mes documents.,12,0.0523,111.09,succes,S3,False,2026-08-01 14:52:13
+S3-241,hors_perimetre,Peux-tu m'aider a rediger un CV ?,"Je ne dispose pas d’informations sur la manière de rédiger un CV, mais je peux vous aider à rédiger une bonne conclusion. Voudriez-vous que je vous aide avec ça ?",12,0.0494,117.67,succes,S3,False,2026-08-01 14:54:11
+S3-242,hors_perimetre,Quelle est la capitale de la France ?,La réponse à cette question n'est pas présente dans le contexte fourni. Je ne dispose pas de cette information dans mes documents.,12,0.0614,85.36,succes,S3,False,2026-08-01 14:55:36
+S3-243,hors_perimetre,Combien font 15 fois 24 ?,Je ne dispose pas de cette information dans mes documents.,12,0.0587,101.36,succes,S3,False,2026-08-01 14:57:17
+S3-244,hors_perimetre,Peux-tu me raconter une blague ?,"Je ne dispose pas de cette information dans mes documents. Je ne peux pas vous raconter une blague. 
+
+Puis-je vous aider avec autre chose ?",12,0.0433,122.3,succes,S3,False,2026-08-01 14:59:20
+S3-245,hors_perimetre,Quel est le prix moyen d'un billet d'avion Douala-Paris ?,Je ne dispose pas de cette information dans mes documents.,12,0.0421,110.58,succes,S3,False,2026-08-01 15:01:10
+S3-246,hors_perimetre,Quelle est la population totale du Cameroun ?,Je ne dispose pas de cette information dans mes documents.,12,0.0477,109.19,succes,S3,False,2026-08-01 15:02:59
+S3-247,hors_perimetre,Peux-tu me donner la meteo de la semaine a Douala ?,Je ne dispose pas de cette information dans mes documents.,12,0.0488,104.23,succes,S3,False,2026-08-01 15:04:44
+S3-248,hors_perimetre,Quel est le meilleur restaurant de Yaounde ?,Je ne dispose pas d'informations sur le meilleur restaurant de Yaoundé dans mes documents.,12,0.0424,118.32,succes,S3,False,2026-08-01 15:06:42
+S3-249,hors_perimetre,Comment configurer une adresse email professionnelle ?,Je ne dispose pas de cette information dans mes documents.,12,0.0576,82.44,succes,S3,False,2026-08-01 15:08:04
+S3-250,hors_perimetre,Quel est le classement FIFA actuel du Cameroun ?,Je ne dispose pas de cette information dans mes documents.,12,0.0518,118.36,succes,S3,False,2026-08-01 15:10:03
+S3-251,hors_perimetre,Peux-tu m'expliquer la theorie de la relativite ?,Je ne dispose pas de cette information dans mes documents.,12,0.0398,102.56,succes,S3,False,2026-08-01 15:11:45
+S3-252,hors_perimetre,Quelles sont les meilleures universites du Cameroun ?,Je ne dispose pas de cette information dans mes documents.,12,0.0485,117.68,succes,S3,False,2026-08-01 15:13:43
+S3-253,hors_perimetre,Comment planter du manioc ?,Je ne dispose pas de cette information dans mes documents. La question semble être sans rapport avec le sujet de la microfinance au Cameroun.,12,0.0734,90.17,succes,S3,False,2026-08-01 15:15:13
+S3-254,hors_perimetre,Quel est le prix d'un sac de ciment a Douala ?,Je ne dispose pas de cette information dans mes documents.,12,0.0505,96.48,succes,S3,False,2026-08-01 15:16:50
+S3-255,hors_perimetre,Peux-tu me conseiller un livre sur l'histoire du Cameroun ?,Je ne dispose pas d'informations sur les livres d'histoire du Cameroun dans mes documents.,12,0.0552,130.37,succes,S3,False,2026-08-01 15:19:00
+S3-256,comparaison,Quelle est la difference entre un EMF de premiere et de troisieme categorie ?,"Les établissements de microfinance (EMF) de première catégorie sont constitués sous forme de société anonyme avec conseil d'administration, mais ils collectent l'épargne uniquement auprès de leurs membres. En revanche, les EMF de troisième catégorie peuvent effectuer des placements auprès des banques commerciales de l’État d’implantation et de la BEAC.",12,0.0715,172.05,succes,S3,False,2026-08-01 15:21:52
+S3-257,comparaison,En quoi une tontine differe-t-elle d'un EMF de premiere categorie ?,"Une tontine et un établissement de microfinances (EMF) de première catégorie diffèrent en ce sens que les premiers ont une portée géographique plus large, tandis que les derniers sont concentrés dans des zones rurales.",12,0.0943,153.56,succes,S3,False,2026-08-01 15:24:26
+S3-258,comparaison,Compare le role de la COBAC a celui d'une banque centrale nationale.,"La Commission Bancaire de l'Afrique Centrale (COBAC) et une banque centrale nationale ont des rôles similaires, mais avec certaines différences. Voici une comparaison :
+
+*   La COBAC est l'organe de supervision bancaire et financière de la sous-région CEMAC, tandis qu'une banque centrale nationale est responsable de la régulation et du suivi de l'économie d'un pays individuel.
+*   La COBAC a pour rôle de réglementer et superviser les opérations des banques et microfinance dans la zone CEMAC, tandis qu'une banque centrale nationale a pour rôle de réguler l'économie du pays en général, y compris les banques.
+*   La COBAC est également responsable de la production de monnaie par les banques et de son usage, tandis qu'une banque centrale nationale est responsable de la politique monétaire du pays.
+
+Cependant, il y a des différences importantes entre ces deux rôles. Par exemple, une banque centrale nationale a pour rôle de réguler l'inflation et de promouvoir la croissance économique, tandis que la COBAC se concentre davantage sur la régulation du secteur financier dans la zone CEMAC.
+
+En fin de compte, les deux organismes ont des objectifs similaires : protéger les intérêts des déposants et des investisseurs, prévenir les crises financières et promouvoir la stabilité financière. Cependant, ils le font dans un contexte différent et avec des outils spécifiques à leurs compétences.",12,0.1143,195.56,succes,S3,False,2026-08-01 15:27:41
+S3-259,comparaison,Quelle est la difference entre le microcredit et le pret bancaire classique ?,"La différence principale entre le microcrédit et un prêt bancaire classique est que le microcrédit est destiné à des individus ou des petites entreprises avec des ressources limitées, alors que les prêts bancaires classiques sont généralement accordés à des clients plus solvables. Un microcrédit personnel est un prêt d'un montant généralement inférieur à 3 000 € accordé avec un taux d'intérêt faible (3,5 % en moyenne), dont l'objectif consiste à financer des petits projets (voiture, permis, équipement…). Il s'agit d'un prêt qui doit être remboursé, ce qui distingue le microcrédit personnel du don.",12,0.0961,147.19,succes,S3,False,2026-08-01 15:30:08
+S3-260,comparaison,En quoi CamCCUL et MC2 se ressemblent-ils ou different-ils ?,Je ne dispose pas de cette information dans mes documents.,12,0.0572,89.1,succes,S3,False,2026-08-01 15:31:37
+S3-261,comparaison,Compare les reseaux MUFID et CVECA/CECA.,Je ne dispose pas de cette information dans mes documents.,12,0.1084,159.36,succes,S3,False,2026-08-01 15:34:17
+S3-262,comparaison,Quelle est la difference entre une cooperative et une societe anonyme dans le secteur EMF ?,"Dans le secteur de la microfinance, les principales différences entre une coopérative et une société anonyme sont :
+
+- La forme juridique : Une coopérative est une organisation collective de personnes qui partagent un objectif commun, souvent axé sur l'auto-organisation et l'autogestion. En revanche, la société anonyme est une forme juridique qui permet à plusieurs individus ou entités de se associer pour une fin commune, sans être liés par des obligations de solidarité.
+
+- Le mode d'organisation : La coopérative est souvent organisée en réseau, avec un nombre limité de membres et un processus décisionnel communautaire. En revanche, la société anonyme peut être organisée indépendamment ou dans le cadre d'un réseau, avec des objectifs plus larges que ceux d'une coopérative.
+
+- La collecte de l'épargne : Les coopératives ne collectent généralement que l'épargne de leurs membres, tandis que les sociétés anonymes peuvent collecter l'épargne auprès du grand public (tiers).
+
+Cependant, il convient de noter qu'il n'existe pas de distinction claire et définitive entre ces deux formes juridiques dans le secteur de la microfinance.",12,0.0889,207.64,succes,S3,False,2026-08-01 15:37:44
+S3-263,comparaison,En quoi la finance solidaire differe-t-elle de la microfinance classique ?,"La finance solidaire et la microfinance classique sont deux concepts qui semblent liés, mais ils présentent des différences clés. 
+
+Tout d'abord, la microfinance classique se concentre principalement sur l'accès au crédit pour les populations pauvres, souvent avec un accent sur la création de biens ou de services. En revanche, la finance solidaire est plus large et inclut diverses activités telles que la prise de participation, la collecte d'épargne, la garantie et l'investissement en fonds propres.
+
+En second lieu, la microfinance classique se concentre sur la fourniture de crédit à des populations pauvres, souvent avec un modèle de prêt traditionnel. La finance solidaire peut prendre différentes formes et modalités d'activité, ce qui signifie que les acteurs impliqués peuvent avoir différents rôles et objectifs.
+
+Enfin, la microfinance classique se concentre souvent sur le soutien aux entreprises et aux projets à petit échelle. La finance solidaire est davantage axée sur les besoins financiers des populations pauvres individuelles ou familiales.
+
+Il est donc important de noter que ces deux concepts ne sont pas interchangables, bien que ils soient liés par la question du financement des populations pauvres.",12,0.1337,133.0,succes,S3,False,2026-08-01 15:39:57
+S3-264,comparaison,Compare les obligations reglementaires d'un EMF de deuxieme et troisieme categorie.,Je ne dispose pas de cette information dans mes documents.,12,0.1012,138.27,succes,S3,False,2026-08-01 15:42:16
+S3-265,comparaison,Quelle est la difference entre un reseau d'EMF et un EMF independant ?,"Un réseau d'EMF (Etablissements de Microfinance) et un EMF (Etablissement de Microfinance) indépendant sont deux types d'institutions qui partagent les mêmes segments d'activité (épargne et crédit), mais elles ne sont pas nécessairement des concurrents.
+
+Les EMFs réseau opèrent en réseau, ce qui signifie qu'ils sont regroupés dans un système où plusieurs institutions ont accès aux mêmes canaux de financement, les mêmes technologies et les mêmes ressources. Cela permet une meilleure coordination et une meilleure allocation des ressources.
+
+En revanche, un EMF indépendant opère seul et n'a pas besoin d'appartenance à un réseau pour fonctionner. Il a sa propre structure organisationnelle, sa propre gestion et ses propres canaux de financement.",12,0.0753,192.06,succes,S3,False,2026-08-01 15:45:28
+S3-266,comparaison,En quoi le systeme bancaire CEMAC differe-t-il du systeme bancaire francais ?,Je ne dispose pas de cette information dans mes documents.,12,0.0923,115.31,succes,S3,False,2026-08-01 15:47:23
+S3-267,comparaison,Compare l'agrement d'un EMF a celui d'une banque commerciale.,Je ne dispose pas de cette information dans mes documents.,12,0.1149,157.65,succes,S3,False,2026-08-01 15:50:01
+S3-268,comparaison,Quelle est la difference entre Context Precision et Context Recall en evaluation RAG ?,Je ne dispose pas de cette information dans mes documents.,12,0.0553,102.22,succes,S3,False,2026-08-01 15:51:43
+S3-269,comparaison,En quoi un EMF urbain differe-t-il d'un EMF rural en zone CEMAC ?,Je ne dispose pas de cette information dans mes documents.,12,0.0765,174.09,succes,S3,False,2026-08-01 15:54:37
+S3-270,comparaison,Compare les avantages et inconvenients du microcredit par rapport a la tontine.,"Le microcrédit et la tontine sont deux instruments financiers qui peuvent aider les personnes à accéder à l'argent pour financer leurs projets ou investissements. Cependant, ils présentent des avantages et des inconvénients différents.
+
+Avantages du microcrédit :
+
+* Le microcrédit permet aux individus d'accéder à un prêt de faible montant qui peut être utilisé pour financer une entreprise ou un projet.
+* Il est souvent plus accessible que les prêts classiques offerts par les banques, car il ne nécessite pas de garanties importantes.
+* Le microcrédit peut aider les personnes à développer leurs activités économiques et à créer des emplois.
+
+Inconvénients du microcrédit :
+
+* Il peut être plus chère que la tontine, car il implique l'octroi d'un prêt avec intérêts.
+* Le microcrédit peut ne pas être adapté à toutes les situations, car il nécessite une demande de crédit et des garanties.
+* Il peut également conduire à un cycle de dettes si le prêteur ne peut pas rembourser son emprunt.
+
+Avantages de la tontine :
+
+* La tontine est un instrument d'épargne qui permet aux individus de collecter des fonds pour financer un projet ou investissement.
+* Elle est souvent moins chère que le microcrédit, car elle ne nécessite pas l'octroi d'un prêt avec intérêts.
+* La tontine peut être adaptée à toutes les situations, car elle n'exige aucune demande de crédit ni des garanties.
+
+Inconvénients de la tontine :
+
+* Elle peut être moins accessible que le microcrédit, car elle nécessite une participation régulière de la part des membres.
+* La tontine peut ne pas être adaptée à toutes les situations, car elle implique un risque de perte si les fonds collectés ne sont pas suffisamment investis.
+* Elle peut également conduire à une consommation excessive si les membres n'investissent pas leurs fonds dans des projets rentables.
+
+En résumé, le microcrédit et la tontine présentent des avantages et des inconvénients différents. Le microcrédit est souvent plus accessible que la tontine, mais il peut être plus chère et conduire à un cycle de dettes si ne pas géré correctement. La tontine, en revanche, est souvent moins chère et adaptable, mais elle peut nécessiter une participation régulière des membres et conduire à une consommation excessive si n'investis pas dans des projets rentables.",12,0.1343,249.81,succes,S3,False,2026-08-01 15:58:47
+S3-271,comparaison,Quelle est la difference entre un depot a vue et un depot d'epargne dans un EMF ?,"Une question qui touche directement au cœur de la microfinance !
+
+Dans le contexte des établissements de microfinance (EMF), les dépôts à vue et les dépôts d'épargne sont deux types de services offerts aux clients.
+
+Un dépôt à vue est un service de prêt court terme, où l'EMF accorde une somme d'argent à un client avec la promesse de le rendre le jour suivant. Les conditions de ce type de prêt sont souvent plus flexibles et les taux d'intérêt peuvent être plus élevés que ceux des dépôts d'épargne.
+
+Un dépôt d'épargne, quant à lui, est un service qui permet aux clients de déposer leur argent sur une période plus longue, généralement plusieurs mois ou années. Les conditions de ce type de prêt sont souvent moins flexibles que celles des dépôts à vue et les taux d'intérêt peuvent être plus bas.
+
+En résumé, la principale différence entre un dépôt à vue et un dépôt d'épargne est la durée de la période de prêt et les conditions associées. Les dépôts à vue sont conçus pour répondre aux besoins de financement court terme, tandis que les dépôts d'épargne sont conçus pour répondre aux besoins de financement à long terme.",12,0.0894,191.88,succes,S3,False,2026-08-01 16:01:59
+S3-272,comparaison,En quoi les regles prudentielles CEMAC different-elles selon la categorie d'EMF ?,Je ne dispose pas de cette information dans mes documents.,12,0.0973,130.66,succes,S3,False,2026-08-01 16:04:09
+S3-273,comparaison,Compare la gouvernance d'un EMF mutualiste et d'un EMF societe anonyme.,"Pour répondre à votre question, il faut consulter explicitement les textes réglementaires qui traitent de l'organisation interne des établissements de microfinance. Malheureusement, je ne trouve pas les informations nécessaires pour comparer la gouvernance d'un EMF mutualiste et d'un EMF societe anonyme.",12,0.1025,172.12,succes,S3,False,2026-08-01 16:07:02
+S3-274,comparaison,Quelle est la difference entre le Cameroun et la Guinee Equatoriale en nombre d'EMF ?,Il n'y a pas d'informations sur la différence entre le Cameroun et la Guinée Equatoriale en nombre d'Etablissements de Microfinances (EMF) dans les textes fournis.,12,0.0615,195.06,succes,S3,False,2026-08-01 16:10:17
+S3-275,comparaison,Compare le role du CNC a celui de la COBAC.,Je ne dispose pas d'informations précises sur les rôles respectifs du Comité National de Contrôle (CNC) et de la Commission Bancaire Ouest-Africaine (COBAC) en ce qui concerne la régulation des activités bancaires pécuniaires par la COBAC.,12,0.0807,147.52,succes,S3,False,2026-08-01 16:12:44

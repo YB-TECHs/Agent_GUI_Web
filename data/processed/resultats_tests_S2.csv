@@ -1,0 +1,208 @@
+id,categorie,question,reponse,nb_documents_recuperes,temps_reponse_secondes,statut
+Q01,definitions,Qu'est-ce que la microfinance ?,"La microfinance est un système qui fournit des services financiers à des ménages pauvres, notamment le crédit, l'épargne, l'assurance et les services de transfert de fonds, pour améliorer leur niveau de vie et constituer un patrimoine.",23,296.68,succes
+Q02,definitions,Qu'est-ce que le microcredit ?,"Le microcrédit consiste en l'attribution de prêts de faible montant à des entrepreneurs ou à des artisans qui ne peuvent pas accéder aux prêts bancaires classiques. Il se développe surtout dans les pays en développement, où il permet de concrétiser des microprojets, favorisant l'activité et la création de richesses.",22,184.73,succes
+Q03,definitions,Qu'est-ce qu'une tontine ?,Une tontine est une association collective d’épargne qui réunit des épargnants pour investir en commun dans un actif financier ou dans un bien dont la propriété revient à une partie seulement des souscripteurs.,23,196.3,succes
+Q04,definitions,Qu'est-ce que la finance solidaire ?,"La finance solidaire est un concept économique qui applique aux secteurs financiers les principes de l'économie sociale et solidaire, en s'appuyant sur des règles éthiques telles que le principe de solidarité et de subsidiarité. Elle fait partie de la finance éthique et fournit une réponse alternative ou complémentaire au financement bancaire.",21,181.91,succes
+Q05,definitions,Comment fonctionne un systeme bancaire classique ?,"Voici une réponse détaillée :
+
+Un système bancaire classique est composé de plusieurs parties qui travaillent ensemble pour fournir des services financiers aux consommateurs et aux entreprises. Voici les étapes clés du fonctionnement d'un système bancaire classique :
+
+1. **Crédit** : Le système bancaire commence par la création de crédit, qui consiste à prêter de l'argent à des clients sous forme de dépôts ou de prêts. Les banques acquièrent ces crédits en achetant des titres d'emission publique ou en empruntant de l'argent auprès de la Banque centrale.
+2. **Reserve obligatoire** : Pour garantir la stabilité du système, les banques sont tenues de maintenir une réserve obligatoire sur leurs dépôts. Cette réserve est utilisée pour couvrir les pertes potentielles en cas de défaut de paiement des clients.
+3. **Prêts** : Les banques peuvent ensuite prêter ce crédit aux consommateurs et aux entreprises, sous forme de prêts à court terme ou de crédits à long terme.
+4. **Depôts** : En parallèle, les consommateurs et les entreprises déposent leur argent dans les banques, qui l'utilisent pour financer leurs opérations.
+5. **Banque centrale** : La Banque centrale est responsable de la régulation du système bancaire et de la stabilisation de la monnaie. Elle fixe les taux d'intérêt, émet des billets et contrôle la masse monétaire en circulation.
+
+Cependant, le système bancaire classique a des limites importantes, notamment :
+
+* **Risque de crédit** : Les banques risquent de ne pas récupérer leur crédit si les clients ne paient pas leurs dettes.
+* **Incertitude du marché** : Le système bancaire est sensible aux fluctuations du marché et aux changements dans la demande et l'offre de crédits.
+* **Cycles économiques** : Les banques sont souvent influencées par les cycles économiques, ce qui peut affecter leur capacité à prêter des crédits.
+
+Pour atténuer ces risques, les banques ont développé des stratégies supplémentaires, telles que :
+
+* **Diversification de leurs activités** : Les banques diversifient leurs activités pour réduire leur exposition au risque.
+* **Amélioration des processus de prêt** : Les banques améliorent leurs processus de prêt pour mieux évaluer le crédit des clients et réduire les pertes potentielles.
+* **Diversification des investissements** : Les banques diversifient leurs investissements pour réduire leur exposition au risque.
+
+En résumé, un système bancaire classique fonctionne grâce à la création de crédit, aux réserves obligatoires, aux prêts et aux dépôts. Cependant, ce système est sujet à des risques tels que le risque de crédit, l'incertitude du marché et les cycles économiques. Les banques doivent développer des stratégies pour atténuer ces risques et assurer la stabilité du système.",25,339.87,succes
+Q06,reglementation,Quel est le role de la COBAC dans la microfinance ?,"La Commission Bancaire de l'Afrique centrale (COBAC) joue un rôle clé dans la régulation et le contrôle de l'activité des établissements de microfinance en zone CEMAC. Selon les règlements COBAC, la COBAC est responsable de superviser les établissements de microfinance pour garantir qu'ils opèrent de manière solide et prudentielle.
+
+La COBAC fixe également des normes de gestion et règles prudentielles pour les établissements de microfinance, telles que la fixation du capital social minimum, la classification des catégories d'établissements de microfinance, et la supervision des activités financières. Elle assure également une bonne gestion des risques et une transparence dans les opérations des établissements.
+
+En outre, la COBAC est chargée de régler les litiges entre les établissements de microfinance et leurs clients, ainsi que de fixer les sanctions pénales en cas de non-conformité aux règlements. Elle est également responsable de veiller à ce que les établissements de microfinance respectent les normes de gouvernance et de conformité.
+
+Il convient de noter que la COBAC a également des mesures pour lutter contre l'exploitation des bénéficiaires des IMF, telles que la fixation d'un encours maximum de crédit accordé à un client, ainsi que la supervision des opérations des établissements de microfinance.",20,387.25,succes
+Q07,reglementation,Qu'est-ce que le reglement CEMAC/UMAC/COBAC n 01/17 ?,Je ne dispose pas de cette information dans mes documents.,17,230.42,succes
+Q08,reglementation,En quelle annee a ete adopte le premier reglement sur la microfinance en zone CEMAC ?,"Il n'y a pas d'année précise mentionnée dans le texte pour l'adoption du premier réglement sur la microfinance en zone CEMAC. Cependant, il est indiqué que le règlement COBAC N°01/17/CEMAC/UMAC/COBAC a été adopté en 2017, mais ce n'est pas nécessairement le premier réglement sur la microfinance dans la zone CEMAC.",23,136.98,succes
+Q09,reglementation,Quelles sont les conditions pour obtenir un agrement d'etablissement de microfinance ?,"Pour obtenir un agrément d'établissement de microfinance au Cameroun, il est nécessaire de remplir certaines conditions et de suivre une procédure spécifique. Cependant, je ne dispose pas des détails précis sur ces conditions et cette procédure dans mes documents.
+
+Je ne disposing pas de cette information dans mes documents.",22,266.42,succes
+Q10,reglementation,Quelle autorite supervise les etablissements de microfinance au Cameroun ?,"La réponse est le MINISTERE DES FINANCES, en plus du secretariat général qui regroupe notamment la direction générale du trésor, de la coopération financière et monétaire. Enfin, l'Autorité des marchés financiers (AMF) supervise également les établissements de microfinance au Cameroun.",23,121.93,succes
+Q11,reglementation,Que se passe-t-il en cas de non-respect des regles prudentielles par un EMF ?,"Il n'est pas possible d'obtenir une réponse précise au sein du document fourni. Cependant, je peux vous aider à comprendre les différentes catégories et réglementations relatives aux microfinances dans la zone CEMAC.
+
+La microfinance est un système financier qui permet aux personnes sans accès à des crédits traditionnels d'obtenir des prêts ou des investissements pour lancer leurs projets économiques. Les établissements de microfinance (EMF) sont des institutions financières spécialisées dans le financement du micro-entrepreneurisme.
+
+Dans la zone CEMAC, il existe une réglementation spécifique pour les EMF, notamment :
+
+1. Le Règlement COBAC EMF : Ce règlement établit les conditions et modalités d'agrément des établissements de microfinance, ainsi que les normes de gestion des risques.
+2. Les Règlements COBAC issus du nouveau règlement CEMAC : Ces réglementations fixent les formes juridiques des établissements de microfinance en fonction des catégories d’établissements.
+3. Le Règlement relatif à la classification a la comptabilisation et au provisionnement des créances des établissements de microfinances : Ce règlement établit les normes pour la classification et la comptabilisation des créances des EMF.
+
+En cas de non-respect des règles prudentielles par un EMF, il est possible que le banque centrale ou les autorités réglementaires prennent des mesures contraignantes. Cependant, je n'ai pas trouvé d'information spécifique sur les conséquences du non-respect des règles.
+
+Je vous recommande de consulter les sources officielles et les documents réglementaires pour obtenir des informations plus précises et à jour sur la microfinance dans la zone CEMAC.",23,250.02,succes
+Q12,reglementation,Comment les epargnants sont-ils proteges dans le systeme de microfinance CEMAC ?,"La protection des épargnants dans le système de microfinance CEMAC est assurée par le dispositif prudentiel mis en place par la Commission bancaire de l'Afrique centrale (COBAC). Ce dispositif réglementaire vise à renforcer la solvabilité et la stabilité du secteur tout en garantissant une protection adéquate pour les épargnants.
+
+Le règlement CEMAC, notamment le règlement N° 01/02/CEMAC/UMAC/COBAC de 2002, fixe les normes prudentielles déterminantes pour l'exercice de l'activité. Ce règlement protège les épargnants en établissant des dispositions qui visent à prévenir les risques et à assurer la sécurité de leurs investissements.
+
+Par ailleurs, les institutions de microfinance doivent se conformer aux normes et directives fixées par COBAC pour garantir la protection des épargnants. Ces institutions sont également soumises à un système de surveillance et de contrôle pour s'assurer de leur adéquation aux exigences réglementaires.
+
+En résumé, le système de microfinance CEMAC est conçu pour protéger les épargnants en établissant des dispositions prudentielles qui visent à prévenir les risques et à assurer la sécurité de leurs investissements. Les institutions de microfinance doivent se conformer aux normes et directives fixées par COBAC pour garantir la protection des épargnants.",23,227.15,succes
+Q13,categories_emf,Qu'est-ce qu'un etablissement de microfinance de premiere categorie ?,"Un établissement de microfinance de première catégorie est un organisme non bancaire qui fournit des services de crédit, d'épargne et d'autres activités financières à des personnes physiques ou morales. Ces organisations sont souvent constituées par des groupes de solidarité, des associations coopératives ou des mutuelles, et sont gérées par un conseil d'administration composé de représentants des membres.
+
+Dans le contexte du rapport présenté, les établissements de microfinance de première catégorie sont classés en trois groupes : 
+
+1. Les établissements de microfinance de troisième catégorie qui sont des organisations non bancaires qui fournissent des services de crédit et d'épargne à des personnes physiques ou morales.
+2. Les établissements de microfinance de deuxième catégorie qui sont des organisations qui ont été agréées par la Banque centrale de l'Afrique centrale (BEAC) et qui fournissent des services de crédit, d'épargne et d'autres activités financières à des personnes physiques ou morales.
+3. Les établissements de microfinance de première catégorie qui sont des organisations qui ont été agréées par la BEAC et qui fournissent des services de crédit, d'épargne et d'autres activités financières à des personnes physiques ou morales.
+
+Ces établissements de microfinance de première et deuxième catégorie sont souvent dotés d'un statut juridique spécifique et sont soumis à certaines réglementations en matière de contrôle bancaire.",24,224.92,succes
+Q14,categories_emf,Qu'est-ce qu'un etablissement de microfinance de deuxieme categorie ?,"Selon le texte fourni, un établissement de microfinance de deuxième catégorie est une structure qui effectue des placements auprès des banques commerciales de l'Etat d'implantation et de la BEAC. C'est une structure à but non lucratif qui est soumise à un réglementaire contraignant pour garantir une bonne gestion des risques et protéger les avoirs des épargnants.",25,145.98,succes
+Q15,categories_emf,Qu'est-ce qu'un etablissement de microfinance de troisieme categorie ?,"C'est un établissement qui accorde des crédits à ses clients.
+
+Voici le détail de la définition :
+
+Première catégorie : il s'agit des établissements à caractère associatif, coopératif ou mutualiste. Ils collectent l'épargne de leurs propres membres et l'utilisent exclusivement pour accorder des crédits à ces mêmes membres. Ils ne peuvent donc pas servir un public extérieur à leurs adhérents. C'est dans cette catégorie que se classent, par exemple, les coopératives regroupées au sein du réseau CamCCUL, ainsi que les MC2.
+
+Deuxième catégorie : ce sont des établissements constitués sous forme de société anonyme, qui peuvent à la fois collecter l'épargne du public en général et accorder des crédits à des tiers, sans que ces opérations soient limitées à un cercle de membres.",24,176.87,succes
+Q16,categories_emf,Quelle est la difference entre les trois categories d'EMF ?,"Je suis désolé, mais il semble que vous n'avez pas fourni suffisamment d'informations pour répondre à la question. La question semble être liée à des études sur l'évolution des affaires financières et les tontines en Afrique, mais je n'ai pas trouvé de contexte clair enough pour fournir une réponse précise.
+
+Cependant, je peux essayer de vous donner quelques informations générales sur les trois catégories d'EMF (Épargne Mutuelle ou Tontine) que vous avez mentionnées :
+
+1. Les « tontines immobilières » : ces sont des types de tontines qui permettent aux participants d'économiser pour acheter une propriété.
+2. Les « tontines financières » : ces sont des types de tontines qui permettent aux participants d'économiser pour des objectifs financiers plus generaux, tels que l'épargne ou la formation professionnelle.
+3. Les « associations tontinières » : ces sont des types de sociétés mutuelles qui permettent aux membres de partager les risques et les avantages financiers, souvent avec un objectif commun tel que l'économie d'échelle ou le financement de projets.
+
+Il est important de noter que les tontines en Afrique peuvent varier considérablement en fonction du pays et des régions, et que ces catégories ne sont peut-être pas exhaustives.",24,205.02,succes
+Q17,categories_emf,Le capital minimum exige differe-t-il selon la categorie d'EMF ?,"Non, le capital minimum requis est fixé à 10 milliards de FCFA pour tous les établissements de microfinance, quelle que soit leur catégorie. Cependant, il convient de noter que les réglementations COBAC EMF R-2017/01, R-2017/03, R-2017/04 et R-2017/05 précisent des règlements spécifiques pour chaque catégorie d'EMF.",23,138.41,succes
+Q18,institutions,Qu'est-ce que CamCCUL ?,"CamCCUL est l'abréviation du nom de l'organisation, qui signifie ""Cameroon Cooperative Credit Union League Ltd"". C'est une fédération de cooperative de crédit au Cameroun.",25,125.69,succes
+Q19,institutions,Qu'est-ce que MC2 ?,"Je ne connais pas l'explication de ""MC2"" dans le texte fourni. Il semble qu'il s'agisse d'un acronyme ou d'une sigle qui n'est pas expliquée explicitement dans le contenu du livre. Si vous pouvez fournir plus de contexte ou une explication claire, je pourrai essayer de vous aider à comprendre ce que signifie ""MC2"".",25,129.72,succes
+Q20,institutions,Qu'est-ce qu'Express Union Finance ?,"Expresse Union Finance S.A (EUF SA) est un établissement de finance solidaire basé à Yaoundé, cameroun.",25,115.59,succes
+Q21,institutions,Qu'est-ce que le reseau MUFID ?,"Il semble qu'il y ait eu une erreur dans la copie du document. Voici une réponse claire et concise :
+
+**Le réseau MUFID** est un réseau de microfinance camerounais qui se concentre sur l'origine locale des crédits et les opérations de micro-épargne et de micro-crédit. Le réseau MUFID a pour objectif de fournir des services financiers aux populations rurales et urbaines du Cameroun, en particulier aux plus pauvres.
+
+Le réseau est composé d'organismes de prévention et de lutte contre la pauvreté (OPLP) qui ont rejoint forces pour créer un réseau de microfinance communautaire. Les organismes membres du réseau MUFID sont autorisés à emprunter des fonds du Fonds international de développement industrialisé (FIDI) auprès du Ministère du Financement (MINFIN), qui sont ensuite déboursés aux members pour financer leurs activités de microfinance.
+
+Le réseau MUFID a pour vocation d'améliorer la qualité de vie des Camerounais en leur fournissant accès à des services financiers, tels que des prêts et des épargnes à faible taux d'intérêt, ainsi qu'en favorisant l'économie locale.",25,198.48,succes
+Q22,institutions,Qu'est-ce que le reseau des CVECA et CECA ?,"Le réseau des CVECA (Caisse Villageoise d'Épargne et de Crédit Autogérée) et CECA (Coopérative de Crédit Autogérée) sont des organisations mutualistes qui offrent des services financiers à leurs membres. Ils sont tenus de constituer un fonds de solidarité pour faire face aux pertes et doivent se doter d'un organe faîtier pour promotion, encadrement, formation et surveillance.
+
+Ils ont une structure de gestion basée sur la participation et la responsabilité des membres, ce qui les rend adaptés à l' environnement local. Les CVECA et CECA sont souvent présents dans les communautés rurales et urbaines où les banques conventionnelles ne sont pas toujours accessibles.
+
+Ce type d'organisations est intéressant car ils offrent une solution financière adaptée aux besoins des populations locales, en leur permettant de gérer leurs propres finances et de prendre des décisions basées sur leurs besoins spécifiques. Cependant, il est important de noter que les CVECA et CECA peuvent avoir des limites dans leur capacité à offrir des services financiers de qualité élevée, en raison de la manque d'infrastructure et de ressources.
+
+Le réseau des CVECA et CECA est également intéressant car il peut constituer une alternative aux banques traditionnelles qui sont souvent perçues comme étant inaccessibles ou trop coûteuses pour les populations locales. Cependant, il est important de noter que le développement de ces organisations nécessite un soutien structurant et financier pour atteindre son plein potentiel.
+
+En résumé, le réseau des CVECA et CECA représente une solution financière innovante qui offre à ses membres l'accès aux services de crédit et d'épargne. Cependant, il est important de prendre en compte les défis et les limites associés à cette forme d'organisation pour développer son potentiel et offrir des services financiers de qualité élevée aux populations locales.",24,222.77,succes
+Q23,geo_tabulaire,Quelles sont les microfinances presentes a Maroua ?,"Il n'est pas possible d'établir une liste précise de toutes les microfinances présentées à Maroua sans accéder à des informations à jour et spécifiques sur l'activité économique de la ville. Cependant, je peux vous fournir quelques détails généraux sur comment les microfinances fonctionnent et leur présence dans différentes régions, y compris le Cameroun.
+
+Les microfinances sont des institutions financières spécialisées qui proposent des services de crédit, d'épargne et d'autres produits financiers à des clients qui ne peuvent pas être attirés par les banques traditionnelles. Elles sont souvent présentes dans les zones rurales ou défavorisées où le accès au crédit classique est limité.
+
+Au Cameroun, la présence de microfinances peut varier selon la région et le type d'activité économique. En général, il existe plusieurs types de microfinances qui proposent des services tels que des prêts à taux intéressants, des assurances, des produits financiers innovants, etc.
+
+Pour obtenir une liste précise des microfinances présentes à Maroua, je vous recommanderais de contacter directement les institutions financières locales ou de rechercher sur Internet pour trouver des informations à jour sur les activités économiques et financières de la ville.",24,206.26,succes
+Q24,geo_tabulaire,Quelles sont les microfinances presentes a Yaounde ?,"Voici quelques-unes des microfinances présentées à Yaoundé, selon la liste fournie :
+
+1. Essos
+2. La Bourse de la Financière (BFI)
+3. New Deal Finance, Ex (REFAMIC)
+4. Main Dans la Main Yaoundé (ND)
+5. Société Coopérative
+6. EMF/2011/0012 (EMF)
+7. LE PELERIN SA
+8. Caisses d’Epargne Populaire et d’Investissement S.A. (CEPI SA)
+9. Mutuelle Communautaire de Développement (MCD)
+10. Mutuelle d'Epargne et de Crédit du Cameroun (MEC)
+11. RESEAU UNION DES CVECA ET CECA DU CAMEROUN
+12. Société Coopérative Régionale des CVECA et CECA du Centre
+13. Caisse Populaire Coopérative de Mbalmayo (CAPOCOM)
+14. Société Coopérative d’Epargne et de Crédit des Promotrices Matures (CEC)
+15. African Development Credit (ADEC)
+16. Alpha Cooperative Fund (ALPHA FUND)
+17. CAPFINANCE – Ancienne Caisse Nationale de Crédit
+18. NUMERICA FINANCE Ex GLOBAL NUMERICA (Ex-CVECA d’ABAM YENZOCK)
+19. OPTIMUM FINANCE S.A Yaoundé
+20. People Finance (PeFi) ex-Express Savings and Credit Cameroon (EXSAC-CAM)
+21. UNITY COOPERATIVE SOCIETY (UNICS)
+
+Il est important de noter que cette liste n'est pas exhaustive et que les microfinances peuvent avoir changé depuis la date de la dernière mise à jour des informations.",24,219.95,succes
+Q25,geo_tabulaire,Quelles sont les microfinances presentes a Douala ?,"Selon le document fourni, voici quelques-unes des microfinances présentées à Douala :
+
+1. La Financière Générale Douala
+2. First Trust Savings and Loans (FIRSTTRUST)
+3. Caisse Coopérative d’Epargne et de Crédit pour les Initiatives Communes du Septentrion (CECICS)
+4. Caisse de Développement d’Epargne et de Crédit d’Afrique (CDECA) - Ex COOPEC MAYO-REY
+5. SOCOOPEC de la Solidarité du Cameroun en surnom Caisse d’Epargne et de Crédit de la « Solidarité » (CEPAC SOLIDARITE)
+6. Caisse d’Epargne et de Crédit pour les Initiatives Locales du Wouri (CECIL)
+
+Il est important de noter que cette liste n'est pas exhaustive, car le document fourni ne présente qu'une partie des microfinances présentées à Douala.
+
+Les informations sont basées sur le nombre d'immatriculation au CNC, qui peut varier en fonction du moment où le document a été établi.",24,192.41,succes
+Q26,geo_tabulaire,Combien d'etablissements de microfinance sont agrees dans la region de l'Extreme-Nord ?,"Selon le tableau ci-dessus, il y a 2 établissements de microfinance agréés dans la région de l'Adamaoua :
+
+1. Caisse d’Epargne et de Financement en Afrique (CEFA)
+2. Savana Islamic Cooperative Finance S.A
+
+Il n'y a pas non plus d'autres établissements mentionnés dans la liste pour cette région.",24,137.02,succes
+Q27,geo_tabulaire,Combien d'etablissements de microfinance sont agrees au total au Cameroun ?,"Il n'y a pas de réponse directe à cette question car le texte fourni ne contient pas d'information spécifique sur le nombre d'établissements de microfinance agréés au Cameroun. Cependant, nous pouvons en déduire que le secteur de la microfinance en zone CEMAC compte 521 établissements agréés et en activité au total, dont certains sont situés dans chaque pays de la zone, dont le Cameroun.
+
+Pour connaître le nombre exact d'établissements de microfinance agréés au Cameroun, il faudrait consulter une source plus spécifique ou une base de données qui fournit des informations sur les établissements de microfinance en CEMAC, notamment dans ce pays.",23,159.23,succes
+Q28,hors_perimetre,Quel temps fait-il aujourd'hui a Douala ?,"Je suis malheureux, mais je ne peux pas fournir une réponse précise au moment où vous vous posez votre question. Cependant, je peux vous donner des informations sur comment trouver la température actuelle à Douala.
+
+Pour connaître la température actuelle à Douala, vous pouvez utiliser les services de recherche d'informations en ligne tels que Google ou accéder aux sites Web météorologiques qui fournissent des données en temps réel pour différentes villes du monde, notamment Douala. 
+
+Vous pouvez rechercher « Température à Douala » ou « Météo Douala » sur Internet et sélectionner la date actuelle pour obtenir les informations concernant la température et d’autres météorologiques.",25,154.72,succes
+Q29,hors_perimetre,Peux-tu m'ecrire du code Python pour trier une liste ?,"Voici un exemple de code Python qui trie une liste :
+```
+def trier_liste(liste):
+    return sorted(liste)
+
+# Exemple d'utilisation
+liste = [4, 2, 9, 6, 5, 1]
+triée_liste = trier_liste(liste)
+print(triée_liste)  # [1, 2, 4, 5, 6, 9]
+```
+Ce code définit une fonction `trier_liste` qui prend en entrée une liste et la trie en utilisant la méthode `sorted`. La fonction renvoie la liste triée. L'exemple d'utilisation montre comment utiliser cette fonction pour trier la liste `[4, 2, 9, 6, 5, 1]`, qui devient `[1, 2, 4, 5, 6, 9]` après le tri.
+
+Si vous souhaitez trier la liste par ordre inverse (c'est-à-dire en descendant), vous pouvez utiliser la méthode `reverse=True` :
+```
+def trier_liste(liste):
+    return sorted(liste, reverse=True)
+
+# Exemple d'utilisation
+liste = [4, 2, 9, 6, 5, 1]
+triée_liste = trier_liste(liste)
+print(triée_liste)  # [9, 6, 5, 4, 2, 1]
+```
+Cela sortira la liste dans l'ordre inverse.",25,182.63,succes
+Q30,hors_perimetre,Quelle banque internationale est la plus rentable au monde en 2026 ?,"Je ne peux pas fournir de réponse précise sur laquelle banque internationale est la plus rentable au monde en 2026, car cela peut varier d'une année à l'autre et dépend de divers facteurs tels que les performances financières, le chiffre d'affaires, etc.",24,122.32,succes
+Q31,hors_perimetre,Que penses-tu personnellement de la microfinance,Je ne dispose pas de cette information dans mes documents.,23,239.04,succes
+Q32,hors_perimetre,Quel est le dernier taux directeur de la BEAC annonce cette semaine ?,"Je suis désolé, mais je n'ai pas trouvé d'information sur le dernier taux directeur de la BEAC qui a été annoncé cette semaine. La réponse à votre question est donc « non disponible » ou « inconnue ».",24,131.12,succes
+Q33,chiffres,Combien d'entites de premiere categorie existaient en 2022 selon le rapport sectoriel ?,"Il n'y a pas d'information spécifique dans le texte fourni pour répondre à cette question. Cependant, je peux essayer de trouver une réponse basée sur les informations disponibles.
+
+Selon le rapport du secteur financier du Forum économique mondial (FEMI) 2022, il y avait 4 500 microentreprises en Afrique subsaharienne, soit environ 1 200 d'entre elles appartenant à la première catégorie de microfinance. Cependant, je n'ai pas pu trouver une source précise confirmant le nombre exact d'entités de première catégorie existantes en 2022.
+
+Pour une réponse plus précise, il faudrait consulter le rapport sectoriel ou les documents spécifiques du FEMI 2022.",25,158.05,succes
+Q34,chiffres,Quelle part du nombre total d'etablissements represente la premiere categorie ?,La première catégorie représente 8% du nombre total d'établissements de microfinance en zone CEMAC.,25,124.43,succes
+Q35,chiffres,En quelle annee le reglement CEMAC actuellement en vigueur sur la microfinance a-t-il ete adopte ?,"Il n'y a pas d'année précise mentionnée dans le texte pour l'adoption du règlement CEMAC actuellement en vigueur sur la microfinance. Cependant, il est possible de faire une évaluation de cette information en fonction des dates mentionnées dans le texte.
+
+Le texte mentionne plusieurs réglements et instructions COBAC adoptés entre 2002 et 2017, notamment :
+
+* Règlement COBAC EMF 2002/01 relatif au champ d'application des règlements COBAC sur les normes prudentielles des établissements de microfinance
+* Règlement COBAC EMF 2002/04 relatif aux fonds propres nets
+* Règlement COBAC EMF 2017/09 relatif aux modifications de situation des établissements de microfinance
+
+Ces réglements ont été adoptés à différentes périodes, mais sans préciser exactement l'année d'adoption. Cependant, le dernier réglement mentionné (COBAC EMF 2017/09) a été adopté en 2017.
+
+En conséquence, il est possible de supposer que les réglements COBAC sur la microfinance actuellement en vigueur sont ceux adoptés entre 2002 et 2017. Cependant, il conviendrait d'enquêter pour obtenir une information plus précise et à jour sur l'adoption récente des réglementations.",23,204.84,succes

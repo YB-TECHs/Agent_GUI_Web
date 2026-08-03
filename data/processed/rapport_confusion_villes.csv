@@ -1,0 +1,286 @@
+﻿id,categorie,question,ville_demandee,villes_erronees_detectees,confusion_detectee,reponse_extrait
+Q23,geo_tabulaire,Quelles sont les microfinances presentes a Maroua ?,Maroua,,False,"Il n'est pas possible d'établir une liste précise de toutes les microfinances présentées à Maroua sans accéder à des informations à jour et spécifiques sur l'activité économique de la ville. Cependant, je peux vous fournir quelques détails généraux sur comment les microfinances fonctionnent et leur "
+Q24,geo_tabulaire,Quelles sont les microfinances presentes a Yaounde ?,Yaounde,Mbalmayo,True,"Voici quelques-unes des microfinances présentées à Yaoundé, selon la liste fournie :
+
+1. Essos
+2. La Bourse de la Financière (BFI)
+3. New Deal Finance, Ex (REFAMIC)
+4. Main Dans la Main Yaoundé (ND)
+5. Société Coopérative
+6. EMF/2011/0012 (EMF)
+7. LE PELERIN SA
+8. Caisses d’Epargne Populaire et d’In"
+Q25,geo_tabulaire,Quelles sont les microfinances presentes a Douala ?,Douala,,False,"Selon le document fourni, voici quelques-unes des microfinances présentées à Douala :
+
+1. La Financière Générale Douala
+2. First Trust Savings and Loans (FIRSTTRUST)
+3. Caisse Coopérative d’Epargne et de Crédit pour les Initiatives Communes du Septentrion (CECICS)
+4. Caisse de Développement d’Epargn"
+Q26,geo_tabulaire,Combien d'etablissements de microfinance sont agrees dans la region de l'Extreme-Nord ?,,,False,"Selon le tableau ci-dessus, il y a 2 établissements de microfinance agréés dans la région de l'Adamaoua :
+
+1. Caisse d’Epargne et de Financement en Afrique (CEFA)
+2. Savana Islamic Cooperative Finance S.A
+
+Il n'y a pas non plus d'autres établissements mentionnés dans la liste pour cette région."
+Q27,geo_tabulaire,Combien d'etablissements de microfinance sont agrees au total au Cameroun ?,,,False,"Il n'y a pas de réponse directe à cette question car le texte fourni ne contient pas d'information spécifique sur le nombre d'établissements de microfinance agréés au Cameroun. Cependant, nous pouvons en déduire que le secteur de la microfinance en zone CEMAC compte 521 établissements agréés et en a"
+S3-001,geo_tabulaire,Quelles sont les microfinances presentes a Yaounde ?,Yaounde,,False,Je ne dispose pas de cette information dans mes documents.
+S3-002,geo_tabulaire,Quelles sont les microfinances presentes a Douala ?,Douala,,False,Je ne dispose pas de cette information dans mes documents.
+S3-003,geo_tabulaire,Quelles sont les microfinances presentes a Bafoussam ?,Bafoussam,Dschang,True,"Selon les informations présentes dans le contexte, il y a deux établissements de microfinance situés à Bafoussam :
+
+1. La Cooperative Credit Union (BATOCCUL) 
+2. La Caisse Populaire Coopérative de l'Université de Dschang (SCECUDS), qui a une filiale à Bamougoum Centre, et dont la sous-entendue est q"
+S3-004,geo_tabulaire,Quelles sont les microfinances presentes a Bamenda ?,Bamenda,,False,"Selon les informations fournies, je ne dispose pas de cette information dans mes documents."
+S3-005,geo_tabulaire,Quelles sont les microfinances presentes a Garoua ?,Garoua,,False,Je ne dispose pas de cette information dans mes documents.
+S3-006,geo_tabulaire,Quelles sont les microfinances presentes a Maroua ?,Maroua,,False,Je ne dispose pas de cette information dans mes documents.
+S3-007,geo_tabulaire,Quelles sont les microfinances presentes a Ngaoundere ?,Ngaoundere,,False,"D'après le contexte fourni, il est possible de répondre aux questions suivantes :
+
+- Les microfinances présentes à Ngaoundéré sont :
+  - Le RESEAU MUFID UNION (6 MUFID DE NGAOUNDERE)
+  - Le CACCUL (Caisse Populaire Coopérative du Plateau)
+  - La NGACCUL (Ngaoundéré Coopérative Credit Union)
+
+- Conce"
+S3-008,geo_tabulaire,Quelles sont les microfinances presentes a Bertoua ?,Bertoua,Batouri,True,"D'après le contexte fourni, il n'y a pas d'informations spécifiques sur les microfinances présentes à Bertoua. Cependant, selon la liste donnée dans l'Exploitation des bénéficiaires des IMF, deux établissements de microfinance sont mentionnés :
+
+* MUFID DE BERTOUA (B.P 670 Bertoua)
+* MUFID DE BATOUR"
+S3-009,geo_tabulaire,Quelles sont les microfinances presentes a Ebolowa ?,Ebolowa,,False,"D'après le contexte fourni, il apparaît que plusieurs établissements de microfinance sont présents à Ebolowa. Selon le tableau 15 en annexes, on trouve :
+
+* EBOLOWA
+* FODIS (Fonds Commun d’Investissement du Sud)
+* Société Coopérative Régionale des CVECA et CECA du Sud EBOLOWA
+
+Cependant, il convient"
+S3-010,geo_tabulaire,Quelles sont les microfinances presentes a Buea ?,Buea,,False,"Selon les informations disponibles, à Buea, on note que deux établissements de microfinance sont présents :
+
+1.  Le BUEA P T Cooperative Credit Union LTD (BPTCCUL) dont le siège est situé à B.P 483 BUEA.
+2.  La Police Savings and Loans Cooperative (BPCCUL) dont le siège est situé à GREAT SOPPO, au c"
+S3-011,geo_tabulaire,Quelles sont les microfinances presentes a Limbe ?,Limbe,,False,Je ne dispose pas de cette information dans mes documents.
+S3-012,geo_tabulaire,Quelles sont les microfinances presentes a Kribi ?,Kribi,,False,Je ne dispose pas de cette information dans mes documents.
+S3-013,geo_tabulaire,Quelles sont les microfinances presentes a Edea ?,Edea,,False,Je ne dispose pas de cette information dans mes documents.
+S3-014,geo_tabulaire,Quelles sont les microfinances presentes a Dschang ?,Dschang,,False,"D'après les informations fournies, il y a au moins deux établissements de microfinance présents à Dschang :
+
+1. DSCHANG
+2. BUSINES AND CAREER MICROFINANCE LTD (BCM) SA"
+S3-015,geo_tabulaire,Quelles sont les microfinances presentes a Kumba ?,Kumba,,False,"Selon le contexte fourni, les établissements de microfinance présents à Kumba sont :
+
+1. KUMBA Central Savings and Loans Cooperative Society
+2. KUMBA Town Savings and Loans Cooperative Society (KUCCUL)
+3. KUMBA II Sub Division (SEROCCU)"
+S3-016,geo_tabulaire,Quelles sont les microfinances presentes a Nkongsamba ?,Nkongsamba,,False,"Selon l'encadré 131, il existe deux microfinance presentes à Nkongsamba :
+
+1. MUFID DE NKONGSAMBA 
+2. RURAL Nkongsamba 
+
+Je ne dispose pas de cette information dans mes documents."
+S3-017,geo_tabulaire,Quelles sont les microfinances presentes a Sangmelima ?,Sangmelima,,False,Je ne dispose pas de cette information dans mes documents.
+S3-018,geo_tabulaire,Quelles sont les microfinances presentes a Bafia ?,Bafia,,False,Je ne dispose pas de cette information dans mes documents.
+S3-019,geo_tabulaire,Quelles sont les microfinances presentes a Mbalmayo ?,Mbalmayo,,False,"Selon le tableau ci-dessus, les microfinances présentent à Mbalmayo sont :
+
+* Caisse Populaire Coopérative de Mbalmayo (CAPOCOM) ;
+* Société Coopérative d'Epargne et de Crédit des Promotrices Matures (CEC), également entendue comme un ensemble d'établissements agréés animés par un même objectif."
+S3-020,geo_tabulaire,Quelles sont les microfinances presentes a Guider ?,Guider,,False,"Selon le tableau 15 en annexes, il est possible de citer les microfinances suivantes qui ont une présence à Guider :
+
+- Société Coopérative d'Epargne et de Crédit de Guider (SOCECGUI)
+- Caisse Populaire Cooperative d’Epargne et de Crédit de POLI (COOPECPO)"
+S3-021,geo_tabulaire,Quelles sont les microfinances presentes a Mokolo ?,Mokolo,Yaounde,True,"Selon le tableau ci-dessus, il existe deux microfinances présentées à Mokolo :
+
+1. MUCADEC de MOKOLO (BP 16116, Yaoundé)
+2. MUFID DE MOKOLO (Marché MOKOLO, B.P 220)"
+S3-022,geo_tabulaire,Quelles sont les microfinances presentes a Mora ?,Mora,,False,Je ne dispose pas de cette information dans mes documents.
+S3-023,geo_tabulaire,Quelles sont les microfinances presentes a Tibati ?,Tibati,,False,"Selon le contexte fourni, il y a au moins 2 établissements de microfinance présentés à Tibatí :
+
+1. MUFID DE TIBATI 
+BP : 32 TIBATI
+Tel: 222 19 61 12 / 
+222 19 62 20
+PCA: ALI SOLIHOU
+DG: Mme. MAMBO Honorine épse
+DAHIROU
+CAC : IBRAHIMA HASSANOU"
+S3-024,geo_tabulaire,Quelles sont les microfinances presentes a Mbouda ?,Mbouda,,False,Je ne dispose pas de cette information dans mes documents.
+S3-025,geo_tabulaire,Quelles sont les microfinances presentes a Bandjoun ?,Bandjoun,,False,Je ne dispose pas de cette information dans mes documents.
+S3-026,geo_tabulaire,Quelles sont les microfinances presentes a Bafang ?,Bafang,,False,Je ne dispose pas de cette information dans mes documents.
+S3-027,geo_tabulaire,Quelles sont les microfinances presentes a Fundong ?,Fundong,,False,"Il y a une seule microfinance présente à Fundong, qui est la FUNDONG Cooperative Credit Union FUNDONG P.C.A, dirigée par KFUANCHUH FRANCIS sous le numéro 00353/MINEFI du 27/07/2001 EMF/2011/0112."
+S3-028,geo_tabulaire,Quelles sont les microfinances presentes a Wum ?,Wum,,False,Je ne dispose pas de cette information dans mes documents.
+S3-029,geo_tabulaire,Quelles sont les microfinances presentes a Bali ?,Bali,,False,"Selon l'encadré 05 : Promoteurs de l’activité des microfinances en zone CEMAC, au niveau de Bali, il existe les établissements suivants :
+
+* BALI Central Cooperative Credit Union LTD (BACCUL)
+* BALI Centre
+* BAMCCUL (Bambui Cooperative Credit Union)
+
+Ces établissements sont mentionnés dans la liste "
+S3-030,geo_tabulaire,Quelles sont les microfinances presentes a Batouri ?,Batouri,,False,"Selon le tableau 15 en annexes, MUFID DE BATOURI est présent à Batouri."
+S3-031,geo_tabulaire,Quelles sont les microfinances presentes a Obala ?,Obala,,False,Je ne dispose pas de cette information dans mes documents.
+S3-032,geo_tabulaire,Quelles sont les microfinances presentes a Loum ?,Loum,,False,"D'après les informations disponibles, il existe au moins trois établissements de microfinance mentionnés dans le contexte :
+
+1. MUFID D'LOUM LOUM (PCA : MOUNE MAHOP François)
+2. MUFID DE NJOMBE (B.P. 52 NJOMBE, PCA : Mme. BESSALA Julienne)
+
+Il est possible que d'autres établissements de microfinance"
+S3-033,geo_tabulaire,Quelles sont les microfinances presentes a Manjo ?,Manjo,,False,Je ne dispose pas de cette information dans mes documents.
+S3-034,geo_tabulaire,Quelles sont les microfinances presentes a Melong ?,Melong,,False,"Selon le texte fourni, il y a au moins trois établissements de microfinance mentionnés sous le nom de ""MELONG"" :
+
+* MUFID DE MELONG (N° 0000337/MINFI du 22/04/2020)
+* MUFID DE MELONG (N° 0000345/MINFI du 22/04/2020)
+
+Il est possible qu'il y ait d'autres établissements de microfinance avec le nom ""ME"
+S3-035,geo_tabulaire,Quelles sont les microfinances presentes a Penja ?,Penja,,False,Je ne dispose pas de cette information dans mes documents.
+S3-036,geo_tabulaire,Quelles sont les microfinances presentes a Tiko ?,Tiko,,False,Je ne dispose pas de cette information dans mes documents.
+S3-037,geo_tabulaire,Quelles sont les microfinances presentes a Muyuka ?,Muyuka,,False,Je ne dispose pas de cette information dans mes documents.
+S3-038,geo_tabulaire,Quelles sont les microfinances presentes a Mamfe ?,Mamfe,,False,"D'après l'annexe 15, il est mentionné que les établissements de microfinance présents à Mamfe sont :
+
+- PWD MAMFE Cooperative
+- Credit Union LTD (PWDMCCUL) 
+- Self-Reliance Savings and Loans Cooperative Society (SEROCCU)
+- SONEL Workers Cooperative (SOWOCCUL)"
+S3-039,geo_tabulaire,Quelles sont les microfinances presentes a Ndop ?,Ndop,,False,Je ne dispose pas de cette information dans mes documents.
+S3-040,geo_tabulaire,Quelles sont les microfinances presentes a Nkambe ?,Nkambe,,False,"Selon le contexte fourni, il est possible de trouver l'information suivante :
+
+Dans le texte, il est mentionné que NKAMBE Town Cooperative Credit Union NKTACCUL est présent à Nkambe. C'est ainsi qu'il apparaît au tableau 13 : Principaux services proposés par les établissements de microfinance, dans "
+S3-041,geo_tabulaire,Quelles sont les microfinances presentes a Mindif ?,Mindif,,False,Je ne dispose pas de cette information dans mes documents.
+S3-042,geo_tabulaire,Quelles sont les microfinances presentes a Gazawa ?,Gazawa,,False,"Selon le contexte fourni, il n'y a aucune information spécifique sur les microfinances présentes à Gazawa. Cependant, je peux vous dire que le Coop-CA MUFID de Gazawa est mentionné dans la liste des établissements de microfinance indépendants du Cameroun."
+S3-043,geo_tabulaire,Quelles sont les microfinances presentes a Founangue ?,Founangue,,False,Je ne dispose pas de cette information dans mes documents.
+S3-044,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Yaounde ?,Yaounde,,False,"D'après les informations présentes dans le contexte, voici une liste d'établissements de microfinance situés à Yaoundé :
+
+1. UNITY COOPERATIVE SOCIETY (UNICS)
+2. UNIVERS FINANCE CAMEROUN S A
+3. VISION FINANCE S. A"
+S3-045,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Douala ?,Douala,Garoua,True,"Oui, voici la liste des établissements de microfinance situés à Douala :
+
+1. Caisse Coopérative d’Epargne et de Crédit pour les Initiatives Communes du Septentrion (CECICS) - Carrefour Yelwa, B.P 859 Garoua
+2. Caisse de Développement d'Epargne et de Crédit d'Afrique (CDECA)
+3. CREDIT SOLIDAIRE D’AFR"
+S3-046,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Bafoussam ?,Bafoussam,Dschang,True,"Je ne dispose pas d'informations spécifiques sur les établissements de microfinance situés à Bafoussam. Cependant, je peux vous fournir des informations génériques en fonction du contexte fourni.
+
+Selon le contexte, il est mentionné que deux établissements de microfinance sont affiliés au réseau MUF"
+S3-047,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Bamenda ?,Bamenda,,False,"Selon les informations disponibles, voici quelques établissements de microfinance situés à Bamenda :
+
+1. ALAMANDUM COMMUNITY CREDIT AND SAVINGS PLC
+2. 151 Mutual Guarantee Financing Company (MUGFIG)
+3. Opus Securitaris Solidarity Ltd (OPSECS)
+4. Micro Credit investment and Saving Company (MICRE)
+
+Il"
+S3-048,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Garoua ?,Garoua,,False,"D'après les informations disponibles dans le contexte, il n'y a que 1 établissement de microfinance situé à Garoua :
+
+* Caisse Coopérative d’Epargne et de Crédit pour les Initiatives Communes du Septentrion (CECICS) 
+Carrefour Yelwa 
+B.P 859 Garoua"
+S3-049,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Maroua ?,Maroua,"Mokolo, Founangue",True,"D'après le contexte fourni, je peux vous lister les établissements de microfinance situés à Maroua :
+
+1. CREDIT DU SAHEL S.A (CDS)
+ * Adresse : Quartier FOUNANGUE, B.P 720
+2. Fonds de Financement du Développement Social (FOFIDES) Ex-Fonds Provincial de Refinancement (FPR)
+ * Adresse : Permanence Par"
+S3-050,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Ngaoundere ?,Ngaoundere,,False,"D'après le contexte fourni, voici les établissements de microfinance situés à Ngaoundéré :
+
+1. Société Coopérative Régionale des CVECA et CECA de l’Adamaoua (N°000404/MINFI du 05/05/2021)
+2. Caisse Populaire Coopérative du Plateau (N°00353/MINEFI du 27/07/2001)
+3. Ngaoundéré Coopérative Credit Union"
+S3-051,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Bertoua ?,Bertoua,,False,"Selon les informations disponibles dans le contexte, voici la liste des établissements de microfinance situés à Bertoua :
+
+* MUFID DE BERTOUA : 
+  + Adresse : B.P 670 Bertoua
+  + Président du conseil d'administration (PCA) : EMASSI Jacques
+  + Directeur général (DG) : WAMBO Emmanuel"
+S3-052,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Ebolowa ?,Ebolowa,,False,"D'après le contexte fourni, je peux vous indiquer que l'établissement de microfinance situé à Ebolowa est :
+
+* La Société Coopérative Régionale des CVECA et CECA du Sud EBOLOWA, dont la PCA (Président de la Commission Administration) est MANDENG JOB Alphonse Daudet."
+S3-053,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Buea ?,Buea,,False,"D'après le contexte fourni, je peux vous indiquer que les établissements de microfinance situés à Buea sont :
+
+1. BUEA P T Cooperative Credit Union LTD (BPTCCUL)
+2. BUEA Police Savings and Loans Cooperative (BPCCUL)
+
+Ces informations sont contenues dans le texte fourni, notamment dans la section ""Ex"
+S3-054,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Limbe ?,Limbe,,False,"Je peux vous fournir une liste des établissements de microfinance situés à Limbe, selon le tableau 11 :
+
+- NKONGNI Savings and Loans Cooperative Society (NKONGNI Funds) 
+
+Néanmoins, il est important de noter que cette liste pourrait ne pas être exhaustive."
+S3-055,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Kribi ?,Kribi,,False,Je ne dispose pas de cette information dans mes documents.
+S3-056,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Edea ?,Edea,,False,"Selon les informations disponibles dans le contexte, je peux vous fournir la liste des établissements de microfinance situés à Edéa :
+
+- Société Coopérative Régionale des CVECA et CECA du littoral d'Edéa
+  - DG : TJEGA Joseph Pascal
+  - CAC : NGAMBI Marcel
+  - N°000397/MINFI du 05/05/2021"
+S3-057,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Dschang ?,Dschang,,False,"D'après le contexte fourni, j'ai trouvé une mention d'un établissement de microfinance situé à Dschang :
+
+* Caisse Populaire Coopérative de l'Université de Dschang (SCECUDS) 
+ * DSCHANG
+ * PCA : GUIATANG BENARD 
+ * DG : TSANANG Sadrack"
+S3-058,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Kumba ?,Kumba,Mamfe,True,"Oui, voici les établissements de microfinance situés à Kumba mentionnés dans le contexte :
+
+1. Kumba Central Savings and Loans Cooperative Society (KUCCUL)
+2. Kumba Town Savings and Loans Cooperative Society (KTCCU LTD)
+3. PWD MAMFE Cooperative (PWDMCCUL)"
+S3-059,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Nkongsamba ?,Nkongsamba,,False,"Je ne dispose pas d'informations spécifiques sur les établissements de microfinance situés à Nkongsamba. Cependant, je peux vous donner quelques informations générales :
+
+Dans le contexte du Guide de la microfinance proposé, il est mentionné que plusieurs institutions sont mentionnées comme étant ac"
+S3-060,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Sangmelima ?,Sangmelima,,False,"Selon mes informations, il existe une seule entreprise de microfinance située à Sangmelima :
+
+* Société Coopérative d'Epargne et de crédit FERRUDJAL LA FOURMILLIERE
+* Numéro d'immatriculation au CNC : 312
+* Dirigeants :
+ + PCA (Président du Conseil d'Administration) : Mme AYOLO OKALLA
+ + DG (Directe"
+S3-061,scenario,"Si j'habite a Yaounde, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Yaounde,,False,Je ne dispose pas de cette information dans mes documents.
+S3-062,scenario,"Si j'habite a Douala, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Douala,,False,Je ne dispose pas de cette information dans mes documents.
+S3-063,scenario,"Si j'habite a Bafoussam, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Bafoussam,,False,Je ne dispose pas de cette information dans mes documents.
+S3-064,scenario,"Si j'habite a Bamenda, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Bamenda,,False,Je ne dispose pas de cette information dans mes documents.
+S3-065,scenario,"Si j'habite a Garoua, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Garoua,,False,Je ne dispose pas de cette information dans mes documents.
+S3-066,scenario,"Si j'habite a Maroua, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Maroua,,False,Je ne dispose pas de cette information dans mes documents.
+S3-067,scenario,"Si j'habite a Ngaoundere, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Ngaoundere,,False,Je ne dispose pas de cette information dans mes documents.
+S3-068,scenario,"Si j'habite a Bertoua, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Bertoua,,False,Je ne dispose pas de cette information dans mes documents.
+S3-069,scenario,"Si j'habite a Ebolowa, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Ebolowa,,False,Je ne dispose pas de cette information dans mes documents.
+S3-070,scenario,"Si j'habite a Buea, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Buea,,False,Je ne dispose pas de cette information dans mes documents.
+S3-071,scenario,"Si j'habite a Limbe, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Limbe,,False,Je ne dispose pas de cette information dans mes documents.
+S3-072,scenario,"Si j'habite a Kribi, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Kribi,,False,Je ne dispose pas de cette information dans mes documents.
+S3-073,scenario,"Si j'habite a Edea, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Edea,,False,Je ne dispose pas de cette information dans mes documents.
+S3-074,scenario,"Si j'habite a Dschang, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Dschang,,False,Je ne dispose pas de cette information dans mes documents.
+S3-075,scenario,"Si j'habite a Kumba, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Kumba,,False,Je ne dispose pas de cette information dans mes documents.
+S3-076,scenario,"Si j'habite a Nkongsamba, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Nkongsamba,,False,Je ne dispose pas de cette information dans mes documents.
+S3-077,scenario,"Si j'habite a Sangmelima, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Sangmelima,,False,Je ne dispose pas de cette information dans mes documents.
+S3-078,scenario,"Si j'habite a Bafia, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Bafia,,False,Je ne dispose pas de cette information dans mes documents.
+S3-079,scenario,"Si j'habite a Mbalmayo, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Mbalmayo,,False,Je ne dispose pas de cette information dans mes documents.
+S3-080,scenario,"Si j'habite a Guider, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Guider,,False,Je ne dispose pas de cette information dans mes documents.
+S3-081,scenario,"Si j'habite a Mokolo, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Mokolo,,False,"Puisque tu habites à Mokolo, je ne dispose pas de cette information dans mes documents pour savoir exactement quelle catégorie d'établissements de microfinance est présente dans la région."
+S3-082,scenario,"Si j'habite a Mora, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Mora,,False,Je ne dispose pas de cette information dans mes documents.
+S3-083,scenario,"Si j'habite a Tibati, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Tibati,,False,Je ne dispose pas de cette information dans mes documents.
+S3-084,scenario,"Si j'habite a Mbouda, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Mbouda,,False,Je ne dispose pas de cette information dans mes documents.
+S3-085,scenario,"Si j'habite a Bandjoun, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Bandjoun,,False,Je ne dispose pas de cette information dans mes documents.
+S3-086,scenario,"Si j'habite a Bafang, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Bafang,,False,Je ne dispose pas de cette information dans mes documents.
+S3-087,scenario,"Si j'habite a Fundong, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Fundong,,False,Je ne dispose pas de cette information dans mes documents.
+S3-088,scenario,"Si j'habite a Wum, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Wum,,False,Je ne dispose pas de cette information dans mes documents.
+S3-089,scenario,"Si j'habite a Bali, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Bali,,False,Je ne dispose pas de cette information dans mes documents.
+S3-090,scenario,"Si j'habite a Batouri, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Batouri,,False,Je ne dispose pas de cette information dans mes documents.
+S3-091,scenario,"Si j'habite a Obala, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Obala,,False,Je ne dispose pas de cette information dans mes documents.
+S3-092,scenario,"Si j'habite a Loum, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Loum,,False,Je ne dispose pas de cette information dans mes documents.
+S3-093,scenario,"Si j'habite a Manjo, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Manjo,,False,Je ne dispose pas de cette information dans mes documents.
+S3-094,scenario,"Si j'habite a Melong, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Melong,,False,Je ne dispose pas de cette information dans mes documents.
+S3-095,scenario,"Si j'habite a Penja, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Penja,,False,Je ne dispose pas de cette information dans mes documents.
+S3-096,scenario,"Si j'habite a Tiko, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Tiko,,False,Je ne dispose pas de cette information dans mes documents.
+S3-097,scenario,"Si j'habite a Muyuka, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Muyuka,,False,Je ne dispose pas de cette information dans mes documents.
+S3-098,scenario,"Si j'habite a Mamfe, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Mamfe,,False,Je ne dispose pas de cette information dans mes documents.
+S3-099,scenario,"Si j'habite a Ndop, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Ndop,,False,Je ne dispose pas de cette information dans mes documents.
+S3-100,scenario,"Si j'habite a Nkambe, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Nkambe,,False,Je ne dispose pas de cette information dans mes documents.
+S3-101,scenario,"Si j'habite a Mindif, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Mindif,,False,Je ne dispose pas de cette information dans mes documents.
+S3-102,scenario,"Si j'habite a Gazawa, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Gazawa,,False,Je ne dispose pas de cette information dans mes documents.
+S3-103,scenario,"Si j'habite a Founangue, vers quel type d'etablissement de microfinance devrais-je me tourner ?",Founangue,,False,Je ne dispose pas de cette information dans mes documents.
+S3-104,scenario,Recommande-moi une cooperative d'epargne adaptee si je suis base a Yaounde.,Yaounde,,False,Je ne dispose pas de cette information dans mes documents.
+S3-105,scenario,Recommande-moi une cooperative d'epargne adaptee si je suis base a Douala.,Douala,,False,Je ne dispose pas de cette information dans mes documents.
+S3-106,scenario,Recommande-moi une cooperative d'epargne adaptee si je suis base a Bafoussam.,Bafoussam,,False,Je ne dispose pas de cette information dans mes documents.
+S3-107,scenario,Recommande-moi une cooperative d'epargne adaptee si je suis base a Bamenda.,Bamenda,,False,Je ne dispose pas de cette information dans mes documents.
+S3-108,scenario,Recommande-moi une cooperative d'epargne adaptee si je suis base a Garoua.,Garoua,,False,Je ne dispose pas de cette information dans mes documents.
+S3-109,scenario,Recommande-moi une cooperative d'epargne adaptee si je suis base a Maroua.,Maroua,,False,Je ne dispose pas de cette information dans mes documents.
+S3-110,scenario,Recommande-moi une cooperative d'epargne adaptee si je suis base a Ngaoundere.,Ngaoundere,,False,Je ne dispose pas de cette information dans mes documents.
+S3-111,scenario,Recommande-moi une cooperative d'epargne adaptee si je suis base a Bertoua.,Bertoua,,False,Je ne dispose pas de cette information dans mes documents.
+S3-112,scenario,Recommande-moi une cooperative d'epargne adaptee si je suis base a Ebolowa.,Ebolowa,,False,Je ne dispose pas de cette information dans mes documents.
+S3-113,scenario,Recommande-moi une cooperative d'epargne adaptee si je suis base a Buea.,Buea,,False,Je ne dispose pas de cette information dans mes documents.
+S3-114,scenario,Recommande-moi une cooperative d'epargne adaptee si je suis base a Limbe.,Limbe,,False,Je ne dispose pas de cette information dans mes documents.
+S3-115,scenario,Recommande-moi une cooperative d'epargne adaptee si je suis base a Kribi.,Kribi,,False,Je ne dispose pas de cette information dans mes documents.
+S3-116,scenario,Recommande-moi une cooperative d'epargne adaptee si je suis base a Edea.,Edea,,False,Je ne dispose pas de cette information dans mes documents.
+S3-117,scenario,Recommande-moi une cooperative d'epargne adaptee si je suis base a Dschang.,Dschang,,False,Je ne dispose pas de cette information dans mes documents.
+S3-118,scenario,Recommande-moi une cooperative d'epargne adaptee si je suis base a Kumba.,Kumba,,False,Je ne dispose pas de cette information dans mes documents.

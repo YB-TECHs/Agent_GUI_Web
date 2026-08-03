@@ -1,0 +1,114 @@
+﻿id,categorie,question,ancienne_reponse,nouvelle_reponse,ancien_nb_documents,nouveau_nb_documents,nouveau_score_similarite,ancien_temps_reponse,nouveau_temps_reponse,ancien_statut,nouveau_statut
+Q24,geo_tabulaire,Quelles sont les microfinances presentes a Yaounde ?,"Voici quelques-unes des microfinances présentées à Yaoundé, selon la liste fournie :
+
+1. Essos
+2. La Bourse de la Financière (BFI)
+3. New Deal Finance, Ex (REFAMIC)
+4. Main Dans la Main Yaoundé (ND)
+5. Société Coopérative
+6. EMF/2011/0012 (EMF)
+7. LE PELERIN SA
+8. Caisses d’Epargne Populaire et d’Investissement S.A. (CEPI SA)
+9. Mutuelle Communautaire de Développement (MCD)
+10. Mutuelle d'Epargne et de Crédit du Cameroun (MEC)
+11. RESEAU UNION DES CVECA ET CECA DU CAMEROUN
+12. Société Coopérative Régionale des CVECA et CECA du Centre
+13. Caisse Populaire Coopérative de Mbalmayo (CAPOCOM)
+14. Société Coopérative d’Epargne et de Crédit des Promotrices Matures (CEC)
+15. African Development Credit (ADEC)
+16. Alpha Cooperative Fund (ALPHA FUND)
+17. CAPFINANCE – Ancienne Caisse Nationale de Crédit
+18. NUMERICA FINANCE Ex GLOBAL NUMERICA (Ex-CVECA d’ABAM YENZOCK)
+19. OPTIMUM FINANCE S.A Yaoundé
+20. People Finance (PeFi) ex-Express Savings and Credit Cameroon (EXSAC-CAM)
+21. UNITY COOPERATIVE SOCIETY (UNICS)
+
+Il est important de noter que cette liste n'est pas exhaustive et que les microfinances peuvent avoir changé depuis la date de la dernière mise à jour des informations.",Je ne dispose pas de cette information dans mes documents.,24,12,0.1061,219.95,143.18,succes,succes
+S3-003,geo_tabulaire,Quelles sont les microfinances presentes a Bafoussam ?,"Selon les informations présentes dans le contexte, il y a deux établissements de microfinance situés à Bafoussam :
+
+1. La Cooperative Credit Union (BATOCCUL) 
+2. La Caisse Populaire Coopérative de l'Université de Dschang (SCECUDS), qui a une filiale à Bamougoum Centre, et dont la sous-entendue est qu'elle a une autre filiale située à Bafoussam.
+
+Ces deux établissements sont agréés et ont été intégrés au réseau CamCCUL.","D'après le contexte fourni, il est possible de répondre à la question suivante :
+
+Les microfinances présentes à Bafoussam sont la Cooperative Credit Union (BATOCCUL) et la Caisse Populaire Coopérative de l’Université de Dschang (SCECUDS).",12,12,0.1078,154.45,158.59,succes,succes
+S3-008,geo_tabulaire,Quelles sont les microfinances presentes a Bertoua ?,"D'après le contexte fourni, il n'y a pas d'informations spécifiques sur les microfinances présentes à Bertoua. Cependant, selon la liste donnée dans l'Exploitation des bénéficiaires des IMF, deux établissements de microfinance sont mentionnés :
+
+* MUFID DE BERTOUA (B.P 670 Bertoua)
+* MUFID DE BATOURI (Centre Commercial B.P 170 Batouri)
+
+Il est possible que MUFID DE BERTOUA soit l'un des établissements de microfinance présents à Bertoua, mais cela ne peut être confirmé sans plus d'informations.","D'après le texte fourni, il est mentionné que la Microfinance de MUFID DE BERTOUA a son siège à B.P 670 Bertoua.",12,12,0.097,118.09,87.89,succes,succes
+S3-021,geo_tabulaire,Quelles sont les microfinances presentes a Mokolo ?,"Selon le tableau ci-dessus, il existe deux microfinances présentées à Mokolo :
+
+1. MUCADEC de MOKOLO (BP 16116, Yaoundé)
+2. MUFID DE MOKOLO (Marché MOKOLO, B.P 220)","Selon le tableau mentionné, il y a deux microfinances présentes à Mokolo :
+
+1. MUCADEC de MOKOLO 
+2. MUFID UNION Organe Faîtier",12,12,0.0915,109.56,153.98,succes,succes
+S3-045,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Douala ?,"Oui, voici la liste des établissements de microfinance situés à Douala :
+
+1. Caisse Coopérative d’Epargne et de Crédit pour les Initiatives Communes du Septentrion (CECICS) - Carrefour Yelwa, B.P 859 Garoua
+2. Caisse de Développement d'Epargne et de Crédit d'Afrique (CDECA)
+3. CREDIT SOLIDAIRE D’AFRIQUE (CRESAF) SA Douala - DG : YOUMBI SIELATCHEU Valentin","D'après les informations fournies, voici les établissements de microfinance situés à Douala :
+
+1. Coopérative d'Epargne et de Crédit Garantie Mutuelle pour l’Investissement (CEGAMI)
+2. Mutuelle Communautaire de Croissance DE YABASSI (MC² de YABASSI)
+3. Société Coopérative d’Assistance de Prévoyance d’Epargne et de Crédit du Cameroun (SOCAPEC)
+
+Ces établissements sont mentionnés dans l'annexe du document ""ANALYSE SECTORIELLE : LA BANQUE ET LA MICROFINANCE EN ZONE CEMAC"" avec les informations suivantes :
+
+- N° Dénomination Localisation Dirigeants Agrément Numéro d’immatriculation au CNC
+- PCA (Président de la Commission Administrative) - DG (Directeur Général) - CAC (Cabinet du Directeur Général)
+
+Il est important de noter que ces informations sont contenues dans un document spécifique et ne constituent pas une source universelle d'information.",12,12,0.1152,112.34,210.47,succes,succes
+S3-046,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Bafoussam ?,"Je ne dispose pas d'informations spécifiques sur les établissements de microfinance situés à Bafoussam. Cependant, je peux vous fournir des informations génériques en fonction du contexte fourni.
+
+Selon le contexte, il est mentionné que deux établissements de microfinance sont affiliés au réseau MUFFA-BAFOUSSAM :
+
+1. Femmes Africaines de BAFOUSSAM (MUFFA-BAFOUSSAM) 
+Affilié réseau MUFFA-CAM
+2. Cooperative Credit Union (BATOCCUL)
+
+Il est également mentionné que deux autres établissements de microfinance sont situés à Dschang :
+
+1. Caisse Populaire Coopérative de l’Université de Dschang (SCECUDS)
+2. Caisse Populaire Coopérative de BAMOUGOUUM","Oui, selon la documentation fournie, il y a au moins une établissement de microfinance situé à Bafoussam :
+
+* MUFID DE BAFOUSSAM 
+Rural 
+Bafoussam Rural 
+BP : 1399 
+Bafoussam 
+PCA : TAKOUO TAGHEU Calvin J 
+DG : NAMDA MPAMPI Salomee  
+DGA: KUE WEMBE Sebastien 
+CAC : NOUBISSI Pierre Collins 
+000376/MINFI du 
+22/04/2020 EMF/2011/0147",12,12,0.1302,123.73,177.88,succes,succes
+S3-049,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Maroua ?,"D'après le contexte fourni, je peux vous lister les établissements de microfinance situés à Maroua :
+
+1. CREDIT DU SAHEL S.A (CDS)
+ * Adresse : Quartier FOUNANGUE, B.P 720
+2. Fonds de Financement du Développement Social (FOFIDES) Ex-Fonds Provincial de Refinancement (FPR)
+ * Adresse : Permanence Parti, B.P 806 Maroua
+3. Société Coopérative Régionale des CVECA et CECA de l’Extrême-Nord (RESEAU UNION DES CVECA ET CECA DU CAMEROUN)
+ * Adresse : Maroua
+4. MUFID DE MOKOLO
+ * Adresse : Marché MOKOLO, B.P 220","D'après les informations disponibles, je peux vous lister les établissements de microfinance situés à Maroua :
+
+1. 75 CREDIT DU SAHEL S.A (CDS) - Quartier Founangue, B.P 720 Mra
+2. Société Coopérative Régionale des CVECA et CECA de l’Extrême-Nord - Maroua 
+    PCA : MASSING IENBA 
+    DG : NGOUYAMSA DAIROU 
+    DGA : OUDJABISSA AGONOKO Theodore",12,12,0.1336,110.67,164.64,succes,succes
+S3-058,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Kumba ?,"Oui, voici les établissements de microfinance situés à Kumba mentionnés dans le contexte :
+
+1. Kumba Central Savings and Loans Cooperative Society (KUCCUL)
+2. Kumba Town Savings and Loans Cooperative Society (KTCCU LTD)
+3. PWD MAMFE Cooperative (PWDMCCUL)","D'après le contexte fourni, je peux vous lister les établissements de microfinance situés à Kumba :
+
+1. Credit Union LTD (KUCCUL) - Treasury street Buea, road KUMBA
+2. KUMBA Town Savings and Loans Cooperative Society - B.P 334 KUMBA
+3. SONEL Workers Cooperative Credit Union (SOWOCCUL) - Down Beach, B.P 28 LIMBE
+
+Il convient de noter que ces informations ne sont pas exhaustives et que d'autres établissements de microfinance peuvent également être présents à Kumba.",12,12,0.1226,94.95,144.47,succes,succes

@@ -1,0 +1,276 @@
+id,categorie,question
+S3-001,geo_tabulaire,Quelles sont les microfinances presentes a Yaounde ?
+S3-002,geo_tabulaire,Quelles sont les microfinances presentes a Douala ?
+S3-003,geo_tabulaire,Quelles sont les microfinances presentes a Bafoussam ?
+S3-004,geo_tabulaire,Quelles sont les microfinances presentes a Bamenda ?
+S3-005,geo_tabulaire,Quelles sont les microfinances presentes a Garoua ?
+S3-006,geo_tabulaire,Quelles sont les microfinances presentes a Maroua ?
+S3-007,geo_tabulaire,Quelles sont les microfinances presentes a Ngaoundere ?
+S3-008,geo_tabulaire,Quelles sont les microfinances presentes a Bertoua ?
+S3-009,geo_tabulaire,Quelles sont les microfinances presentes a Ebolowa ?
+S3-010,geo_tabulaire,Quelles sont les microfinances presentes a Buea ?
+S3-011,geo_tabulaire,Quelles sont les microfinances presentes a Limbe ?
+S3-012,geo_tabulaire,Quelles sont les microfinances presentes a Kribi ?
+S3-013,geo_tabulaire,Quelles sont les microfinances presentes a Edea ?
+S3-014,geo_tabulaire,Quelles sont les microfinances presentes a Dschang ?
+S3-015,geo_tabulaire,Quelles sont les microfinances presentes a Kumba ?
+S3-016,geo_tabulaire,Quelles sont les microfinances presentes a Nkongsamba ?
+S3-017,geo_tabulaire,Quelles sont les microfinances presentes a Sangmelima ?
+S3-018,geo_tabulaire,Quelles sont les microfinances presentes a Bafia ?
+S3-019,geo_tabulaire,Quelles sont les microfinances presentes a Mbalmayo ?
+S3-020,geo_tabulaire,Quelles sont les microfinances presentes a Guider ?
+S3-021,geo_tabulaire,Quelles sont les microfinances presentes a Mokolo ?
+S3-022,geo_tabulaire,Quelles sont les microfinances presentes a Mora ?
+S3-023,geo_tabulaire,Quelles sont les microfinances presentes a Tibati ?
+S3-024,geo_tabulaire,Quelles sont les microfinances presentes a Mbouda ?
+S3-025,geo_tabulaire,Quelles sont les microfinances presentes a Bandjoun ?
+S3-026,geo_tabulaire,Quelles sont les microfinances presentes a Bafang ?
+S3-027,geo_tabulaire,Quelles sont les microfinances presentes a Fundong ?
+S3-028,geo_tabulaire,Quelles sont les microfinances presentes a Wum ?
+S3-029,geo_tabulaire,Quelles sont les microfinances presentes a Bali ?
+S3-030,geo_tabulaire,Quelles sont les microfinances presentes a Batouri ?
+S3-031,geo_tabulaire,Quelles sont les microfinances presentes a Obala ?
+S3-032,geo_tabulaire,Quelles sont les microfinances presentes a Loum ?
+S3-033,geo_tabulaire,Quelles sont les microfinances presentes a Manjo ?
+S3-034,geo_tabulaire,Quelles sont les microfinances presentes a Melong ?
+S3-035,geo_tabulaire,Quelles sont les microfinances presentes a Penja ?
+S3-036,geo_tabulaire,Quelles sont les microfinances presentes a Tiko ?
+S3-037,geo_tabulaire,Quelles sont les microfinances presentes a Muyuka ?
+S3-038,geo_tabulaire,Quelles sont les microfinances presentes a Mamfe ?
+S3-039,geo_tabulaire,Quelles sont les microfinances presentes a Ndop ?
+S3-040,geo_tabulaire,Quelles sont les microfinances presentes a Nkambe ?
+S3-041,geo_tabulaire,Quelles sont les microfinances presentes a Mindif ?
+S3-042,geo_tabulaire,Quelles sont les microfinances presentes a Gazawa ?
+S3-043,geo_tabulaire,Quelles sont les microfinances presentes a Founangue ?
+S3-044,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Yaounde ?
+S3-045,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Douala ?
+S3-046,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Bafoussam ?
+S3-047,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Bamenda ?
+S3-048,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Garoua ?
+S3-049,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Maroua ?
+S3-050,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Ngaoundere ?
+S3-051,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Bertoua ?
+S3-052,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Ebolowa ?
+S3-053,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Buea ?
+S3-054,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Limbe ?
+S3-055,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Kribi ?
+S3-056,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Edea ?
+S3-057,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Dschang ?
+S3-058,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Kumba ?
+S3-059,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Nkongsamba ?
+S3-060,geo_tabulaire,Peux-tu me lister les etablissements de microfinance situes a Sangmelima ?
+S3-061,scenario,"Si j'habite a Yaounde, vers quel type d'etablissement de microfinance devrais-je me tourner ?"
+S3-062,scenario,"Si j'habite a Douala, vers quel type d'etablissement de microfinance devrais-je me tourner ?"
+S3-063,scenario,"Si j'habite a Bafoussam, vers quel type d'etablissement de microfinance devrais-je me tourner ?"
+S3-064,scenario,"Si j'habite a Bamenda, vers quel type d'etablissement de microfinance devrais-je me tourner ?"
+S3-065,scenario,"Si j'habite a Garoua, vers quel type d'etablissement de microfinance devrais-je me tourner ?"
+S3-066,scenario,"Si j'habite a Maroua, vers quel type d'etablissement de microfinance devrais-je me tourner ?"
+S3-067,scenario,"Si j'habite a Ngaoundere, vers quel type d'etablissement de microfinance devrais-je me tourner ?"
+S3-068,scenario,"Si j'habite a Bertoua, vers quel type d'etablissement de microfinance devrais-je me tourner ?"
+S3-069,scenario,"Si j'habite a Ebolowa, vers quel type d'etablissement de microfinance devrais-je me tourner ?"
+S3-070,scenario,"Si j'habite a Buea, vers quel type d'etablissement de microfinance devrais-je me tourner ?"
+S3-071,scenario,"Si j'habite a Limbe, vers quel type d'etablissement de microfinance devrais-je me tourner ?"
+S3-072,scenario,"Si j'habite a Kribi, vers quel type d'etablissement de microfinance devrais-je me tourner ?"
+S3-073,scenario,"Si j'habite a Edea, vers quel type d'etablissement de microfinance devrais-je me tourner ?"
+S3-074,scenario,"Si j'habite a Dschang, vers quel type d'etablissement de microfinance devrais-je me tourner ?"
+S3-075,scenario,"Si j'habite a Kumba, vers quel type d'etablissement de microfinance devrais-je me tourner ?"
+S3-076,scenario,"Si j'habite a Nkongsamba, vers quel type d'etablissement de microfinance devrais-je me tourner ?"
+S3-077,scenario,"Si j'habite a Sangmelima, vers quel type d'etablissement de microfinance devrais-je me tourner ?"
+S3-078,scenario,"Si j'habite a Bafia, vers quel type d'etablissement de microfinance devrais-je me tourner ?"
+S3-079,scenario,"Si j'habite a Mbalmayo, vers quel type d'etablissement de microfinance devrais-je me tourner ?"
+S3-080,scenario,"Si j'habite a Guider, vers quel type d'etablissement de microfinance devrais-je me tourner ?"
+S3-081,scenario,"Si j'habite a Mokolo, vers quel type d'etablissement de microfinance devrais-je me tourner ?"
+S3-082,scenario,"Si j'habite a Mora, vers quel type d'etablissement de microfinance devrais-je me tourner ?"
+S3-083,scenario,"Si j'habite a Tibati, vers quel type d'etablissement de microfinance devrais-je me tourner ?"
+S3-084,scenario,"Si j'habite a Mbouda, vers quel type d'etablissement de microfinance devrais-je me tourner ?"
+S3-085,scenario,"Si j'habite a Bandjoun, vers quel type d'etablissement de microfinance devrais-je me tourner ?"
+S3-086,scenario,"Si j'habite a Bafang, vers quel type d'etablissement de microfinance devrais-je me tourner ?"
+S3-087,scenario,"Si j'habite a Fundong, vers quel type d'etablissement de microfinance devrais-je me tourner ?"
+S3-088,scenario,"Si j'habite a Wum, vers quel type d'etablissement de microfinance devrais-je me tourner ?"
+S3-089,scenario,"Si j'habite a Bali, vers quel type d'etablissement de microfinance devrais-je me tourner ?"
+S3-090,scenario,"Si j'habite a Batouri, vers quel type d'etablissement de microfinance devrais-je me tourner ?"
+S3-091,scenario,"Si j'habite a Obala, vers quel type d'etablissement de microfinance devrais-je me tourner ?"
+S3-092,scenario,"Si j'habite a Loum, vers quel type d'etablissement de microfinance devrais-je me tourner ?"
+S3-093,scenario,"Si j'habite a Manjo, vers quel type d'etablissement de microfinance devrais-je me tourner ?"
+S3-094,scenario,"Si j'habite a Melong, vers quel type d'etablissement de microfinance devrais-je me tourner ?"
+S3-095,scenario,"Si j'habite a Penja, vers quel type d'etablissement de microfinance devrais-je me tourner ?"
+S3-096,scenario,"Si j'habite a Tiko, vers quel type d'etablissement de microfinance devrais-je me tourner ?"
+S3-097,scenario,"Si j'habite a Muyuka, vers quel type d'etablissement de microfinance devrais-je me tourner ?"
+S3-098,scenario,"Si j'habite a Mamfe, vers quel type d'etablissement de microfinance devrais-je me tourner ?"
+S3-099,scenario,"Si j'habite a Ndop, vers quel type d'etablissement de microfinance devrais-je me tourner ?"
+S3-100,scenario,"Si j'habite a Nkambe, vers quel type d'etablissement de microfinance devrais-je me tourner ?"
+S3-101,scenario,"Si j'habite a Mindif, vers quel type d'etablissement de microfinance devrais-je me tourner ?"
+S3-102,scenario,"Si j'habite a Gazawa, vers quel type d'etablissement de microfinance devrais-je me tourner ?"
+S3-103,scenario,"Si j'habite a Founangue, vers quel type d'etablissement de microfinance devrais-je me tourner ?"
+S3-104,scenario,Recommande-moi une cooperative d'epargne adaptee si je suis base a Yaounde.
+S3-105,scenario,Recommande-moi une cooperative d'epargne adaptee si je suis base a Douala.
+S3-106,scenario,Recommande-moi une cooperative d'epargne adaptee si je suis base a Bafoussam.
+S3-107,scenario,Recommande-moi une cooperative d'epargne adaptee si je suis base a Bamenda.
+S3-108,scenario,Recommande-moi une cooperative d'epargne adaptee si je suis base a Garoua.
+S3-109,scenario,Recommande-moi une cooperative d'epargne adaptee si je suis base a Maroua.
+S3-110,scenario,Recommande-moi une cooperative d'epargne adaptee si je suis base a Ngaoundere.
+S3-111,scenario,Recommande-moi une cooperative d'epargne adaptee si je suis base a Bertoua.
+S3-112,scenario,Recommande-moi une cooperative d'epargne adaptee si je suis base a Ebolowa.
+S3-113,scenario,Recommande-moi une cooperative d'epargne adaptee si je suis base a Buea.
+S3-114,scenario,Recommande-moi une cooperative d'epargne adaptee si je suis base a Limbe.
+S3-115,scenario,Recommande-moi une cooperative d'epargne adaptee si je suis base a Kribi.
+S3-116,scenario,Recommande-moi une cooperative d'epargne adaptee si je suis base a Edea.
+S3-117,scenario,Recommande-moi une cooperative d'epargne adaptee si je suis base a Dschang.
+S3-118,scenario,Recommande-moi une cooperative d'epargne adaptee si je suis base a Kumba.
+S3-119,reglementation,Quel organisme delivre l'agrement des etablissements de microfinance en zone CEMAC ?
+S3-120,reglementation,Quelles sont les obligations comptables d'un etablissement de microfinance ?
+S3-121,reglementation,Que signifie le sigle COBAC ?
+S3-122,reglementation,Que signifie le sigle CEMAC ?
+S3-123,reglementation,Que signifie le sigle UMAC ?
+S3-124,reglementation,Un etablissement de microfinance peut-il collecter l'epargne du grand public ?
+S3-125,reglementation,Quelles sanctions la COBAC peut-elle appliquer a un EMF en infraction ?
+S3-126,reglementation,Quelle est la difference entre un EMF et une banque commerciale ?
+S3-127,reglementation,Un EMF de premiere categorie peut-il servir des clients non-membres ?
+S3-128,reglementation,Quel est le role du Conseil National du Credit (CNC) ?
+S3-129,reglementation,Qu'est-ce qu'un numero d'immatriculation au CNC ?
+S3-130,reglementation,Quelles informations doit contenir une demande d'agrement EMF ?
+S3-131,reglementation,Comment un EMF change-t-il de categorie ?
+S3-132,reglementation,Quelles sont les regles de gouvernance imposees aux dirigeants d'un EMF ?
+S3-133,reglementation,Quel est le capital minimum pour un EMF de troisieme categorie ?
+S3-134,reglementation,Quel est le capital minimum pour un EMF de deuxieme categorie ?
+S3-135,reglementation,La COBAC supervise-t-elle aussi les banques commerciales ?
+S3-136,reglementation,Qu'est-ce que le fonds de garantie des EMF ?
+S3-137,reglementation,Quels documents un EMF doit-il transmettre a la COBAC chaque annee ?
+S3-138,reglementation,Un EMF peut-il operer dans plusieurs pays de la zone CEMAC ?
+S3-139,reglementation,Quel texte reglemente actuellement la microfinance en zone CEMAC ?
+S3-140,reglementation,Qui compose le conseil d'administration d'un EMF de premiere categorie ?
+S3-141,reglementation,Quelles sont les regles de ratio prudentiel imposees a un EMF ?
+S3-142,reglementation,Un EMF doit-il publier ses comptes annuels ?
+S3-143,reglementation,Quel est le role du commissaire aux comptes (CAC) dans un EMF ?
+S3-144,reglementation,Comment la COBAC controle-t-elle les EMF sur le terrain ?
+S3-145,reglementation,Un EMF peut-il faire faillite ? Que se passe-t-il alors ?
+S3-146,reglementation,Quelles obligations de transparence un EMF a-t-il envers ses membres ?
+S3-147,reglementation,Existe-t-il une assurance-depot pour les clients des EMF ?
+S3-148,reglementation,Quel est le processus de retrait d'agrement d'un EMF ?
+S3-149,reglementation,Un dirigeant d'EMF peut-il cumuler plusieurs mandats ?
+S3-150,reglementation,Comment se fait le controle interne dans un EMF ?
+S3-151,reglementation,Quelles regles s'appliquent aux operations de credit entre EMF ?
+S3-152,reglementation,Un EMF peut-il fusionner avec un autre EMF ?
+S3-153,reglementation,Quel role joue le ministere des Finances dans la supervision des EMF ?
+S3-154,reglementation,Comment un client peut-il porter plainte contre un EMF ?
+S3-155,reglementation,Quels criteres definissent la solvabilite d'un EMF ?
+S3-156,reglementation,Existe-t-il un delai de traitement standard pour une demande d'agrement ?
+S3-157,reglementation,Quelles obligations de formation existent pour les dirigeants d'EMF ?
+S3-158,reglementation,Un EMF etranger peut-il s'implanter au Cameroun sans agrement local ?
+S3-159,definitions,Explique-moi simplement ce qu'est la microfinance.
+S3-160,definitions,A quoi sert le microcredit concretement ?
+S3-161,definitions,Comment fonctionne une tontine traditionnelle ?
+S3-162,definitions,Quelle est la difference entre microcredit et credit bancaire classique ?
+S3-163,definitions,Pourquoi la microfinance existe-t-elle ?
+S3-164,definitions,Qui sont les beneficiaires typiques de la microfinance ?
+S3-165,definitions,Quels sont les risques de la microfinance pour les emprunteurs ?
+S3-166,definitions,La microfinance reduit-elle vraiment la pauvrete ?
+S3-167,definitions,Quels services propose typiquement un EMF a ses clients ?
+S3-168,definitions,Quelle est l'origine historique du microcredit ?
+S3-169,definitions,Quels sont les avantages d'une tontine par rapport a une banque ?
+S3-170,definitions,Comment une association collective d'epargne fonctionne-t-elle ?
+S3-171,definitions,Quels sont les acteurs principaux du secteur de la microfinance en zone CEMAC ?
+S3-172,definitions,Quelle est la place des femmes dans les programmes de microfinance ?
+S3-173,definitions,Quels sont les criteres pour qu'un EMF soit considere solide financierement ?
+S3-174,definitions,Qu'est-ce que la finance solidaire concretement ?
+S3-175,definitions,Quelle est la difference entre finance solidaire et microfinance ?
+S3-176,definitions,Comment fonctionne le systeme bancaire classique en comparaison d'un EMF ?
+S3-177,definitions,Qu'est-ce qu'un club d'investisseurs solidaires ?
+S3-178,definitions,Quels sont les debats autour de la delimitation du microcredit ?
+S3-179,definitions,Le microcredit doit-il cibler en priorite les plus pauvres ?
+S3-180,definitions,Quels scandales ont deja touche le secteur de la microfinance ?
+S3-181,definitions,Comment le CGAP definit-il la bonne utilisation de l'argent des donateurs ?
+S3-182,definitions,Quels sont les criteres d'exploitation abusive des beneficiaires d'IMF ?
+S3-183,definitions,Quelle est l'evolution recente du cadre juridique de la microfinance en CEMAC ?
+S3-184,definitions,Qu'est-ce qu'une societe de capital-risque solidaire ?
+S3-185,definitions,Quels types de clubs d'investisseurs existent en finance solidaire ?
+S3-186,definitions,Le microcredit favorise-t-il vraiment l'inclusion bancaire ?
+S3-187,definitions,Quelles sont les limites du microcredit pour les plus pauvres ?
+S3-188,definitions,Comment mesure-t-on l'efficacite technique d'une institution financiere ?
+S3-189,institutions,Qu'est-ce que la Cooperative d'Epargne et de Credit et d'Investissement Agricole du Cameroun ?
+S3-190,institutions,Qu'est-ce que la Societe Cooperative d'Epargne et de Credit SOCEC ?
+S3-191,institutions,Qu'est-ce que le CAPFINANCE ?
+S3-192,institutions,Qu'est-ce que le reseau People Finance ?
+S3-193,institutions,Qu'est-ce que le Credit du Sahel S.A ?
+S3-194,institutions,Qu'est-ce que la Cooperative Siloe Epargne Financiere au Cameroun ?
+S3-195,institutions,Qu'est-ce que l'African Development Credit (ADEC) ?
+S3-196,institutions,Qu'est-ce que la Mutuelle Camerounaise d'Epargne et Credit MUCADEC ?
+S3-197,institutions,Qu'est-ce que la Mutuelle Financiere des Femmes Dynamiques du Cameroun ?
+S3-198,institutions,Qu'est-ce que les Caisses d'Epargne Populaire et d'Investissement SA ?
+S3-199,institutions,Qu'est-ce que First Trust Savings and Loans ?
+S3-200,institutions,Qu'est-ce que la Caisse de Developpement d'Epargne et de Credit d'Afrique ?
+S3-201,chiffres,Quel est le montant total des depots collectes par les EMF en zone CEMAC en 2023 ?
+S3-202,chiffres,Quel est le montant de l'encours des credits accordes par les EMF en zone CEMAC en 2023 ?
+S3-203,chiffres,Combien y a-t-il d'EMF de deuxieme categorie en zone CEMAC ?
+S3-204,chiffres,Combien y a-t-il d'EMF de troisieme categorie en zone CEMAC ?
+S3-205,chiffres,Quel est le ratio credit/depots dans le secteur de la microfinance CEMAC ?
+S3-206,chiffres,Combien d'etablissements de microfinance existent en Guinee Equatoriale ?
+S3-207,chiffres,Quelle proportion des EMF sont des reseaux plutot que des etablissements independants ?
+S3-208,chiffres,Combien d'EMF au total etaient agrees et en activite en zone CEMAC recemment ?
+S3-209,chiffres,Quel pourcentage des EMF de la zone CEMAC sont bases au Cameroun ?
+S3-210,chiffres,Quelle est l'evolution du nombre d'EMF entre 2010 et 2010 en Guinee Equatoriale ?
+S3-211,chiffres,Quel est le nombre moyen de clients par EMF de premiere categorie ?
+S3-212,chiffres,Quel pourcentage des depots CEMAC est concentre sur les EMF de deuxieme categorie ?
+S3-213,chiffres,Combien de reseaux d'EMF existent en zone CEMAC ?
+S3-214,chiffres,Quel est le taux de croissance annuel du secteur de la microfinance CEMAC ?
+S3-215,chiffres,Quelle est la part de marche des trois plus grands reseaux d'EMF au Cameroun ?
+S3-216,ambigue,Et pour les femmes ?
+S3-217,ambigue,C'est risque ou pas ?
+S3-218,ambigue,Ca marche comment exactement ?
+S3-219,ambigue,Est-ce que c'est fiable ?
+S3-220,ambigue,Combien ca coute ?
+S3-221,ambigue,Qui peut en beneficier ?
+S3-222,ambigue,C'est mieux qu'une banque ?
+S3-223,ambigue,Depuis quand ca existe ?
+S3-224,ambigue,Est-ce accessible a tout le monde ?
+S3-225,ambigue,Quels sont les inconvenients ?
+S3-226,ambigue,Et si je n'ai pas de garantie ?
+S3-227,ambigue,C'est long comme demarche ?
+S3-228,ambigue,Ca vaut le coup ?
+S3-229,ambigue,Et pour les jeunes entrepreneurs ?
+S3-230,ambigue,Qu'est-ce qui change par rapport a avant ?
+S3-231,ambigue,C'est pareil partout ?
+S3-232,ambigue,Et en cas de probleme ?
+S3-233,ambigue,Ca depend de quoi ?
+S3-234,ambigue,Il y a des conditions particulieres ?
+S3-235,ambigue,"Et concretement, ca donne quoi ?"
+S3-236,hors_perimetre,Quelle heure est-il a Yaounde en ce moment ?
+S3-237,hors_perimetre,Peux-tu me donner une recette de ndole ?
+S3-238,hors_perimetre,Qui a gagne la derniere Coupe d'Afrique des Nations ?
+S3-239,hors_perimetre,Peux-tu traduire 'microfinance' en anglais ?
+S3-240,hors_perimetre,Quel est le taux de change actuel FCFA/Euro ?
+S3-241,hors_perimetre,Peux-tu m'aider a rediger un CV ?
+S3-242,hors_perimetre,Quelle est la capitale de la France ?
+S3-243,hors_perimetre,Combien font 15 fois 24 ?
+S3-244,hors_perimetre,Peux-tu me raconter une blague ?
+S3-245,hors_perimetre,Quel est le prix moyen d'un billet d'avion Douala-Paris ?
+S3-246,hors_perimetre,Quelle est la population totale du Cameroun ?
+S3-247,hors_perimetre,Peux-tu me donner la meteo de la semaine a Douala ?
+S3-248,hors_perimetre,Quel est le meilleur restaurant de Yaounde ?
+S3-249,hors_perimetre,Comment configurer une adresse email professionnelle ?
+S3-250,hors_perimetre,Quel est le classement FIFA actuel du Cameroun ?
+S3-251,hors_perimetre,Peux-tu m'expliquer la theorie de la relativite ?
+S3-252,hors_perimetre,Quelles sont les meilleures universites du Cameroun ?
+S3-253,hors_perimetre,Comment planter du manioc ?
+S3-254,hors_perimetre,Quel est le prix d'un sac de ciment a Douala ?
+S3-255,hors_perimetre,Peux-tu me conseiller un livre sur l'histoire du Cameroun ?
+S3-256,comparaison,Quelle est la difference entre un EMF de premiere et de troisieme categorie ?
+S3-257,comparaison,En quoi une tontine differe-t-elle d'un EMF de premiere categorie ?
+S3-258,comparaison,Compare le role de la COBAC a celui d'une banque centrale nationale.
+S3-259,comparaison,Quelle est la difference entre le microcredit et le pret bancaire classique ?
+S3-260,comparaison,En quoi CamCCUL et MC2 se ressemblent-ils ou different-ils ?
+S3-261,comparaison,Compare les reseaux MUFID et CVECA/CECA.
+S3-262,comparaison,Quelle est la difference entre une cooperative et une societe anonyme dans le secteur EMF ?
+S3-263,comparaison,En quoi la finance solidaire differe-t-elle de la microfinance classique ?
+S3-264,comparaison,Compare les obligations reglementaires d'un EMF de deuxieme et troisieme categorie.
+S3-265,comparaison,Quelle est la difference entre un reseau d'EMF et un EMF independant ?
+S3-266,comparaison,En quoi le systeme bancaire CEMAC differe-t-il du systeme bancaire francais ?
+S3-267,comparaison,Compare l'agrement d'un EMF a celui d'une banque commerciale.
+S3-268,comparaison,Quelle est la difference entre Context Precision et Context Recall en evaluation RAG ?
+S3-269,comparaison,En quoi un EMF urbain differe-t-il d'un EMF rural en zone CEMAC ?
+S3-270,comparaison,Compare les avantages et inconvenients du microcredit par rapport a la tontine.
+S3-271,comparaison,Quelle est la difference entre un depot a vue et un depot d'epargne dans un EMF ?
+S3-272,comparaison,En quoi les regles prudentielles CEMAC different-elles selon la categorie d'EMF ?
+S3-273,comparaison,Compare la gouvernance d'un EMF mutualiste et d'un EMF societe anonyme.
+S3-274,comparaison,Quelle est la difference entre le Cameroun et la Guinee Equatoriale en nombre d'EMF ?
+S3-275,comparaison,Compare le role du CNC a celui de la COBAC.

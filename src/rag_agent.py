@@ -17,6 +17,8 @@ Prérequis :
 """
 
 import csv
+import importlib
+import importlib.util
 import os
 import time
 import unicodedata
@@ -32,13 +34,17 @@ from langchain_community.vectorstores import FAISS
 from langchain_community.llms import Ollama
 from langchain_community.retrievers import BM25Retriever
 
-# L'emplacement d'EnsembleRetriever varie selon la version de LangChain
-# installee (package "langchain" historique vs nouveau package
-# "langchain_classic"). On essaie les deux pour rester robuste.
-try:
-    from langchain.retrievers import EnsembleRetriever
-except ImportError:
-    from langchain_classic.retrievers import EnsembleRetriever
+
+def load_ensemble_retriever_class():
+    for module_name in ("langchain.retrievers", "langchain_classic.retrievers"):
+        if importlib.util.find_spec(module_name) is not None:
+            module = importlib.import_module(module_name)
+            return module.EnsembleRetriever
+    raise ImportError(
+        "Aucun module EnsembleRetriever trouvé : installez langchain ou langchain_classic."
+    )
+
+EnsembleRetriever = load_ensemble_retriever_class()
 
 INDEX_DIR = Path("data/processed/faiss_index")
 LOG_FILE = Path("data/processed/interactions_log.csv")
@@ -163,24 +169,67 @@ def load_retriever():
     ), vectorstore
 
 
+COLONNES_LOG_ATTENDUES = [
+    "timestamp",
+    "question",
+    "reponse",
+    "nb_documents_recuperes",
+    "score_similarite",
+    "extrait_contexte",
+    "temps_reponse_secondes",
+    "statut",
+]
+
+
 def init_log_file():
-    """Crée le fichier de log avec ses en-têtes s'il n'existe pas encore."""
+    """Crée le fichier de log s'il n'existe pas, ou MIGRE automatiquement
+    son en-tête s'il existe deja avec un ancien schema (moins de colonnes).
+
+    Bug reel corrige ici : ce fichier a ete cree avant l'ajout de la
+    colonne score_similarite au pipeline. Comme cette fonction n'ecrivait
+    l'en-tete QUE si le fichier n'existait pas encore, les nouvelles
+    lignes (8 champs) se sont ajoutees sous un en-tete qui n'en declarait
+    que 7, desalignant tout le fichier. Desormais, si un en-tete existant
+    est plus court que le schema attendu, TOUTES les lignes existantes
+    sont migrees automatiquement (insertion d'une valeur vide pour la
+    colonne manquante) avant que la moindre nouvelle ligne ne soit
+    ajoutee — ce probleme ne peut plus se reproduire silencieusement.
+    """
     LOG_FILE.parent.mkdir(parents=True, exist_ok=True)
+
     if not LOG_FILE.exists():
         with open(LOG_FILE, "w", newline="", encoding="utf-8") as f:
-            writer = csv.writer(f)
-            writer.writerow(
-                [
-                    "timestamp",
-                    "question",
-                    "reponse",
-                    "nb_documents_recuperes",
-                    "score_similarite",
-                    "extrait_contexte",
-                    "temps_reponse_secondes",
-                    "statut",
-                ]
-            )
+            csv.writer(f).writerow(COLONNES_LOG_ATTENDUES)
+        return
+
+    with open(LOG_FILE, newline="", encoding="utf-8") as f:
+        lecteur = csv.reader(f)
+        entete_actuel = next(lecteur, [])
+        if entete_actuel == COLONNES_LOG_ATTENDUES:
+            return  # deja a jour, rien a faire
+
+        print(f"/!\\ En-tete du journal obsolete detecte ({len(entete_actuel)} colonnes "
+              f"au lieu de {len(COLONNES_LOG_ATTENDUES)}). Migration automatique en cours...")
+        toutes_les_lignes = list(lecteur)
+
+    colonnes_manquantes = len(COLONNES_LOG_ATTENDUES) - len(entete_actuel)
+    lignes_migrees = []
+    for ligne in toutes_les_lignes:
+        if len(ligne) == len(entete_actuel) and colonnes_manquantes > 0:
+            # Insere les colonnes manquantes juste avant "extrait_contexte"
+            # (position 4 dans le schema actuel), sans rien inventer.
+            ligne_migree = ligne[:4] + [""] * colonnes_manquantes + ligne[4:]
+            lignes_migrees.append(ligne_migree)
+        else:
+            lignes_migrees.append(ligne)  # deja au bon format ou anomalie a part
+
+    with open(LOG_FILE, "w", newline="", encoding="utf-8") as f:
+        ecrivain = csv.writer(f)
+        ecrivain.writerow(COLONNES_LOG_ATTENDUES)
+        ecrivain.writerows(lignes_migrees)
+
+    print(f"Migration terminee : {len(lignes_migrees)} ligne(s) mise(s) a jour "
+          f"vers le nouveau schema.")
 
 
 def log_interaction(question, reponse, nb_docs, score_similarite, extrait_contexte, temps_reponse, statut):
@@ -245,7 +294,15 @@ def ask(question: str, retriever, llm, vectorstore) -> dict:
 
     temps_reponse = time.time() - start
 
-    log_interaction(question, reponse, len(docs), score_similarite, contexte, temps_reponse, statut)
+    # L'ecriture du journal est protegee separement : un probleme
+    # d'ecriture (fichier verrouille par un autre programme, permissions,
+    # synchronisation OneDrive en cours...) ne doit jamais faire perdre
+    # une reponse deja calculee par le LLM, potentiellement couteuse en
+    # temps. On avertit sans interrompre le programme.
+    try:
+        log_interaction(question, reponse, len(docs), score_similarite, contexte, temps_reponse, statut)
+    except Exception as e:
+        print(f"/!\\ Echec de l'ecriture dans le journal (reponse conservee malgre tout) : {e}")
 
     return {
         "question": question,

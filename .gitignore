@@ -1,5 +1,16 @@
 data/raw/*
 data/processed/*
+!data/processed/resultats_tests_S2.csv
+!data/processed/dataset_interactions_S3.csv
+!data/processed/dataset_final_nettoye.csv
+!data/processed/dataset_final_nettoye.json
+!data/processed/dataset_final_nettoye.sqlite
+!data/processed/dataset_brut_fusionne.csv
+!data/processed/corrections_confusion_villes.csv
+!data/processed/rapport_confusion_villes.csv
+!data/processed/interactions_log.csv
+!data/processed/interactions_log_avant_reparation.csv
+!data/processed/resume_par_categorie_S2.csv
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
