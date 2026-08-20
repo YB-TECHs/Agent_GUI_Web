@@ -2,7 +2,7 @@
   "question": "informations",
   "url": "https://www.facebook.com/yrbrtechs",
   "source": "selenium",
-  "timestamp": "2026-07-23T10:41:42.139265",
+  "timestamp": "2026-08-01T20:06:16.012232",
   "resultats": {
     "CONTACTS_EMAIL": [
       "ybtechs.io@gmail.com"
@@ -16,16 +16,15 @@
       "YB-TECHs",
       "Intro",
       "Photos",
-      "YB-TECHs"
+      "YB-TECHs",
+      "in Science"
     ],
     "INFORMATIONS": [
-      "eu Toujours ouvert Pas encore évalué (0 avis) ﻿ Photos Toutes les photos Confidentialité · Conditions générales · Publicités · Choix publicitaires · Cookies · Plus YB-TECHs 26 juin à 20:47 · Partagé avec : Public \"Work smarter, not harder",
-      "\"… En voir plus Toutes les réactions : 5 1 J’aime Commenter Découvrez plus de contenu de YB-TECHs | Yaoundé Découvrez plus de contenu de YB-TECHs | Yaoundé Adresse e-mail ou numéro de tél",
-      " Mot de passe Se connecter Mot de passe oublié ? ou Créer un nouveau compte Scannez le code QR et confirmez que les codes correspondent pour vous connecter"
+      " Mot de passe Se connecter Mot de passe oublié ? ou Créer un nouveau compte"
     ],
     "RESEAUX_SOCIAUX": {
-      "facebook": "https://web.facebook.com/recover/initiate?ars=royal_blue_bar",
-      "linkedin": "https://l.facebook.com/l.php?u=https%3A%2F%2Ffr.linkedin.com%2Fcompany%2Fybtechs&h=AUAnQfr-RtKfSfbN5tDLAJ45omU9RSrXH7xOCPjIPiw0uAcQ2vU9vI7T_1ugfCBnfISd3HnfPp72UC97sfqIlmwqRfiaiI5fMcHA2DVv54WWwdF24jzrTp5GUJxnDBk65tjqxs6DHiYbqsnLwC-MzA"
+      "facebook": "https://www.facebook.com/recover/initiate?ars=royal_blue_bar",
+      "linkedin": "https://l.facebook.com/l.php?u=https%3A%2F%2Ffr.linkedin.com%2Fcompany%2Fybtechs&h=AUCrn8JsTxT0m0z5ro7iDHG4ZRtPrw8oNFZqeU3amwYMPgkkFboqaXcgEI2YrLS9vRw50Hj9BeJF8q-RFFeOMs8m9pogMNeghqk08iZtpMX0VaX-RzV_mJC5eLyMdYqCETh5QtiCx33jljXL4JfNJkXnKq5afpZKljbqkg"
     }
   }
 }

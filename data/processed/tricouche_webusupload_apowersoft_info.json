@@ -1,0 +1,15 @@
+{
+  "question": "Le texte present",
+  "url": "https://webusupload.apowersoft.info/picwishcom/wp-content/uploads/2023/03/image-to-text.jpg",
+  "source": "omniparser",
+  "timestamp": "2026-07-31T18:40:56.855230",
+  "resultats": {
+    "CONTACTS_EMAIL": [],
+    "CONTACTS_TEL": [],
+    "LOCALISATION": [],
+    "IDENTITE": [],
+    "SERVICES_PRODUITS": [],
+    "RESEAUX_SOCIAUX": {},
+    "INFORMATIONS": []
+  }
+}

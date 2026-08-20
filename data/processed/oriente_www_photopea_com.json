@@ -1,0 +1,43 @@
+{
+  "question": "Quest sont les images qui figures sur ce site?",
+  "url": "https://www.photopea.com/",
+  "source": "selenium",
+  "timestamp": "2026-08-04T07:38:19.620501",
+  "resultats": {
+    "CONTACTS_EMAIL": [
+      "support@photopea.com"
+    ],
+    "CONTACTS_TEL": [],
+    "LOCALISATION": [],
+    "IDENTITE": [
+      "Free Online Photo Editor",
+      "Unlock your creativity with the best free photo editor.",
+      "Fully Local",
+      "Cost-Effective",
+      "Convenient Editor",
+      "Runs Everywhere",
+      "Professional Editor",
+      "Full PSD support"
+    ],
+    "INFORMATIONS": [
+      "Photopea | Online Photo Editor Photopea Learn Tutorials Templates API Free Online Photo Editor Unlock your creativity with the best free photo editor",
+      " Transform your photos with professional-grade tools in a free online photo editor that works right in your browser",
+      " Start using Photopea Fully Local There are no uploads",
+      " Photopea runs on your device, using your CPU and your GPU",
+      " All files open instantly, and never leave your device"
+    ],
+    "RESEAUX_SOCIAUX": {
+      "github": "//github.com/photopea/photopea?tab=readme-ov-file#supported-formats",
+      "facebook": "//facebook.com/photopea/"
+    }
+  },
+  "reponse_finale": "Les images sur ce site sont éditées avec Photopea qui offre un accès gratuit et des fonctionnalités professionnelles telles que le support complet pour les fichiers PSD (Photoshop Document). Il est disponible en ligne, nécessite aucun upload de données supplémentaire car il utilise directement la puissance du dispositif utilisateur.",
+  "erreur_llm": false,
+  "prediction_llm": {
+    "type_interface": "selenium",
+    "confiance": 0.0,
+    "justification": "LLM indisponible",
+    "prompt_extraction": ""
+  },
+  "concordance": true
+}

@@ -4,28 +4,25 @@ import logging
  
 logger = logging.getLogger(__name__)
  
- 
+
 def classifier_elements_ui(elements: list[dict]) -> dict:
-    """
-    Classe les éléments UI détectés par OmniParser
-    dans les 7 catégories du pipeline aveugle.
-    Args:
-        elements : liste retournée par analyser_screenshot()
-    Returns:
-        dict avec les 7 catégories
-    """
-    texte_complet = ' '.join([el['texte'] for el in elements])
- 
+    texte_complet = ' '.join(el['texte'] for el in elements if el['texte'])
+    boutons_menus = [el['texte'] for el in elements if el.get('interactif') and el['texte']][:8]
+    textes_libres = [el['texte'] for el in elements if not el.get('interactif') and el['texte']]
+
     resultats = {
-        'CONTACTS_EMAIL'   : list(set(re.findall(r'[\w.+-]+@[\w-]+\.[a-zA-Z]{2,}', texte_complet))),
-        'CONTACTS_TEL'     : list(set(re.findall(r'\+?\d[\d\s\-().]{7,15}\d', texte_complet)))[:5],
-        'LOCALISATION'     : _detecter_lieux(texte_complet),
-        'IDENTITE'         : _extraire_titres(elements),
-        'SERVICES_PRODUITS': _extraire_boutons_menus(elements),
-        'RESEAUX_SOCIAUX'  : _detecter_reseaux(texte_complet),
-        'INFORMATIONS'     : [el['texte'] for el in elements if 30 < len(el['texte']) < 200][:5],
+        'CONTACTS_EMAIL':
+            list(set(re.findall(r'[\w.+-]+@[\w-]+\.[a-zA-Z]{2,}', texte_complet))),
+        'CONTACTS_TEL':
+            [t for t in set(re.findall(r'\+?\d[\d\s\-().]{7,15}\d', texte_complet))
+             if 8 <= len(re.sub(r'\D', '', t)) <= 15][:5],
+        'LOCALISATION': _detecter_lieux(texte_complet),
+        'IDENTITE': [t for t in textes_libres if 3 < len(t) < 60][:8],
+        'SERVICES_PRODUITS': boutons_menus,
+        'RESEAUX_SOCIAUX': _detecter_reseaux(texte_complet),
+        'INFORMATIONS': [t for t in textes_libres if 30 < len(t) < 200][:5],
     }
-    logger.info(f'Classification UI : {sum(len(v) for v in resultats.values())} éléments classifiés')
+    logger.info(f'Classification UI : {sum(len(v) for v in resultats.values() if isinstance(v, list))} éléments classifiés')
     return resultats
  
  

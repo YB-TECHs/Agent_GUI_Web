@@ -9,21 +9,20 @@ TAILLE_MAX     = 20 * 1024 * 1024  # 20 Mo
  
  
 def valider_fichier(chemin: str) -> bool:
-    """
-    Valide un fichier image avant traitement OCR.
-    Lève ValueError si le fichier est invalide.
-    """
-    if not os.path.isfile(chemin):
-        raise FileNotFoundError(f'Fichier introuvable : {chemin}')
- 
+    # 1. Vérifier l'extension EN PREMIER (avant l'existence)
     ext = os.path.splitext(chemin)[1].lower()
     if ext not in EXTENSIONS_OK:
         raise ValueError(f'Extension non autorisée : {ext}. Autorisées : {EXTENSIONS_OK}')
- 
+
+    # 2. Vérifier ensuite que le fichier existe
+    if not os.path.isfile(chemin):
+        raise FileNotFoundError(f'Fichier introuvable : {chemin}')
+
+    # 3. Vérifier la taille
     taille = os.path.getsize(chemin)
     if taille > TAILLE_MAX:
         raise ValueError(f'Fichier trop volumineux : {taille} octets (max 20 Mo)')
- 
+
     logger.info(f'Fichier validé : {chemin} ({taille} octets)')
     return True
  

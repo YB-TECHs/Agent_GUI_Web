@@ -1,0 +1,36 @@
+{
+  "question": "Quel text y a-t-il ici?",
+  "url": "https://i.ytimg.com/vi/jYWvOetcdG0/hqdefault.jpg",
+  "source": "selenium",
+  "timestamp": "2026-08-20T05:30:34.651614",
+  "resultats": {
+    "CONTACTS_EMAIL": [],
+    "CONTACTS_TEL": [],
+    "LOCALISATION": [],
+    "IDENTITE": [],
+    "INFORMATIONS": [],
+    "RESEAUX_SOCIAUX": {},
+    "IMAGES_DETECTEES": [
+      {
+        "url_image": "https://i.ytimg.com/vi/jYWvOetcdG0/hqdefault.jpg",
+        "contenu": {
+          "IDENTITE": [
+            "[COMMENT",
+            "CONVERTIR",
+            "Un TEXTE",
+            "EN PAROLE'"
+          ]
+        }
+      }
+    ]
+  },
+  "reponse_finale": "Le texte trouvé est : [COMMENT, 'CONVERTIR', 'Un TEXTE', \"EN PAROLE'].",
+  "erreur_llm": false,
+  "prediction_llm": {
+    "type_interface": "selenium",
+    "confiance": 0.0,
+    "justification": "LLM indisponible",
+    "prompt_extraction": ""
+  },
+  "concordance": true
+}

@@ -1,0 +1,25 @@
+{
+  "question": "C'est quoi ce site?",
+  "url": "https://www.msn.com/en-xl?bundles=staging",
+  "source": "selenium",
+  "timestamp": "2026-08-11T10:02:06.355391",
+  "resultats": {
+    "CONTACTS_EMAIL": [],
+    "CONTACTS_TEL": [],
+    "LOCALISATION": [],
+    "IDENTITE": [],
+    "INFORMATIONS": [
+      "MSN | Personalized News, Top Headlines, Live Updates and more"
+    ],
+    "RESEAUX_SOCIAUX": {}
+  },
+  "reponse_finale": "Le site propose des actualités personnalisées basées sur MSN pour les nouvelles locales et internationales en temps réel avec live updates à partir d'une variété de sources médiatiques nationales françaises, telles que France Info TV. Il offre également une plateforme sociale où vous pouvez interagir directement sans informations supplémentaires sur des contacts ou services sociaux fournis dans les données extraites du site web spécifique",
+  "erreur_llm": false,
+  "prediction_llm": {
+    "type_interface": "selenium",
+    "confiance": 0.0,
+    "justification": "LLM indisponible",
+    "prompt_extraction": ""
+  },
+  "concordance": true
+}

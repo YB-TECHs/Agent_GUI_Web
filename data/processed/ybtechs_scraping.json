@@ -1,0 +1,62 @@
+[
+  {
+    "categorie":"QUESTION",
+    "cle":"valeur",
+    "valeur":"contacts",
+    "valeur_typee":"contacts"
+  },
+  {
+    "categorie":"URL",
+    "cle":"valeur",
+    "valeur":"https:\/\/yb-techs.eu\/",
+    "valeur_typee":"https:\/\/yb-techs.eu\/"
+  },
+  {
+    "categorie":"TIMESTAMP",
+    "cle":"valeur",
+    "valeur":"2026-08-01T20:23:52.851458",
+    "valeur_typee":"2026-08-01T20:23:52.851458"
+  },
+  {
+    "categorie":"RESULTATS",
+    "cle":"CONTACTS_EMAIL",
+    "valeur":"[]",
+    "valeur_typee":"[]"
+  },
+  {
+    "categorie":"RESULTATS",
+    "cle":"CONTACTS_TEL",
+    "valeur":"[]",
+    "valeur_typee":"[]"
+  },
+  {
+    "categorie":"RESULTATS",
+    "cle":"LOCALISATION",
+    "valeur":"[]",
+    "valeur_typee":"[]"
+  },
+  {
+    "categorie":"RESULTATS",
+    "cle":"IDENTITE",
+    "valeur":"[]",
+    "valeur_typee":"[]"
+  },
+  {
+    "categorie":"RESULTATS",
+    "cle":"INFORMATIONS",
+    "valeur":"['YB-Techs Accuell Services Expertise Contact About the CEO Transform your data into business opportunities with YB-TECHS [608 24 1 Dlscover Turning Data and Technology into Business Growth', ' Our consulting services include collecting, analyzing, and supporting structured models and decision-making processes using our outstanding solutions for recognition to form actionable insights']",
+    "valeur_typee":"['YB-Techs Accuell Services Expertise Contact About the CEO Transform your data into business opportunities with YB-TECHS [608 24 1 Dlscover Turning Data and Technology into Business Growth', ' Our consulting services include collecting, analyzing, and supporting structured models and decision-making processes using our outstanding solutions for recognition to form actionable insights']"
+  },
+  {
+    "categorie":"REPONSE_FINALE",
+    "cle":"valeur",
+    "valeur":"Pour en savoir plus sur les contacts de YB-Techs et pour discuter des opportunités avec nous, veuillez contacter notre service clientèle directement ou visiter notre site web.",
+    "valeur_typee":"Pour en savoir plus sur les contacts de YB-Techs et pour discuter des opportunités avec nous, veuillez contacter notre service clientèle directement ou visiter notre site web."
+  },
+  {
+    "categorie":"ERREUR_LLM",
+    "cle":"valeur",
+    "valeur":"False",
+    "valeur_typee":"False"
+  }
+]

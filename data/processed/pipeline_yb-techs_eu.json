@@ -2,14 +2,14 @@
   "question": "contacts",
   "url": "https://yb-techs.eu/",
   "source": "selenium",
-  "timestamp": "2026-07-18T16:31:05.740015",
+  "timestamp": "2026-08-01T19:59:11.870617",
   "resultats": {
     "CONTACTS_EMAIL": [
       "ybtechs.io@gmail.com"
     ],
     "CONTACTS_TEL": [
-      "+33 6 59 28 72 21",
-      "+237 6 76 65 71 62"
+      "+237 6 76 65 71 62",
+      "+33 6 59 28 72 21"
     ],
     "LOCALISATION": [
       "14200 hérouville-saint clair, france opening hours monday to frid",

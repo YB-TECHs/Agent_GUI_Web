@@ -71,10 +71,11 @@ def analyser_screenshot(chemin_image: str) -> list[dict]:
  
         elements = []
         for i, item in enumerate(parsed_content_list):
-            coord = label_coordinates.get(str(i+1), [0,0,0,0])
+            coord = label_coordinates.get(str(i+1), [0, 0, 0, 0])
             elements.append({
-                'type'       : 'ui_element',
-                'texte'      : str(item),
+                'type'       : item.get('type', 'unknown'),
+                'texte'      : item.get('content', '').strip(),
+                'interactif' : bool(item.get('interactivity', False)),
                 'coordonnees': coord,
                 'index'      : i + 1,
             })

@@ -1,0 +1,11 @@
+﻿categorie,cle,valeur,valeur_typee
+QUESTION,valeur,contacts,contacts
+URL,valeur,https://yb-techs.eu/,https://yb-techs.eu/
+TIMESTAMP,valeur,2026-08-01T20:23:52.851458,2026-08-01T20:23:52.851458
+RESULTATS,CONTACTS_EMAIL,[],[]
+RESULTATS,CONTACTS_TEL,[],[]
+RESULTATS,LOCALISATION,[],[]
+RESULTATS,IDENTITE,[],[]
+RESULTATS,INFORMATIONS,"['YB-Techs Accuell Services Expertise Contact About the CEO Transform your data into business opportunities with YB-TECHS [608 24 1 Dlscover Turning Data and Technology into Business Growth', ' Our consulting services include collecting, analyzing, and supporting structured models and decision-making processes using our outstanding solutions for recognition to form actionable insights']","['YB-Techs Accuell Services Expertise Contact About the CEO Transform your data into business opportunities with YB-TECHS [608 24 1 Dlscover Turning Data and Technology into Business Growth', ' Our consulting services include collecting, analyzing, and supporting structured models and decision-making processes using our outstanding solutions for recognition to form actionable insights']"
+REPONSE_FINALE,valeur,"Pour en savoir plus sur les contacts de YB-Techs et pour discuter des opportunités avec nous, veuillez contacter notre service clientèle directement ou visiter notre site web.","Pour en savoir plus sur les contacts de YB-Techs et pour discuter des opportunités avec nous, veuillez contacter notre service clientèle directement ou visiter notre site web."
+ERREUR_LLM,valeur,False,False

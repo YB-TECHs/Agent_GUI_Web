@@ -1,0 +1,25 @@
+{
+  "question": "Il y a quoi ici?",
+  "url": "https://tse2.mm.bing.net/th/id/OIP.7cRYFyLoDEDh4sRtM73vvwHaDg?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+  "source": "selenium",
+  "timestamp": "2026-08-05T00:14:26.370970",
+  "resultats": {
+    "CONTACTS_EMAIL": [],
+    "CONTACTS_TEL": [],
+    "LOCALISATION": [],
+    "IDENTITE": [],
+    "INFORMATIONS": [
+      "7cRYFyLoDEDh4sRtM73vvwHaDg (474×224)"
+    ],
+    "RESEAUX_SOCIAUX": {}
+  },
+  "reponse_finale": "Il y a un élément nommé '7cRYFyLoDEDh4sRtM73vvwHaDg (474×224)' dans les informations et aucun contact par e-mail, téléphone ou localisation n'est mentionné.",
+  "erreur_llm": false,
+  "prediction_llm": {
+    "type_interface": "selenium",
+    "confiance": 0.0,
+    "justification": "LLM indisponible",
+    "prompt_extraction": ""
+  },
+  "concordance": true
+}

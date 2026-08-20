@@ -2,31 +2,30 @@
   "question": "informations",
   "url": "https://www.facebook.com/yrbrtechs",
   "source": "selenium",
-  "timestamp": "2026-07-18T16:31:22.959332",
+  "timestamp": "2026-08-01T19:59:27.141782",
   "resultats": {
     "CONTACTS_EMAIL": [
       "ybtechs.io@gmail.com"
     ],
     "CONTACTS_TEL": [
-      "+33 6 59 28 72 21",
-      "106851293"
+      "106851293",
+      "+33 6 59 28 72 21"
     ],
     "LOCALISATION": [],
     "IDENTITE": [
       "YB-TECHs",
       "Intro",
       "Photos",
-      "YB-TECHs"
+      "YB-TECHs",
+      "in Science"
     ],
     "INFORMATIONS": [
-      "eu Toujours ouvert Pas encore évalué (0 avis) ﻿ Photos Toutes les photos Confidentialité · Conditions générales · Publicités · Choix publicitaires · Cookies · Plus YB-TECHs 26 juin à 20:47 · Partagé avec : Public \"Work smarter, not harder",
-      "\"… En voir plus Toutes les réactions : 5 1 J’aime Commenter Découvrez plus de contenu de YB-TECHs | Yaoundé Découvrez plus de contenu de YB-TECHs | Yaoundé Adresse e-mail ou numéro de tél",
       " Mot de passe Se connecter Mot de passe oublié ? ou Créer un nouveau compte"
     ],
     "RESEAUX_SOCIAUX": {
       "facebook": "https://www.facebook.com/recover/initiate?ars=royal_blue_bar",
-      "instagram": "https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F106851293&h=AUBPrqLvlva8iWh8z3MAgOgZpgz5RQRNFJD1CrQDOGOTxR-KZMEGWfVALmCh2mOY1HkCt98i_Ag5LuDXy2K_hgU3ZmornqppsnfXqiUL4ay7Cn6ohYM0TIA4S7kQ-ZZSHUcMxu9axJz-yB_XT6yHEO-1VDdHeOu9DRNR",
-      "linkedin": "https://l.facebook.com/l.php?u=https%3A%2F%2Ffr.linkedin.com%2Fcompany%2Fybtechs&h=AUDUFV12j1xEhbDswlMJ1TXWqoV5r0FnKTLvFpu0bOoxSN49De338Z3dKisLRzZMAYtE5ZaXunqUjQskasLzuY1ODcFdPpUnXsPOyCFz7QrxEnFcn_sqYNy1aVPZKZNcmwh0GYiBksfHPD115Lm9TZoKFL0jfDr8im_8fg"
+      "instagram": "https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F106851293&h=AUBUWiEiTLq6nIWcBFIlgAJWaOVv9pI_x_wUp5INJswrgMKHc6DBaLBQqZ5obLwzzTx3MSCOVqTQvKWxqYSu03xkGClrvwLqT3QUFvUQUvSlQWk15a4CXgh56H0mSh3vXPyrYC8I84jQUpjfkyLE3yc94H5vyUz3VcQj",
+      "linkedin": "https://l.facebook.com/l.php?u=https%3A%2F%2Ffr.linkedin.com%2Fcompany%2Fybtechs&h=AUBudS4ek-pRY_RzKS05AvucsA5OXWWfgZO8NruMQOl1eT1sTny4YKT4htJj5F7WV9ajZrbrOVTtEfZOW81T9kWMSIUSqQtvRbiGjFgn-UBNM6LJ9ap-rqdEfL5b1lDLyirvhx73dxU9tEBx5ChL4HBtbFrXVsmfkMg0AA"
     }
   }
 }

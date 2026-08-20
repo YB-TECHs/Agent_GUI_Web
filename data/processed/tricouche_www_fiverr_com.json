@@ -1,0 +1,25 @@
+{
+  "question": "Je veux extraire le texte qui ce trouve sur cette page",
+  "url": "https://www.fiverr.com/seller_onboarding/0",
+  "source": "selenium",
+  "timestamp": "2026-07-31T07:23:50.360439",
+  "resultats": {
+    "CONTACTS_EMAIL": [],
+    "CONTACTS_TEL": [
+      "102.244.75.82"
+    ],
+    "LOCALISATION": [],
+    "IDENTITE": [
+      "Montrez nous que vous n’êtes pas un robot.",
+      "Quick fixes"
+    ],
+    "INFORMATIONS": [
+      "It needs a human touch Montrez nous que vous n’êtes pas un robot",
+      " Terminez la tâche et nous vous dirigerons directement sur Fiverr",
+      " Quick fixes Disable any browser extensions that could be interfering with the website",
+      " This includes Ad blockers, privacy extensions, or VPNs that may modify web traffic",
+      " Clear your browser's cache and cookies"
+    ],
+    "RESEAUX_SOCIAUX": {}
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "question": "Je veux savoir de quoi ce site parle",
+  "url": "https://wordpress.com/fr/",
+  "source": "selenium",
+  "timestamp": "2026-08-10T02:06:04.483739",
+  "resultats": {
+    "CONTACTS_EMAIL": [],
+    "CONTACTS_TEL": [],
+    "LOCALISATION": [],
+    "IDENTITE": [
+      "Checking your browser"
+    ],
+    "INFORMATIONS": [
+      " Javascript required Checking your browser This will only take a few seconds"
+    ],
+    "RESEAUX_SOCIAUX": {}
+  },
+  "reponse_finale": "Le site mentionne que JavaScript est requis et demande à vérifier votre navigateur pour continuer; cela prend quelques secondes seulement selon le texte fourni sur l'écran d’accueil du service web, qui ne contient pas de détails supplémentaires.",
+  "erreur_llm": false,
+  "prediction_llm": {
+    "type_interface": "selenium",
+    "confiance": 0.0,
+    "justification": "LLM indisponible",
+    "prompt_extraction": ""
+  },
+  "concordance": true
+}

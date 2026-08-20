@@ -1,0 +1,42 @@
+{
+  "question": "De quoi est-il question sur ce site?",
+  "url": "https://workspace.google.com/intl/pt-PT/products/sites/",
+  "source": "selenium",
+  "timestamp": "2026-08-20T05:24:57.968953",
+  "resultats": {
+    "CONTACTS_EMAIL": [],
+    "CONTACTS_TEL": [],
+    "LOCALISATION": [],
+    "IDENTITE": [
+      "Sites de equipas com impacto simplificados",
+      "Sites de equipas com impacto simplificados",
+      "Sites muito cativantes sem competências de programação",
+      "Crie uma fonte de informações fidedignas para a sua equipa",
+      "Modelos pré-criados para um design rápido",
+      "Concebido para colaboração",
+      "Integração profunda com o Google Workspace",
+      "Aceda a partir de qualquer dispositivo e em qualquer altura"
+    ],
+    "INFORMATIONS": [
+      " O esquema automático em grelha garante o ótimo aspeto do site e o ajuste perfeito em qualquer dispositivo",
+      " Além disso, permite mover ou redimensionar facilmente elementos",
+      " Crie uma fonte de informações fidedignas para a sua equipa Com o Sites, a sua equipa pode facilmente partilhar e aceder a informações importantes num único local",
+      " Modelos pré-criados para um design rápido Poupe tempo com modelos de sites pré-criados que se adequam às suas necessidades",
+      " Concebido para colaboração Colabore facilmente com coedição em tempo real e veja as alterações instantaneamente, como no Docs ou no Slides "
+    ],
+    "RESEAUX_SOCIAUX": {
+      "linkedin": "https://www.linkedin.com/showcase/googleworkspace/",
+      "instagram": "https://www.instagram.com/googleworkspace/",
+      "facebook": "https://www.facebook.com/googleworkspace/"
+    }
+  },
+  "reponse_finale": "Ce site présente une plateforme de création et d'organisation des sites web, conçue pour faciliter la collaboration entre les équipes. Il propose un ensemble de fonctionnalités telles que l'esquema automático en grelha, le partage facilement d'informations importantes ou encore des modèles pré-criés pour un design rapide et adapté à différents dispositifs.",
+  "erreur_llm": false,
+  "prediction_llm": {
+    "type_interface": "selenium",
+    "confiance": 0.9,
+    "justification": "La page est un site web standard avec du texte HTML accessible.",
+    "prompt_extraction": "Exécuter une requête Selenium pour extraire le contenu de la page."
+  },
+  "concordance": true
+}

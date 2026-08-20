@@ -1,0 +1,15 @@
+{
+  "question": "Il y a quoi sur cette page?",
+  "url": "https://picsum.photos/800/600",
+  "source": "omniparser",
+  "timestamp": "2026-07-31T07:36:32.848184",
+  "resultats": {
+    "CONTACTS_EMAIL": [],
+    "CONTACTS_TEL": [],
+    "LOCALISATION": [],
+    "IDENTITE": [],
+    "SERVICES_PRODUITS": [],
+    "RESEAUX_SOCIAUX": {},
+    "INFORMATIONS": []
+  }
+}
