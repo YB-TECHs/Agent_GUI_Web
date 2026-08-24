@@ -1,8 +1,8 @@
 {
-  "question": "contacts",
+  "question": "Les contacts",
   "url": "https://yb-techs.eu/",
   "source": "selenium",
-  "timestamp": "2026-08-14T09:18:41.842903",
+  "timestamp": "2026-08-24T07:04:28.440691",
   "resultats": {
     "CONTACTS_EMAIL": [
       "ybtechs.io@gmail.com"
@@ -37,13 +37,13 @@
       "instagram": "https://www.instagram.com/106851293"
     }
   },
-  "reponse_finale": "Les contacts disponibles sont 'ybtechs.io@gmail.com', et les numéros à l’étranger incluent ceux pour le téléphone portable avec des codes internationaux spécifiques aux pays mentionnés dans la localisation de contact, qui est en France près d'Hérouville-Saint Clair selon une source indépendante.",
+  "reponse_finale": "Les contacts trouvés sont :\n\n- ybtechs.io@gmail.com\n- +237 6 76 65 71 62\n- +33 6 59 28 72 21",
   "erreur_llm": false,
   "prediction_llm": {
     "type_interface": "selenium",
-    "confiance": 0.0,
-    "justification": "LLM indisponible",
-    "prompt_extraction": ""
+    "confiance": 0.9,
+    "justification": "La page est un site web standard avec du texte HTML accessible, ce qui rend possible une extraction efficace grâce à selenium.",
+    "prompt_extraction": "Exécutez la commande `driver.get('https://yb-techs.eu/')' puis utilisez les méthodes de navigation pour accéder aux informations des contacts."
   },
   "concordance": true
 }

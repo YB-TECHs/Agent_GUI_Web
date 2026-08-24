@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>YB-TECHs — Agent d'extraction</title>
+<style>
+  :root {
+    --dark: #0D1B2A; --dark2: #1E3A5F; --teal: #02C39A; --teal2: #028090;
+    --text: #1E293B; --grey: #64748B; --light: #F0F4F8; --border: #D9DDE3;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; font-family: -apple-system, "Segoe UI", Calibri, sans-serif;
+    background: var(--light); color: var(--text); min-height: 100vh;
+  }
+  header {
+    background: var(--dark); color: white; padding: 28px 40px;
+  }
+  header h1 { margin: 0; font-size: 22px; font-weight: 700; }
+  header p { margin: 4px 0 0; color: var(--teal); font-size: 14px; }
+
+  main { max-width: 900px; margin: 32px auto; padding: 0 20px 60px; }
+
+  .form-card {
+    background: white; border-radius: 12px; padding: 28px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08); margin-bottom: 24px;
+  }
+  label { display: block; font-size: 13px; font-weight: 600; color: var(--grey); margin-bottom: 6px; margin-top: 16px; }
+  label:first-child { margin-top: 0; }
+  input[type=text] {
+    width: 100%; padding: 12px 14px; border: 1.5px solid var(--border);
+    border-radius: 8px; font-size: 15px; transition: border-color .15s;
+  }
+  input[type=text]:focus { outline: none; border-color: var(--teal2); }
+
+  button {
+    margin-top: 22px; background: var(--teal2); color: white; border: none;
+    padding: 13px 26px; border-radius: 8px; font-size: 15px; font-weight: 600;
+    cursor: pointer; transition: background .15s;
+  }
+  button:hover { background: var(--dark2); }
+  button:disabled { background: var(--border); cursor: not-allowed; }
+
+  .status { margin-top: 14px; font-size: 14px; color: var(--grey); display: none; }
+  .status.actif { display: flex; align-items: center; gap: 8px; }
+  .spinner {
+    width: 14px; height: 14px; border: 2px solid var(--border);
+    border-top-color: var(--teal2); border-radius: 50%;
+    animation: tourner .7s linear infinite;
+  }
+  @keyframes tourner { to { transform: rotate(360deg); } }
+
+  .resultats { display: none; grid-template-columns: 1fr; gap: 20px; }
+  .resultats.visible { display: grid; }
+  @media (min-width: 760px) { .resultats.visible { grid-template-columns: 1fr 1fr; } }
+
+  .box { background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+  .box-header {
+    padding: 14px 18px; font-size: 13px; font-weight: 700; letter-spacing: .03em;
+    text-transform: uppercase; display: flex; justify-content: space-between; align-items: center;
+  }
+  .box-header .badge { font-size: 11px; padding: 3px 9px; border-radius: 20px; font-weight: 600; text-transform: none; }
+
+  .box-reponse .box-header { background: #E8F4F6; color: #16A34A; }
+  .box-brut .box-header { background: var(--dark2); color: var(--teal); }
+
+  .box-body { padding: 18px; max-height: 480px; overflow-y: auto; }
+  .box-reponse .box-body { font-size: 15px; line-height: 1.6; }
+  .box-brut .box-body { background: var(--dark); color: var(--teal); }
+  .box-brut pre {
+    margin: 0; font-family: "Cascadia Code", "Consolas", monospace; font-size: 12.5px;
+    white-space: pre-wrap; word-break: break-word;
+  }
+
+  .badge-ok { background: #DCFCE7; color: #16A34A; }
+  .badge-err { background: #FEF9C3; color: #F59E0B; }
+  .badge-discussion { background: #E0E7FF; color: #4F46E5; }
+
+  .erreur { background: #FEF2F2; border: 1px solid #FCA5A5; color: #B91C1C;
+            border-radius: 8px; padding: 14px; margin-top: 16px; font-size: 14px; display: none; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>🧠 YB-TECHs — Agent d'extraction intelligent</h1>
+  <p>Selenium → OCR → OmniParser, jugé par Llama</p>
+</header>
+
+<main>
+  <div class="form-card">
+    <label for="url">🔗 Lien à analyser</label>
+    <input type="text" id="url" placeholder="https://exemple.com/" value="https://yb-techs.eu/">
+
+    <label for="question">❓ Question</label>
+    <input type="text" id="question" placeholder="Que veux-tu savoir sur ce site ?" value="Les contacts">
+
+    <button id="btn" onclick="analyser()">Analyser</button>
+
+    <div class="status" id="status">
+      <div class="spinner"></div>
+      <span id="statusTexte">Analyse en cours — ça peut prendre jusqu'à une minute…</span>
+    </div>
+    <div class="erreur" id="erreurBox"></div>
+  </div>
+
+  <div class="resultats" id="resultats">
+    <div class="box box-reponse">
+      <div class="box-header">
+        <span>💬 Réponse de Llama</span>
+        <span class="badge" id="badgeCouche"></span>
+      </div>
+      <div class="box-body" id="reponseBody">—</div>
+    </div>
+
+    <div class="box box-brut">
+      <div class="box-header"><span>📁 Résultat brut d'extraction</span></div>
+      <div class="box-body"><pre id="brutBody">—</pre></div>
+    </div>
+  </div>
+</main>
+
+<script>
+async function analyser() {
+  const url = document.getElementById('url').value.trim();
+  const question = document.getElementById('question').value.trim();
+  const btn = document.getElementById('btn');
+  const status = document.getElementById('status');
+  const erreurBox = document.getElementById('erreurBox');
+  const resultats = document.getElementById('resultats');
+
+  // if (!url || !question) { alert('Renseigne le lien et la question.'); return; }
+
+  if (!question) { alert('Renseigne au moins une question.'); return; }
+
+  btn.disabled = true;
+  status.classList.add('actif');
+  erreurBox.style.display = 'none';
+  resultats.classList.remove('visible');
+
+  try {
+    const reponse = await fetch('/analyser', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ url, question }),
+    });
+    if (!reponse.ok) throw new Error(`Erreur serveur (${reponse.status})`);
+    const sortie = await reponse.json();
+
+    document.getElementById('badgeCouche').textContent = sortie.source;
+
+    document.getElementById('badgeCouche').className = 'badge ' +
+      (sortie.source === 'discussion' ? 'badge-discussion' : (sortie.erreur_llm ? 'badge-err' : 'badge-ok'));
+
+    document.getElementById('reponseBody').textContent =
+      sortie.reponse_finale || (sortie.erreur_llm ? '⚠️ Le LLM n\'a pas pu formuler de réponse — voir les données brutes.' : '(aucune réponse)');
+    document.getElementById('brutBody').textContent =
+      sortie.source === 'discussion'
+        ? '(mode discussion libre — pas d\'extraction effectuée)'
+        : JSON.stringify(sortie.resultats, null, 2);
+
+        
+    resultats.classList.add('visible');
+  } catch (e) {
+    erreurBox.textContent = '❌ ' + e.message;
+    erreurBox.style.display = 'block';
+  } finally {
+    btn.disabled = false;
+    status.classList.remove('actif');
+  }
+}
+</script>
+</body>
+</html>

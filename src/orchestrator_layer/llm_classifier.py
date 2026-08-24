@@ -10,6 +10,8 @@ from src.orchestrator_layer.prompt_templates import (
     construire_prompt_correction_ocr,
 )
 
+from src.orchestrator_layer.prompt_templates import construire_prompt_discussion  # à ajouter à l'import existant
+
 logger = logging.getLogger(__name__)
 
 OLLAMA_URL = 'http://localhost:11434/api/generate'
@@ -27,6 +29,18 @@ MOTS_REFUS = ['regret', 'je ne peux pas', 'cannot', 'sans contexte',
               'impossible de']
 FACTEUR_LONGUEUR_MAX = 3
 
+
+
+def repondre_discussion(question: str) -> str | None:
+    """Réponse en pure discussion, sans pipeline d'extraction — utilisé quand aucune URL n'est fournie."""
+    prompt = construire_prompt_discussion(question)
+    try:
+        reponse = appeler_llm(prompt, num_predict=200, stop=['Question :'])
+        reponse = reponse.strip().strip('"').strip()
+        return reponse or None
+    except Exception as e:
+        logger.warning(f"Discussion impossible ({e})")
+        return None
 
 def appeler_llm(prompt: str, num_predict: int = 120, stop: list | None = None,
                  tentatives: int = 2) -> str:

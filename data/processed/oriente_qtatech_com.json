@@ -1,0 +1,57 @@
+{
+  "question": "De quoi parle ce site ?",
+  "url": "https://qtatech.com/fr",
+  "source": "selenium",
+  "timestamp": "2026-08-23T01:34:27.282829",
+  "resultats": {
+    "CONTACTS_EMAIL": [
+      "info@qtatech.com",
+      "support@qtatech.com"
+    ],
+    "CONTACTS_TEL": [
+      "+229) 61 32 23 02",
+      "+237)682 422 147",
+      "+32) 465 29 09 43",
+      "+237) 682 422 147"
+    ],
+    "LOCALISATION": [
+      "rue étienne soubre 3, 4000. liège, belgium support@qtatech.com ",
+      "2026 3 jours (21 hrs) en savoir plus formation à l'ux et à la st",
+      "2026 2 jours (14 hrs) en savoir plus formation intelligence arti",
+      "rue douala bercy, douala visit us info@qtatech.com email addres",
+      "2026 2 jour (14 hrs) en savoir plus formation intelligence artif"
+    ],
+    "IDENTITE": [
+      "Main navigation",
+      "Accueil",
+      "Transformez votre entreprise avec notre agence créative",
+      "Nos activités",
+      "Développement/Consultation Drupal",
+      "Développement d'applications Web/Mobiles",
+      "Big Data & Business Intelligence",
+      "Conseil & assistance technique"
+    ],
+    "INFORMATIONS": [
+      "Accueil | Agence de transformation digitale & créative | QTA tech Aller au contenu principal Contactez nos experts pour estimer votre idée de projet et en faire une réalité commerciale",
+      " (+237)682 422 147 Ave King Akwa, Douala Agla zéro souci, Cotonou EN FR (+237) 682 422 147 Phone line Mon to Sat 8:00-17:30 Working hours Ave King Akwa, Rue Douala Bercy, Douala Visit us info@qtatech",
+      "com Email address (+237) 682 422 147 Phone line Mon to Sat 8:00-17:30 Working hours Ave King Akwa, Rue Douala Bercy, Douala Visit us info@qtatech",
+      " Spécialisée dans la création de site internet basé sur l’intelligence artificielle à l'aide de technologies Open Source, applications mobile, ERP/CRM, l'architecture, l'optimisation, la visualisation et la sécurisation des données",
+      " Vous voulez que vos produits numériques aient un impact important ? Faites appel aux experts de QTA Tech"
+    ],
+    "RESEAUX_SOCIAUX": {
+      "facebook": "https://facebook.com/qtatech",
+      "twitter": "https://twitter.com/qtatech",
+      "instagram": "https://instagram.com/qtatech",
+      "linkedin": "https://linkedin.com/company/qtatech"
+    }
+  },
+  "reponse_finale": "Ce site présente une agence de transformation digitale et créative nommée QTA Tech qui propose des services tels que le développement d'applications Web/Mobiles, la Big Data & Business Intelligence ainsi qu'un conseil technique. L'agence semble également offrir des solutions cloud pour les entreprises et a plusieurs contacts (info@qtatech.com) disponibles sur sa page.",
+  "erreur_llm": false,
+  "prediction_llm": {
+    "type_interface": "selenium",
+    "confiance": 0.9,
+    "justification": "La page est un site web standard avec du texte HTML accessible, ce qui rend possible une extraction efficace grâce à selenium.",
+    "prompt_extraction": "Exécutez la commande `driver.get('https://qtatech.com/fr')` puis utilisez le méthode de navigation sur les éléments pour extraire l'information requise."
+  },
+  "concordance": true
+}

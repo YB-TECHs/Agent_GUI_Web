@@ -1,6 +1,5 @@
 # src/selenium_layer/navigator.py
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 import logging
 
@@ -9,7 +8,9 @@ logger = logging.getLogger(__name__)
 
 
 def create_driver(headless: bool = False, timeout: int = 30) -> webdriver.Chrome:
-    """Crée et retourne un driver Chrome configuré."""
+    """Crée et retourne un driver Chrome configuré. Le driver ChromeDriver
+    lui-même est résolu automatiquement par Selenium Manager (Selenium 4.6+),
+    plus besoin de gérer un binaire local manuellement."""
     options = Options()
 
     if headless:
@@ -25,15 +26,9 @@ def create_driver(headless: bool = False, timeout: int = 30) -> webdriver.Chrome
     options.add_argument("--disable-notifications")
     options.add_argument("--disable-popup-blocking")
 
-    # Charge le DOM sans attendre toutes les ressources tierces (images,
-    # trackers...) — réduit les timeouts sur des pages avec ressources lentes.
     options.page_load_strategy = 'eager'
 
-    driver = webdriver.Chrome(
-        service=Service(executable_path=r"E:\NIVEAU4\Stage\Projet1\drivers\chromedriver.exe"),
-        options=options
-    )
-
+    driver = webdriver.Chrome(options=options)
     driver.set_page_load_timeout(timeout)
 
     logger.info(f"Driver Chrome créé — headless={headless}, timeout={timeout}s")

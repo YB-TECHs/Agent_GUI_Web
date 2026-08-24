@@ -1,0 +1,32 @@
+{
+  "question": "Il y a quoi comme adresse mail sur cette page?",
+  "url": "file:///E:/NIVEAU4/Stage/Projet1/data/tests/page_test_imbrication.html",
+  "source": "omniparser",
+  "timestamp": "2026-08-21T02:11:49.718188",
+  "resultats": {
+    "CONTACTS_EMAIL": [],
+    "CONTACTS_TEL": [],
+    "LOCALISATION": [],
+    "IDENTITE": [
+      "travail"
+    ],
+    "SERVICES_PRODUITS": [
+      "Jack_hydedcymbalcom",
+      "Editor",
+      "Share \"Project Cymbal\"",
+      "A check mark indicating a task or completion.",
+      "unanswerable"
+    ],
+    "RESEAUX_SOCIAUX": {},
+    "INFORMATIONS": []
+  },
+  "reponse_finale": null,
+  "erreur_llm": true,
+  "prediction_llm": {
+    "type_interface": "selenium",
+    "confiance": 0.0,
+    "justification": "LLM indisponible",
+    "prompt_extraction": ""
+  },
+  "concordance": false
+}

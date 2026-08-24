@@ -17,7 +17,28 @@ from src.orchestrator_layer.llm_classifier import (
 logger = logging.getLogger(__name__)
 
 
-def pipeline_oriente(url: str, question: str) -> dict:
+def _naviguer_avec_retry(url: str, headless: bool, tentatives: int = 2, timeout: int = 30):
+    """
+    Ouvre la page, avec un réessai sur une session Chrome fraîche en cas
+    d'échec — les TimeoutException au démarrage de Chrome semblent
+    intermittents (Chrome parfois pas totalement prêt), pas systématiques.
+    Retourne le driver déjà positionné sur la page demandée.
+    """
+    derniere_erreur = None
+    for essai in range(tentatives):
+        driver = create_driver(headless=headless, timeout=timeout)
+        try:
+            driver.get(url)
+            wait_for_element(driver, 'body', timeout=15)
+            return driver
+        except Exception as e:
+            derniere_erreur = e
+            logger.warning(f"Navigation échouée (essai {essai+1}/{tentatives}) : {e}")
+            close_driver(driver)
+    raise derniere_erreur
+
+
+def pipeline_oriente(url: str, question: str, headless: bool = True) -> dict:
     """
     Cascade : Selenium (texte DOM) → images du DOM via OmniParser (SEULEMENT
     si le texte seul est insuffisant) → OCR pleine page → OmniParser pleine
@@ -25,16 +46,20 @@ def pipeline_oriente(url: str, question: str) -> dict:
     avant toute analyse d'image ou tout appel LLM.
     """
     prediction = classifier_requete(question, url)
-    driver = create_driver(headless=True)
+    driver = create_driver(headless=headless)
     screenshot = 'data/raw/screenshot_temp.png'
     resultats = {}
     urls_images = []
     texte_seul_suffisant = False
 
     try:
-        driver.get(url)
-        wait_for_element(driver, 'body', timeout=15)
+        #driver.get(url)
+        #wait_for_element(driver, 'body', timeout=15)
+        #soup = BeautifulSoup(driver.page_source, 'lxml')
+
+        driver = _naviguer_avec_retry(url, headless)
         soup = BeautifulSoup(driver.page_source, 'lxml')
+
         texte_html = soup.get_text(separator=' ', strip=True)
         titres = [h.get_text(strip=True) for h in soup.find_all(['h1', 'h2', 'h3'])
                   if h.get_text(strip=True)][:8]

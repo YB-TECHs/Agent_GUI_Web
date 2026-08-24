@@ -75,6 +75,16 @@ Texte brut ({longueur} caractères) : {texte_ocr}
 
 Texte corrigé (longueur similaire, pas de phrase inventée) :"""
 
+PROMPT_DISCUSSION = """Tu es un assistant conversationnel utile et concis. Réponds directement à la question suivante, en français, de façon naturelle.
+
+Question : {question}
+
+Réponse :"""
+
+
+def construire_prompt_discussion(question: str) -> str:
+    return PROMPT_DISCUSSION.format(question=question)
+
 
 def construire_prompt_classification(requete: str, url: str) -> str:
     return PROMPT_CLASSIFICATION.format(requete=requete, url=url)

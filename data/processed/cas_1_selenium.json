@@ -1,0 +1,200 @@
+[
+  {
+    "categorie":"CONTACTS_EMAIL",
+    "cle":"item",
+    "valeur":"info@qtatech.com",
+    "valeur_typee":"info@qtatech.com"
+  },
+  {
+    "categorie":"CONTACTS_EMAIL",
+    "cle":"item",
+    "valeur":"support@qtatech.com",
+    "valeur_typee":"support@qtatech.com"
+  },
+  {
+    "categorie":"CONTACTS_TEL",
+    "cle":"item",
+    "valeur":"+229) 61 32 23 02",
+    "valeur_typee":"+229) 61 32 23 02"
+  },
+  {
+    "categorie":"CONTACTS_TEL",
+    "cle":"item",
+    "valeur":"+237)682 422 147",
+    "valeur_typee":"+237)682 422 147"
+  },
+  {
+    "categorie":"CONTACTS_TEL",
+    "cle":"item",
+    "valeur":"+32) 465 29 09 43",
+    "valeur_typee":"+32) 465 29 09 43"
+  },
+  {
+    "categorie":"CONTACTS_TEL",
+    "cle":"item",
+    "valeur":"+237) 682 422 147",
+    "valeur_typee":"+237) 682 422 147"
+  },
+  {
+    "categorie":"LOCALISATION",
+    "cle":"item",
+    "valeur":"rue étienne soubre 3, 4000. liège, belgium support@qtatech.com ",
+    "valeur_typee":"rue étienne soubre 3, 4000. liège, belgium support@qtatech.com"
+  },
+  {
+    "categorie":"LOCALISATION",
+    "cle":"item",
+    "valeur":"2026 3 jours (21 hrs) en savoir plus formation à l'ux et à la st",
+    "valeur_typee":"2026 3 jours (21 hrs) en savoir plus formation à l'ux et à la st"
+  },
+  {
+    "categorie":"LOCALISATION",
+    "cle":"item",
+    "valeur":"2026 2 jours (14 hrs) en savoir plus formation intelligence arti",
+    "valeur_typee":"2026 2 jours (14 hrs) en savoir plus formation intelligence arti"
+  },
+  {
+    "categorie":"LOCALISATION",
+    "cle":"item",
+    "valeur":"rue douala bercy, douala visit us info@qtatech.com email addres",
+    "valeur_typee":"rue douala bercy, douala visit us info@qtatech.com email addres"
+  },
+  {
+    "categorie":"LOCALISATION",
+    "cle":"item",
+    "valeur":"2026 2 jour (14 hrs) en savoir plus formation intelligence artif",
+    "valeur_typee":"2026 2 jour (14 hrs) en savoir plus formation intelligence artif"
+  },
+  {
+    "categorie":"IDENTITE",
+    "cle":"item",
+    "valeur":"Main navigation",
+    "valeur_typee":"Main navigation"
+  },
+  {
+    "categorie":"IDENTITE",
+    "cle":"item",
+    "valeur":"Accueil",
+    "valeur_typee":"Accueil"
+  },
+  {
+    "categorie":"IDENTITE",
+    "cle":"item",
+    "valeur":"Transformez votre entreprise avec notre agence créative",
+    "valeur_typee":"Transformez votre entreprise avec notre agence créative"
+  },
+  {
+    "categorie":"IDENTITE",
+    "cle":"item",
+    "valeur":"Nos activités",
+    "valeur_typee":"Nos activités"
+  },
+  {
+    "categorie":"IDENTITE",
+    "cle":"item",
+    "valeur":"Développement\/Consultation Drupal",
+    "valeur_typee":"Développement\/Consultation Drupal"
+  },
+  {
+    "categorie":"IDENTITE",
+    "cle":"item",
+    "valeur":"Développement d'applications Web\/Mobiles",
+    "valeur_typee":"Développement d'applications Web\/Mobiles"
+  },
+  {
+    "categorie":"IDENTITE",
+    "cle":"item",
+    "valeur":"Big Data & Business Intelligence",
+    "valeur_typee":"Big Data & Business Intelligence"
+  },
+  {
+    "categorie":"IDENTITE",
+    "cle":"item",
+    "valeur":"Conseil & assistance technique",
+    "valeur_typee":"Conseil & assistance technique"
+  },
+  {
+    "categorie":"INFORMATIONS",
+    "cle":"item",
+    "valeur":"Accueil | Agence de transformation digitale & créative | QTA tech Aller au contenu principal Contactez nos experts pour estimer votre idée de projet et en faire une réalité commerciale",
+    "valeur_typee":"Accueil | Agence de transformation digitale & créative | QTA tech Aller au contenu principal Contactez nos experts pour estimer votre idée de projet et en faire une réalité commerciale"
+  },
+  {
+    "categorie":"INFORMATIONS",
+    "cle":"item",
+    "valeur":" (+237)682 422 147 Ave King Akwa, Douala Agla zéro souci, Cotonou EN FR (+237) 682 422 147 Phone line Mon to Sat 8:00-17:30 Working hours Ave King Akwa, Rue Douala Bercy, Douala Visit us info@qtatech",
+    "valeur_typee":"(+237)682 422 147 Ave King Akwa, Douala Agla zéro souci, Cotonou EN FR (+237) 682 422 147 Phone line Mon to Sat 8:00-17:30 Working hours Ave King Akwa, Rue Douala Bercy, Douala Visit us info@qtatech"
+  },
+  {
+    "categorie":"INFORMATIONS",
+    "cle":"item",
+    "valeur":"com Email address (+237) 682 422 147 Phone line Mon to Sat 8:00-17:30 Working hours Ave King Akwa, Rue Douala Bercy, Douala Visit us info@qtatech",
+    "valeur_typee":"com Email address (+237) 682 422 147 Phone line Mon to Sat 8:00-17:30 Working hours Ave King Akwa, Rue Douala Bercy, Douala Visit us info@qtatech"
+  },
+  {
+    "categorie":"INFORMATIONS",
+    "cle":"item",
+    "valeur":" Spécialisée dans la création de site internet basé sur l’intelligence artificielle à l'aide de technologies Open Source, applications mobile, ERP\/CRM, l'architecture, l'optimisation, la visualisation et la sécurisation des données",
+    "valeur_typee":"Spécialisée dans la création de site internet basé sur l’intelligence artificielle à l'aide de technologies Open Source, applications mobile, ERP\/CRM, l'architecture, l'optimisation, la visualisation et la sécurisation des données"
+  },
+  {
+    "categorie":"INFORMATIONS",
+    "cle":"item",
+    "valeur":" Vous voulez que vos produits numériques aient un impact important ? Faites appel aux experts de QTA Tech",
+    "valeur_typee":"Vous voulez que vos produits numériques aient un impact important ? Faites appel aux experts de QTA Tech"
+  },
+  {
+    "categorie":"RESEAUX_SOCIAUX",
+    "cle":"facebook",
+    "valeur":"https:\/\/facebook.com\/qtatech",
+    "valeur_typee":"https:\/\/facebook.com\/qtatech"
+  },
+  {
+    "categorie":"RESEAUX_SOCIAUX",
+    "cle":"twitter",
+    "valeur":"https:\/\/twitter.com\/qtatech",
+    "valeur_typee":"https:\/\/twitter.com\/qtatech"
+  },
+  {
+    "categorie":"RESEAUX_SOCIAUX",
+    "cle":"instagram",
+    "valeur":"https:\/\/instagram.com\/qtatech",
+    "valeur_typee":"https:\/\/instagram.com\/qtatech"
+  },
+  {
+    "categorie":"RESEAUX_SOCIAUX",
+    "cle":"linkedin",
+    "valeur":"https:\/\/linkedin.com\/company\/qtatech",
+    "valeur_typee":"https:\/\/linkedin.com\/company\/qtatech"
+  },
+  {
+    "categorie":"META",
+    "cle":"reponse_finale",
+    "valeur":"Les contacts disponibles sont :\n\ninfo@qtatech.com et support@qtatech.com.\n\n+229) 61 32 23 02 \n\nsupport@qtatech.com \n(+237)682 422 147 \n\n2026 2 jours (14 hrs) en savoir plus formation intelligence arti",
+    "valeur_typee":"Les contacts disponibles sont :\n\ninfo@qtatech.com et support@qtatech.com.\n\n+229) 61 32 23 02 \n\nsupport@qtatech.com \n(+237)682 422 147 \n\n2026 2 jours (14 hrs) en savoir plus formation intelligence arti"
+  },
+  {
+    "categorie":"META",
+    "cle":"source",
+    "valeur":"selenium",
+    "valeur_typee":"selenium"
+  },
+  {
+    "categorie":"META",
+    "cle":"erreur_llm",
+    "valeur":"False",
+    "valeur_typee":"False"
+  },
+  {
+    "categorie":"META",
+    "cle":"question",
+    "valeur":"Les contacts",
+    "valeur_typee":"Les contacts"
+  },
+  {
+    "categorie":"META",
+    "cle":"timestamp",
+    "valeur":"2026-08-23T01:32:19.409990",
+    "valeur_typee":"2026-08-23T01:32:19.409990"
+  }
+]

@@ -18,4 +18,11 @@
     <tr><td>{{ cle }}</td><td>{{ r.valides }}</td><td>{{ r.invalides }}</td></tr>
   {% endfor %}
   </table>
+    <h2>Données extraites</h2>
+  <table>
+    <tr><th>Catégorie</th><th>Clé</th><th>Valeur</th></tr>
+    {% for ligne in lignes %}
+    <tr><td>{{ ligne.categorie }}</td><td>{{ ligne.cle }}</td><td>{{ ligne.valeur }}</td></tr>
+    {% endfor %}
+  </table>
 </body></html>
