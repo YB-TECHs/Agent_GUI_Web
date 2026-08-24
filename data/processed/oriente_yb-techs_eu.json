@@ -1,8 +1,8 @@
 {
-  "question": "Les contacts",
-  "url": "https://yb-techs.eu/",
+  "question": "Ce site parle de quoi?",
+  "url": "https://yb-techs.eu",
   "source": "selenium",
-  "timestamp": "2026-08-24T07:04:28.440691",
+  "timestamp": "2026-08-24T08:04:07.782072",
   "resultats": {
     "CONTACTS_EMAIL": [
       "ybtechs.io@gmail.com"
@@ -12,8 +12,8 @@
       "+33 6 59 28 72 21"
     ],
     "LOCALISATION": [
-      "2026.  all rights reserved.",
-      "14200 hérouville-saint clair, france opening hours monday to frid"
+      "14200 hérouville-saint clair, france opening hours monday to frid",
+      "2026.  all rights reserved."
     ],
     "IDENTITE": [
       "Innovate with YB-TECHs",
@@ -37,13 +37,13 @@
       "instagram": "https://www.instagram.com/106851293"
     }
   },
-  "reponse_finale": "Les contacts trouvés sont :\n\n- ybtechs.io@gmail.com\n- +237 6 76 65 71 62\n- +33 6 59 28 72 21",
+  "reponse_finale": "Ce site présente une entreprise (YB-TECHS) qui propose des solutions basées sur l'intelligence artificielle pour les petites et moyennes entreprises, en particulier dans le domaine du reconnaissance d'images et des biométriques. L'entreprise vise à aider ses clients à automatiser leurs processus grâce aux modèles algorithmiques personnalisés.",
   "erreur_llm": false,
   "prediction_llm": {
     "type_interface": "selenium",
     "confiance": 0.9,
-    "justification": "La page est un site web standard avec du texte HTML accessible, ce qui rend possible une extraction efficace grâce à selenium.",
-    "prompt_extraction": "Exécutez la commande `driver.get('https://yb-techs.eu/')' puis utilisez les méthodes de navigation pour accéder aux informations des contacts."
+    "justification": "La page est un site web standard avec du texte HTML accessible.",
+    "prompt_extraction": "Extrait le contenu principal de la page en utilisant Selenium."
   },
   "concordance": true
 }
