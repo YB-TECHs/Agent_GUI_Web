@@ -1,16 +1,5 @@
 """
-Tests unitaires pour les fonctions de pretraitement de rag_agent.py.
-
-Ces tests couvrent les fonctions PURES (pas de dependance au LLM, a
-Ollama, ni a l'index FAISS), donc rapides a executer et ideales comme
-premiere brique de la suite pytest exigee par le cahier des charges
-(section 10.1 et 10.3 : couverture pytest-cov).
-
-Usage :
-    pytest tests/unit/test_pretraitement.py -v
-
-Ou, pour lancer toute la suite avec couverture :
-    pytest --cov=src tests/
+Module test_pretraitement.py.
 """
 
 import sys
@@ -52,11 +41,11 @@ class TestPretraitementBM25:
         assert "maroua" in tokens
 
     def test_insensibilite_casse_maroua(self):
-        # Bug reel : "maroua" (question) ne matchait pas "Maroua" (document)
+        # fix : "maroua" (question) ne matchait pas "Maroua" (document)
         assert pretraitement_bm25("maroua") == pretraitement_bm25("Maroua")
 
     def test_insensibilite_accent_yaounde(self):
-        # Bug reel : "Yaounde" (sans accent) ne matchait pas "Yaoundé"
+        # fix : "Yaounde" (sans accent) ne matchait pas "Yaoundé"
         assert pretraitement_bm25("Yaounde") == pretraitement_bm25("Yaoundé")
 
     def test_retrait_mots_vides(self):

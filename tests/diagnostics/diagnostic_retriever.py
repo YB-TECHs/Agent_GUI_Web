@@ -1,9 +1,5 @@
 """
-Script de diagnostic — vérifie ce que le retriever hybride (BM25 + FAISS)
-renvoie réellement pour une question donnée, sans passer par le LLM.
-
-Usage :
-    python src/diagnostic_retriever.py
+Module diagnostic_retriever.py.
 """
 
 import sys

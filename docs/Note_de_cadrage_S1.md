@@ -15,7 +15,7 @@
 Ce thème a été resserré volontairement au périmètre national camerounais (plutôt qu'une portée continentale/africaine) pour les raisons suivantes :
 - **Cohérence réglementaire** : le secteur de la microfinance au Cameroun est encadré par un corpus réglementaire unique et bien identifié (COBAC/CEMAC), ce qui garantit l'homogénéité du corpus documentaire
 - **Richesse documentaire suffisante** : le secteur camerounais dispose de sources précises, récentes et vérifiables (textes réglementaires, statistiques officielles, institutions nommées), sans besoin d'élargir à d'autres pays
-- **Pertinence pour les tests "hors périmètre"** : en limitant le corpus au Cameroun, il devient possible de tester volontairement des requêtes portant sur d'autres pays (ex. Sénégal, Kenya) pour évaluer la capacité de l'agent à ne pas halluciner en dehors de son périmètre documentaire — un cas de test explicitement demandé en section 3.2 du cahier des charges
+- **Pertinence pour les tests "hors périmètre"** : en limitant le corpus au Cameroun, il devient possible de tester volontairement des requêtes portant sur d'autres pays (ex. Sénégal, Kenya) pour évaluer la capacité de l'agent à ne pas halluciner en dehors de son périmètre documentaire — un cas de test explicitement demandé en section 3.2 du spécifications
 - **Pertinence pour YB-TECHs** : cohérent avec l'implantation de l'entreprise à Yaoundé et son positionnement sur les marchés francophones d'Afrique
 
 ## 2. Corpus documentaire envisagé (15-20 documents)
@@ -55,8 +55,8 @@ Ce thème a été resserré volontairement au périmètre national camerounais (
 | Stockage | 50,9 Go libres sur C: | Non contraignant |
 
 ### Ajustement technique proposé et communiqué au tuteur
-Le cahier des charges recommande Mistral 7B-Instruct ou Llama 3.1 8B comme LLM local. Ces modèles se sont révélés impraticables sur la configuration matérielle disponible (temps de réponse de plusieurs minutes, saturation mémoire). Un modèle plus léger, **Llama 3.2 3B** (quantifié, via Ollama), a été retenu comme alternative :
-- Reste dans la famille Llama, respecte l'esprit du cahier des charges (LLM local, sans clé API, via Ollama)
+Le spécifications recommande Mistral 7B-Instruct ou Llama 3.1 8B comme LLM local. Ces modèles se sont révélés impraticables sur la configuration matérielle disponible (temps de réponse de plusieurs minutes, saturation mémoire). Un modèle plus léger, **Llama 3.2 3B** (quantifié, via Ollama), a été retenu comme alternative :
+- Reste dans la famille Llama, respecte l'esprit du spécifications (LLM local, sans clé API, via Ollama)
 - Temps de réponse mesuré : ~8 secondes sans contexte, ~40 secondes avec contexte injecté (scénario RAG réaliste)
 - Fidélité au contexte fourni jugée satisfaisante lors des tests préliminaires
 

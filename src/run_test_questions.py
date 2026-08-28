@@ -1,25 +1,5 @@
 """
-Lanceur de tests par lot — Agent RAG Microfinance Cameroun (cloture S2).
-
-Pose automatiquement toutes les questions listees dans test_questions.csv
-a l'agent RAG, journalise chaque interaction (via la meme fonction ask()
-que le mode interactif, donc dans data/processed/interactions_log.csv),
-et sauvegarde en plus un CSV dedie avec la categorie de chaque question
-pour faciliter l'analyse (voir analyser_resultats_S2.py).
-
-Usage :
-    python src/run_test_questions.py
-
-Prerequis :
-    - Ollama installe et lance, avec le modele llama3.2:3b telecharge
-    - Index FAISS deja construit (python src/build_index.py)
-    - Le fichier test_questions.csv place a la racine du projet
-      (colonnes : id, categorie, question)
-
-Attention : avec TOP_K=8, chaque question peut prendre 40 a 150 secondes
-sur un CPU sans GPU. Pour 35 questions, prevoir entre 30 minutes et
-1h30 selon la longueur du contexte recupere. Laisser tourner le script
-sans l'interrompre.
+Module run_test_questions.py.
 """
 
 import csv
@@ -46,7 +26,7 @@ def load_questions():
 
 
 def init_results_file():
-    """Cree le fichier de resultats dedie a la campagne de tests S2."""
+    """Cree le fichier de resultats dedie a la tests S2."""
     RESULTS_FILE.parent.mkdir(parents=True, exist_ok=True)
     with open(RESULTS_FILE, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)

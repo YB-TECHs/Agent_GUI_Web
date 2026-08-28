@@ -1,10 +1,5 @@
 """
-Script de diagnostic — verifie si le mot "Yaound" (racine de Yaounde/
-Yaoundé) apparait dans un des chunks indexes, independamment de tout
-probleme de retrieval.
-
-Usage :
-    python src/diagnostic_verifier_ville.py
+Module diagnostic_verifier_ville.py.
 """
 
 import sys

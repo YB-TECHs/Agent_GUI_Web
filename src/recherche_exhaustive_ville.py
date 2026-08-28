@@ -1,23 +1,5 @@
 """
-Outil de RECHERCHE EXHAUSTIVE par ville — complementaire a l'agent RAG.
-
-Contrairement a rag_agent.py (qui repond via un LLM a partir d'un nombre
-LIMITE de chunks, adapte aux questions ponctuelles mais pas a
-l'enumeration complete), cet outil affiche TOUS les chunks du corpus
-contenant litteralement le nom d'une ville donnee, sans passer par le
-LLM. Aucune limite de nombre de resultats, aucun risque d'oubli ou
-d'invention : c'est une recherche brute, exhaustive et fiable.
-
-IMPORTANT : distingue les mentions de VILLE (localisation d'un
-etablissement) des cas ou le meme mot apparaitrait comme nom propre
-d'un dirigeant (ex. un nom de famille camerounais identique a un nom de
-ville). La distinction se fait ligne par ligne : si la ligne contenant
-le mot recherche contient AUSSI une etiquette de dirigeant (PCA, DG,
-DGA, CAC), l'occurrence est consideree comme un possible nom propre et
-signalee separement plutot que comptee comme une vraie localisation.
-
-Usage :
-    python src/recherche_exhaustive_ville.py Douala
+Module recherche_exhaustive_ville.py.
 """
 
 import re
@@ -110,15 +92,7 @@ def main():
             print()
 
     if not chunks_avec_localisation and not chunks_avec_nom_propre_uniquement:
-        print("Aucun chunk ne mentionne cette ville. Verifie l'orthographe, "
-              "ou il se peut que cette ville ne soit simplement pas couverte "
-              "par le corpus.")
-    else:
-        print(f"{'='*70}")
-        print("IMPORTANT : ce texte brut peut etre fragmente (extraction PDF "
-              "de tableau). La distinction localisation/nom propre est une "
-              "heuristique (basee sur la presence d'etiquettes PCA/DG/DGA/CAC "
-              "sur la meme ligne) — verifie visuellement en cas de doute.")
+        print("Aucun EMF trouvé pour cette ville.")
 
 
 if __name__ == "__main__":

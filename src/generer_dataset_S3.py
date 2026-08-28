@@ -1,26 +1,5 @@
 """
-Lanceur de generation du dataset S3 — RESUMABLE en cas d'interruption,
-et capable de MIGRER les resultats d'une session precedente meme si la
-liste de questions a change entre-temps (ex. correction d'un bug qui a
-modifie l'ordre/le nombre de villes detectees).
-
-Fonctionnement :
-1. Si un fichier de resultats existe deja sous l'ancien nom (issu d'une
-   session lancee avec une version anterieure de la liste de questions),
-   il est archive automatiquement plutot qu'ecrase.
-2. Les reponses deja calculees sont retrouvees en comparant le TEXTE
-   exact de la question (pas son identifiant), ce qui les rend valides
-   meme si la numerotation a change.
-3. Seules les questions vraiment nouvelles (jamais posees, ni dans
-   l'ancienne ni la nouvelle session) sont effectivement calculees.
-
-Usage :
-    python src/generer_dataset_S3.py
-
-Prerequis :
-    - Avoir lance generer_questions_dataset.py au prealable pour produire
-      questions_dataset_S3.csv
-    - Ollama installe et lance, index FAISS deja construit
+Module generer_dataset_S3.py.
 """
 
 import csv
@@ -33,6 +12,7 @@ os.environ.setdefault("HF_HUB_OFFLINE", "1")
 from langchain_community.llms import Ollama
 
 from rag_agent import LLM_MODEL, ask, init_log_file, load_retriever
+from empecher_veille import EmpecherVeille
 
 QUESTIONS_FILE = Path("questions_dataset_S3.csv")
 RESULTS_FILE = Path("data/processed/dataset_interactions_S3.csv")
@@ -157,29 +137,30 @@ def main():
 
     debut_session = time.time()
 
-    for i, item in enumerate(a_calculer, start=1):
-        print(f"[{i}/{len(a_calculer)}] ({item['categorie']}) {item['question']}")
+    with EmpecherVeille():
+        for i, item in enumerate(a_calculer, start=1):
+            print(f"[{i}/{len(a_calculer)}] ({item['categorie']}) {item['question']}")
 
-        result = ask(item["question"], retriever, llm, vectorstore)
-        score = result["score_similarite"]
-        ecrire_ligne(
-            item,
-            result["reponse"],
-            result["nb_documents"],
-            round(score, 4) if score is not None else "",
-            round(result["temps_reponse"], 2),
-            result["statut"],
-        )
+            result = ask(item["question"], retriever, llm, vectorstore)
+            score = result["score_similarite"]
+            ecrire_ligne(
+                item,
+                result["reponse"],
+                result["nb_documents"],
+                round(score, 4) if score is not None else "",
+                round(result["temps_reponse"], 2),
+                result["statut"],
+            )
 
-        score_txt = f"{score:.3f}" if score is not None else "N/A"
-        print(f"    -> {result['temps_reponse']:.1f}s, "
-              f"{result['nb_documents']} document(s), "
-              f"score={score_txt}, statut={result['statut']}")
+            score_txt = f"{score:.3f}" if score is not None else "N/A"
+            print(f"    -> {result['temps_reponse']:.1f}s, "
+                  f"{result['nb_documents']} document(s), "
+                  f"score={score_txt}, statut={result['statut']}")
 
-        ecoule = time.time() - debut_session
-        moyenne = ecoule / i
-        restant = moyenne * (len(a_calculer) - i)
-        print(f"    -> temps restant estime (session actuelle) : {restant/60:.1f} min\n")
+            ecoule = time.time() - debut_session
+            moyenne = ecoule / i
+            restant = moyenne * (len(a_calculer) - i)
+            print(f"    -> temps restant estime (session actuelle) : {restant/60:.1f} min\n")
 
     print(f"Session terminee. Resultats cumules dans : {RESULTS_FILE}")
     print("Si le script a ete interrompu puis relance, relance-le simplement "

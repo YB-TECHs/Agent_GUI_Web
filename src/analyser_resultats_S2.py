@@ -1,14 +1,5 @@
 """
-Analyse des resultats de la campagne de tests S2 — Agent RAG Microfinance Cameroun.
-
-Lit data/processed/resultats_tests_S2.csv (genere par run_test_questions.py)
-et produit un resume quantifie : taux de reponses "je ne dispose pas de
-cette information", temps de reponse par categorie, taux d'echec technique,
-et une detection simple des reponses suspectes (a verifier manuellement
-pour ecarter d'eventuelles hallucinations residuelles).
-
-Usage :
-    python src/analyser_resultats_S2.py
+Module analyser_resultats_S2.py.
 """
 
 from pathlib import Path

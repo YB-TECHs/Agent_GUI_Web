@@ -1,24 +1,5 @@
 """
-Generation automatique de questions supplementaires pour atteindre le
-livrable S3 (>= 300 interactions reelles, section 9 du cahier des
-charges), avec une repartition EQUILIBREE entre categories (aucune
-categorie ne doit dominer le dataset, pour une analyse exploratoire
-representative en S4).
-
-Combine plusieurs approches :
-1. Detection AUTOMATIQUE des villes et institutions reellement presentes
-   dans le corpus (verification litterale, normalisee casse/accents),
-   pour generer des questions authentiques sans deviner a l'aveugle.
-2. Questions codees en dur, variees : reglementation, definitions,
-   chiffres, comparaisons, questions ambigues et hors-perimetre
-   (cf. cahier des charges section 3.2, Option A).
-3. Les questions liees aux villes sont PLAFONNEES (GEO_MAX) et reparties
-   entre deux categories differentes (geo_tabulaire : listing direct ;
-   scenario : conseil/comparaison), pour eviter qu'une seule categorie
-   ne represente une part disproportionnee du dataset.
-
-Usage :
-    python src/generer_questions_dataset.py
+Module generer_questions_dataset.py.
 """
 
 import csv
@@ -32,7 +13,7 @@ from rag_agent import charger_tous_les_chunks, supprimer_accents
 OUTPUT_FILE = Path("questions_dataset_S3.csv")
 
 # Nombre total d'interactions REELLES visees pour S3 (35 deja faites en S2
-# + celles generees ici). Le cahier des charges (section 9, planning S3)
+# + celles generees ici). Le spécifications (section 9, planning S3)
 # demande explicitement >= 300 comme livrable de cette semaine.
 TOTAL_INTERACTIONS_VISE = 310
 DEJA_REALISEES_S2 = 35

@@ -1,21 +1,5 @@
 """
-Verification post-hoc : detecte automatiquement les CONFUSIONS DE VILLE
-dans les reponses de categorie geo_tabulaire/scenario, sans recalculer
-aucune interaction (analyse pure du texte deja enregistre).
-
-Principe : pour chaque question, on identifie la ville demandee (celle
-mentionnee dans la question), puis on verifie si la reponse mentionne
-une AUTRE ville connue du corpus. Si oui, c'est un signal fort de
-confusion/hallucination de synthese (cas reel decouvert manuellement :
-"CECICS - Carrefour Yelwa, B.P 859 Garoua" cite dans une reponse
-concernant Douala).
-
-Ce script ne modifie rien : il produit un rapport quantifie, utile pour
-le rapport de stage et pour anticiper l'interpretation de la metrique
-RAGAS Faithfulness (section 5.3 du cahier des charges).
-
-Usage :
-    python src/verifier_confusion_villes.py
+Module verifier_confusion_villes.py.
 """
 
 import re

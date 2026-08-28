@@ -1,19 +1,5 @@
 """
-Regenere UNIQUEMENT les reponses identifiees comme "confusion de ville"
-(rapport_confusion_villes.csv), en utilisant l'index FAISS CORRIGE
-(post-correction du bug de decoupage region/footer dans build_index.py).
-
-Ne modifie JAMAIS les fichiers bruts originaux (resultats_tests_S2.csv,
-dataset_interactions_S3.csv) : produit un fichier de corrections separe,
-que nettoyage_dataset.py appliquera ensuite de facon tracee (colonne
-booleenne indiquant explicitement quelles lignes ont ete corrigees).
-
-Usage :
-    python src/corriger_reponses_confuses.py
-
-Prerequis :
-    - Avoir deja relance build_index.py (index corrige)
-    - Avoir deja lance verifier_confusion_villes.py (rapport disponible)
+Module corriger_reponses_confuses.py.
 """
 
 import os

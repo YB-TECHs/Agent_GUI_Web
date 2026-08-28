@@ -1,15 +1,5 @@
 """
-Script de diagnostic — mesure le RANG exact (position dans le classement)
-des chunks contenant "Maroua" pour la question complete, avec la meme
-tokenisation (mots vides retires) que celle utilisee en production.
-
-But : comprendre pourquoi EnsembleRetriever (qui fusionne les CLASSEMENTS,
-pas les scores bruts) ne remonte pas le bon chunk. Si le rang est trop
-eleve (ex. > 20), meme un BM25_K genereux ne suffira pas et il faudra une
-autre approche.
-
-Usage :
-    python src/diagnostic_rang_bm25.py
+Module diagnostic_rang_bm25.py.
 """
 
 import sys

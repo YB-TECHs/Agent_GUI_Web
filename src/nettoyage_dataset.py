@@ -1,17 +1,5 @@
 """
-Nettoyage et structuration du jeu de donnees d'interactions (S2 + S3).
-
-Conforme a la section 4 du cahier des charges :
-    - Deduplication des enregistrements strictement identiques
-    - Typage explicite des champs (dates, scores numeriques, chaines,
-      booleens de succes/echec)
-    - Validation par regles metier configurables (score de similarite
-      entre 0 et 1, temps de reponse positif)
-    - Structuration finale en DataFrame exportable (CSV/JSON/SQLite),
-      accompagne d'un dictionnaire de donnees
-
-Usage :
-    python src/nettoyage_dataset.py
+Module nettoyage_dataset.py.
 """
 
 import json
@@ -153,7 +141,7 @@ def enrichir_avec_timestamp(df):
 
 def dedupliquer(df):
     """Supprime les enregistrements STRICTEMENT identiques (toutes
-    colonnes egales), comme demande section 4. Ne supprime pas les
+    colonnes egales), implémentation section 4. Ne supprime pas les
     questions reformulees ou posees a des moments differents."""
     avant = len(df)
     df = df.drop_duplicates(
@@ -235,7 +223,7 @@ def generer_dictionnaire_donnees(df):
         "score_similarite": "Score de similarite semantique du meilleur chunk "
                              "FAISS, normalise entre 0 et 1 via 1/(1+distance_L2). "
                              "ABSENT pour les interactions S2 (colonne ajoutee "
-                             "apres la campagne de tests S2) : valeurs manquantes "
+                             "apres la tests S2) : valeurs manquantes "
                              "(NaN) pour ces lignes, non imputees.",
         "temps_reponse_secondes": "Temps total de traitement de la question, "
                                   "en secondes (recuperation + generation LLM).",

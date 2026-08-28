@@ -1,10 +1,5 @@
 """
-Correctif de compatibilité pour ragas 0.3.9 avec langchain-community récent.
-Bug connu : ragas/llms/base.py importe langchain_community.chat_models.vertexai,
-un chemin supprimé dans les versions récentes de langchain-community.
-Ce shim redirige l'import vers langchain_google_vertexai sans modifier
-les fichiers installés (donc reproductible et robuste aux réinstallations).
-Doit être importé AVANT tout import de `ragas`.
+Module ragas_compat.py.
 """
 import os
 os.environ["GIT_PYTHON_REFRESH"] = "quiet"  # évite une erreur GitPython non bloquante pour notre usage

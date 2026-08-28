@@ -1,19 +1,5 @@
 """
-Agent RAG maison — Microfinance au Cameroun.
-
-Charge l'index FAISS déjà construit (voir build_index.py), se connecte
-au LLM local (Llama 3.2 3B via Ollama), et répond aux questions en se
-basant uniquement sur le contexte récupéré dans le corpus.
-
-Chaque interaction est journalisée dans data/processed/interactions_log.csv.
-
-Usage (mode interactif) :
-    python src/rag_agent.py
-
-Prérequis :
-    - Ollama installé et lancé, avec le modèle llama3.2:3b téléchargé
-    - Index FAISS déjà construit (python src/build_index.py)
-    - pip install rank_bm25 (pour la recherche par mot-clé)
+Module rag_agent.py.
 """
 
 import csv
@@ -53,31 +39,14 @@ EMBEDDING_MODEL = "paraphrase-multilingual-MiniLM-L12-v2"
 LLM_MODEL = "llama3.2:3b"
 
 # TOP_K final : nombre de chunks FAISS (semantiques) retenus.
-TOP_K = 5
-# BM25_K : nombre de chunks retenus par la recherche par mot-cle, VOLONTAIREMENT
-# plus large que TOP_K. Raison : EnsembleRetriever fusionne les CLASSEMENTS
-# (Reciprocal Rank Fusion), pas les scores bruts. Un chunk pertinent doit donc
-# apparaitre dans le top-k de BM25 pour la question complete (pas seulement
-# pour un mot isole) afin d'etre pris en compte dans la fusion. Un pool plus
-# large augmente les chances qu'un chunk rare (ex. nom de ville dans un
-# tableau) y figure, meme si la question contient d'autres mots frequents
-# qui accumulent aussi du score.
-BM25_K = 20
+TOP_K = 15
+# BM25_K : nombre de chunks retenus par la recherche par mot-cle
+BM25_K = 40
 
-# MAX_CONTEXTE_CHUNKS : nombre de chunks reellement envoyes au LLM apres
-# fusion BM25+FAISS. On garde un pool de RECHERCHE large (BM25_K=20) pour
-# maximiser les chances de capter le bon chunk meme mal classe, mais on ne
-# transmet au LLM que les N meilleurs resultats APRES fusion (deja tries
-# par pertinence par EnsembleRetriever). Sans cette limite, on envoyait
-# jusqu'a 20-25 chunks au LLM, ce qui ralentissait fortement chaque
-# reponse (192s en moyenne, jusqu'a 387s) sans forcement ameliorer la
-# qualite : les chunks les moins bien classes apportent peu et allongent
-# le temps de traitement.
-MAX_CONTEXTE_CHUNKS = 12
+# Limite du contexte envoyé au LLM pour éviter la surcharge (Lost in the middle)
+MAX_CONTEXTE_CHUNKS = 8
 
-# Mots vides francais retires avant le calcul du score BM25. Sans ce filtre,
-# des mots tres frequents dans le corpus (quelles, sont, les, a...)
-# noient le signal des mots rares et discriminants (ex. noms de villes).
+# Stopwords FR pour optimiser BM25
 MOTS_VIDES_FRANCAIS = {
     "le", "la", "les", "un", "une", "des", "du", "de", "d", "l",
     "et", "ou", "est", "sont", "es", "suis", "sommes", "etes",
@@ -90,14 +59,7 @@ MOTS_VIDES_FRANCAIS = {
 
 
 def supprimer_accents(texte: str) -> str:
-    """Retire les accents (é -> e, à -> a, etc.) d'une chaîne.
-
-    Nécessaire car BM25 compare des chaînes exactes : sans cette étape,
-    une question tapée sans accent ("Yaounde") ne "matchait" pas un
-    document contenant le mot avec accent ("Yaoundé"), ce qui faisait
-    chuter le rang du bon chunk de la 9ème place (cas sans accent, ex.
-    Maroua) à la 265ème place (cas avec accent, ex. Yaoundé).
-    """
+    """Normalisation des accents pour BM25."""
     forme_decomposee = unicodedata.normalize("NFD", texte)
     return "".join(c for c in forme_decomposee if unicodedata.category(c) != "Mn")
 
@@ -115,23 +77,24 @@ def pretraitement_bm25(texte: str) -> list[str]:
     return [t for t in tokens if t not in MOTS_VIDES_FRANCAIS]
 
 
-PROMPT_TEMPLATE = """Tu es un assistant qui répond aux questions sur la microfinance au Cameroun.
+PROMPT_TEMPLATE = """Tu es un expert en microfinance.
+Analyse la question et réponds en te basant STRICTEMENT sur le CONTEXTE fourni.
 
-RÈGLES STRICTES :
-1. Réponds UNIQUEMENT à partir des informations présentes dans le contexte ci-dessous.
-2. N'utilise JAMAIS tes connaissances générales, même si tu penses connaître la réponse.
-3. Si le contexte ne contient pas l'information demandée, réponds exactement :
-   "Je ne dispose pas de cette information dans mes documents."
-4. Ne cite aucun nom d'organisation, de lieu ou de chiffre qui n'apparaît pas explicitement dans le contexte.
-5. Réponds en français, de manière concise et directe.
+CONSIGNE : 
+Si la question aborde plusieurs sujets, sépare ta réponse en deux.
+1. Réponds aux sujets présents dans le contexte.
+2. Pour les sujets hors-contexte, écris explicitement : "Cependant, je ne dispose pas d'informations sur ce sujet."
+N'invente JAMAIS d'informations.
 
-Contexte :
+CONTEXTE :
 {context}
 
 Question : {question}
-
 Réponse :"""
 
+def formater_contexte(docs):
+    """Formate les chunks en les numerotant pour aider le LLM a les distinguer."""
+    return "\n\n".join([f"--- Extrait {i+1} ---\n{doc.page_content}" for i, doc in enumerate(docs)])
 
 def charger_tous_les_chunks():
     """Charge l'index FAISS et retourne (vectorstore, liste de tous les chunks)."""
@@ -155,7 +118,11 @@ def load_retriever():
     ou d'institution même si sa structure nuit à l'embedding sémantique.
     """
     vectorstore, tous_les_documents = charger_tous_les_chunks()
-    faiss_retriever = vectorstore.as_retriever(search_kwargs={"k": TOP_K})
+    
+    faiss_retriever = vectorstore.as_retriever(
+        search_type="mmr",
+        search_kwargs={"k": TOP_K, "fetch_k": 50, "lambda_mult": 0.5}
+    )
 
     bm25_retriever = BM25Retriever.from_documents(
         tous_les_documents,
@@ -165,7 +132,7 @@ def load_retriever():
 
     return EnsembleRetriever(
         retrievers=[bm25_retriever, faiss_retriever],
-        weights=[0.5, 0.5],
+        weights=[0.6, 0.4]
     ), vectorstore
 
 
@@ -182,19 +149,7 @@ COLONNES_LOG_ATTENDUES = [
 
 
 def init_log_file():
-    """Crée le fichier de log s'il n'existe pas, ou MIGRE automatiquement
-    son en-tête s'il existe deja avec un ancien schema (moins de colonnes).
-
-    Bug reel corrige ici : ce fichier a ete cree avant l'ajout de la
-    colonne score_similarite au pipeline. Comme cette fonction n'ecrivait
-    l'en-tete QUE si le fichier n'existait pas encore, les nouvelles
-    lignes (8 champs) se sont ajoutees sous un en-tete qui n'en declarait
-    que 7, desalignant tout le fichier. Desormais, si un en-tete existant
-    est plus court que le schema attendu, TOUTES les lignes existantes
-    sont migrees automatiquement (insertion d'une valeur vide pour la
-    colonne manquante) avant que la moindre nouvelle ligne ne soit
-    ajoutee — ce probleme ne peut plus se reproduire silencieusement.
-    """
+    """Crée le fichier de log s'il n'existe pas, ou met à jour le schéma si nécessaire."""
     LOG_FILE.parent.mkdir(parents=True, exist_ok=True)
 
     if not LOG_FILE.exists():
@@ -251,17 +206,7 @@ def log_interaction(question, reponse, nb_docs, score_similarite, extrait_contex
 
 
 def calculer_score_similarite(question: str, vectorstore) -> float:
-    """Calcule un score de similarité sémantique entre 0 et 1 (1 = très similaire).
-
-    Le cahier des charges demande un "score de similarité" par interaction,
-    valide entre 0 et 1 (section 4). FAISS retourne par defaut une DISTANCE
-    L2 (0 = identique, plus grand = plus different, sans borne superieure
-    fixe) et non une similarite normalisee. On applique donc la
-    transformation 1 / (1 + distance) sur le meilleur resultat, qui donne
-    une valeur toujours dans (0, 1], strictement decroissante avec la
-    distance : proche de 1 si le document est tres proche semantiquement
-    de la question, proche de 0 sinon.
-    """
+    """Convertit la distance L2 de FAISS en score de similarité entre 0 et 1."""
     resultats = vectorstore.similarity_search_with_score(question, k=1)
     if not resultats:
         return 0.0
@@ -276,12 +221,9 @@ def ask(question: str, retriever, llm, vectorstore) -> dict:
 
     try:
         docs = retriever.invoke(question)
-        # On ne garde que les N meilleurs resultats APRES fusion BM25+FAISS
-        # (EnsembleRetriever les retourne deja tries par pertinence), pour
-        # limiter le temps de traitement du LLM sans perdre le benefice du
-        # pool de recherche large.
+        # On limite le contexte pour ne pas surcharger le modèle local
         docs = docs[:MAX_CONTEXTE_CHUNKS]
-        contexte = "\n\n".join(doc.page_content for doc in docs)
+        contexte = formater_contexte(docs)
         prompt = PROMPT_TEMPLATE.format(context=contexte, question=question)
         reponse = llm.invoke(prompt)
         score_similarite = calculer_score_similarite(question, vectorstore)
@@ -294,20 +236,17 @@ def ask(question: str, retriever, llm, vectorstore) -> dict:
 
     temps_reponse = time.time() - start
 
-    # L'ecriture du journal est protegee separement : un probleme
-    # d'ecriture (fichier verrouille par un autre programme, permissions,
-    # synchronisation OneDrive en cours...) ne doit jamais faire perdre
-    # une reponse deja calculee par le LLM, potentiellement couteuse en
-    # temps. On avertit sans interrompre le programme.
+    # Sauvegarde asynchrone pour ne pas crasher si le fichier est ouvert ailleurs
     try:
         log_interaction(question, reponse, len(docs), score_similarite, contexte, temps_reponse, statut)
     except Exception as e:
-        print(f"/!\\ Echec de l'ecriture dans le journal (reponse conservee malgre tout) : {e}")
+        print(f"/!\\ Echec de l'ecriture CSV : {e}")
 
     return {
         "question": question,
         "reponse": reponse,
         "nb_documents": len(docs),
+        "sources": list(set([doc.metadata.get("source") for doc in docs if doc.metadata.get("source")])),
         "score_similarite": score_similarite,
         "temps_reponse": temps_reponse,
         "statut": statut,
@@ -319,15 +258,8 @@ def main():
     retriever, vectorstore = load_retriever()
 
     print(f"Connexion au LLM local ({LLM_MODEL} via Ollama)...")
-    # IMPORTANT : par défaut, Ollama limite la fenêtre de contexte à 2048
-    # tokens, quel que soit le modèle utilisé — même si Llama 3.2 3B peut
-    # gérer beaucoup plus. Avec BM25_K=20 + FAISS TOP_K=5, on récupère
-    # souvent 20-25 chunks (~800 caractères chacun), ce qui dépasse
-    # largement 2048 tokens. Sans cet ajustement, Ollama tronque le
-    # contexte SANS AUCUN AVERTISSEMENT : si les chunks pertinents tombent
-    # dans la partie coupée, le modèle ne les voit jamais, même si le
-    # retriever les avait bien récupérés.
-    llm = Ollama(model=LLM_MODEL, num_ctx=8192)
+    # Augmentation du contexte (4096) pour éviter la troncature silencieuse d'Ollama
+    llm = Ollama(model=LLM_MODEL, num_ctx=4096, temperature=0.0)
 
     init_log_file()
 

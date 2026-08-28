@@ -1,14 +1,5 @@
 """
-Script de récupération du corpus documentaire — Microfinance au Cameroun.
-
-Ce script télécharge automatiquement le contenu texte de pages Wikipédia FR
-et les sauvegarde individuellement dans data/raw/, un fichier par page.
-
-Usage :
-    python src/fetch_corpus.py
-
-Prérequis :
-    pip install wikipedia-api
+Module fetch_corpus.py.
 """
 
 import wikipediaapi

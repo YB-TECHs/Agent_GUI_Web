@@ -1,11 +1,5 @@
 """
-Script de diagnostic — teste BM25Retriever tout seul (sans fusion avec
-FAISS), pour verifier s'il retrouve bien les chunks contenant "Maroua"
-quand on l'interroge directement. Permet d'isoler si le probleme vient
-de BM25 lui-meme ou de la fusion EnsembleRetriever.
-
-Usage :
-    python src/diagnostic_bm25_seul.py
+Module diagnostic_bm25_seul.py.
 """
 
 from pathlib import Path

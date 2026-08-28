@@ -1,11 +1,5 @@
 """
-Script de diagnostic (generalise) — mesure le rang de tous les chunks
-contenant un mot-cle donne, dans le classement BM25 pour une question
-donnee. Version generalisee de diagnostic_rang_bm25.py, utilisable pour
-n'importe quelle ville/mot sans modifier le code.
-
-Usage :
-    python src/diagnostic_rang_mot.py "quelles sont les microfinances qu'on trouve a Yaounde ?" Yaound
+Module diagnostic_rang_mot.py.
 """
 
 import sys

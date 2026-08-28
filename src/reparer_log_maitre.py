@@ -1,23 +1,5 @@
 """
-Reparation DEFINITIVE du journal maitre (interactions_log.csv).
-
-Cause exacte du probleme (diagnostiquee via diagnostiquer_log_corrompu.py) :
-le fichier existait deja avec un ancien en-tete a 7 colonnes (avant l'ajout
-de la colonne score_similarite au pipeline). Comme init_log_file()
-n'ecrit l'en-tete QUE si le fichier n'existe pas encore, les nouvelles
-lignes (8 champs, avec score_similarite) ont continue a s'ajouter sous
-un en-tete qui n'en declarait que 7 — d'ou le desalignement.
-
-AUCUNE PERTE DE DONNEES : ce n'est pas une corruption, juste un en-tete
-obsolete. Ce script :
-1. Sauvegarde l'original avant toute modification
-2. Harmonise TOUTES les lignes sur le schema a 8 colonnes (insere une
-   valeur vide pour score_similarite dans les anciennes lignes a 7
-   champs, qui datent d'avant l'existence de cette colonne)
-3. Reecrit un fichier propre avec un en-tete coherent
-
-Usage :
-    python src/reparer_log_maitre.py
+Module reparer_log_maitre.py.
 """
 
 import csv

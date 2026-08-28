@@ -1,15 +1,5 @@
 """
-Diagnostic PRECIS du journal maitre corrompu (interactions_log.csv).
-
-Contrairement a pandas (qui peut se tromper sur des champs contenant des
-retours a la ligne integres), ce script utilise le module csv standard
-de Python, qui respecte correctement les guillemets et les retours a la
-ligne a l'interieur d'un champ cite. Il isole les VRAIES lignes
-malformees (nombre de colonnes incorrect) et affiche leur contenu brut
-exact, pour comprendre la cause reelle avant toute correction.
-
-Usage :
-    python src/diagnostiquer_log_corrompu.py
+Module diagnostiquer_log_corrompu.py.
 """
 
 import csv

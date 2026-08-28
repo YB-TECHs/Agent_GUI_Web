@@ -1,11 +1,5 @@
 """
-Script de diagnostic (generalise) — verifie ce que le retriever hybride
-complet (BM25 + FAISS, apres fusion) renvoie pour une question donnee,
-sans passer par le LLM. Version generalisee de diagnostic_retriever.py,
-utilisable pour n'importe quelle ville/mot sans modifier le code.
-
-Usage :
-    python src/diagnostic_retriever_generique.py "question ici" mot_a_chercher
+Module diagnostic_retriever_generique.py.
 """
 
 import sys
