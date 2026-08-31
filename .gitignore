@@ -2,9 +2,9 @@
 agent_pipe/
 agent_pipe_rag/
 
-# OmniParser (trop lourd — modèles et poids)
-OmniParser/weights/
-OmniParser/__pycache__/
+# OmniParser — dépôt tiers cloné séparément (code + poids, voir guide_installation.md)
+# Cette seule ligne suffit : elle couvre déjà weights/ et __pycache__/ à l'intérieur.
+OmniParser/
 
 # Python
 __pycache__/
@@ -12,10 +12,19 @@ __pycache__/
 *.pyo
 .env
 
-# Données brutes
+# Données et sorties générées par le pipeline
 data/raw/
 chroma_db/
 
-# Jupyter checkpoints
+# Tests / couverture
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environnements de développement
 .ipynb_checkpoints/
-OmniParser/
+.vscode/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
