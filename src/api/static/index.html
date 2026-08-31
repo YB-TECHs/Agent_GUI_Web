@@ -83,9 +83,33 @@
 <body>
 
 <header>
-  <h1>🧠 YB-TECHs — Agent d'extraction intelligent</h1>
-  <p>Selenium → OCR → OmniParser, jugé par Llama</p>
+  <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px;">
+    <div>
+      <h1>🧠 YB-TECHs — Agent d'extraction intelligent</h1>
+      <p>Selenium → OCR → OmniParser, jugé par Llama</p>
+    </div>
+    <div style="display:flex; gap:10px;">
+      <a href="/chaine.html" style="text-decoration:none;">
+        <button style="background:var(--dark2); margin:0;">⛓️ Extraction en chaîne</button>
+      </a>
+      <button id="btnHistorique" onclick="toggleHistorique()" style="background:var(--dark2); margin:0;">
+        🕘 Historique <span id="badgeHistorique" style="background:var(--teal); color:var(--dark); border-radius:10px; padding:1px 7px; font-size:12px; margin-left:4px;"></span>
+      </button>
+    </div>
+  </div>
 </header>
+
+<div id="historiquePanel" style="display:none; max-width:900px; margin:0 auto; padding:0 20px;">
+  <div class="box" style="margin-top:20px;">
+    <div class="box-header" style="background:var(--dark2); color:var(--teal);">
+      <span>🕘 Historique de conversation</span>
+      <span id="compteurHistorique" style="font-weight:400; text-transform:none;"></span>
+    </div>
+    <div class="box-body" id="historiqueBody" style="max-height:400px;">
+      <p style="color:var(--grey); font-size:14px;">Chargement…</p>
+    </div>
+  </div>
+</div>
 
 <main>
   <div class="form-card">
@@ -159,7 +183,7 @@ async function analyser() {
         ? '(mode discussion libre — pas d\'extraction effectuée)'
         : JSON.stringify(sortie.resultats, null, 2);
 
-        
+
     resultats.classList.add('visible');
   } catch (e) {
     erreurBox.textContent = '❌ ' + e.message;
@@ -168,6 +192,60 @@ async function analyser() {
     btn.disabled = false;
     status.classList.remove('actif');
   }
+  rafraichirBadgeHistorique();
+}
+let historiqueOuvert = false;
+
+async function toggleHistorique() {
+  const panel = document.getElementById('historiquePanel');
+  historiqueOuvert = !historiqueOuvert;
+  panel.style.display = historiqueOuvert ? 'block' : 'none';
+  if (historiqueOuvert) await chargerHistorique();
+}
+
+async function chargerHistorique() {
+  const body = document.getElementById('historiqueBody');
+  body.innerHTML = '<p style="color:var(--grey); font-size:14px;">Chargement…</p>';
+  try {
+    const reponse = await fetch('/historique');
+    const { messages } = await reponse.json();
+
+    document.getElementById('badgeHistorique').textContent = messages.length;
+    document.getElementById('compteurHistorique').textContent = `${messages.length} / 100 messages`;
+
+    if (messages.length === 0) {
+      body.innerHTML = '<p style="color:var(--grey); font-size:14px;">Aucun échange pour l\'instant.</p>';
+      return;
+    }
+
+    body.innerHTML = messages.map(m => `
+      <div style="margin-bottom:12px; display:flex; ${m.role === 'user' ? 'justify-content:flex-end;' : ''}">
+        <div style="max-width:80%; padding:10px 14px; border-radius:10px; font-size:13.5px; line-height:1.5; white-space:pre-wrap;
+                    background:${m.role === 'user' ? '#E0E7FF' : '#F0F4F8'};
+                    color:${m.role === 'user' ? '#4F46E5' : 'var(--text)'};">
+          <div style="font-size:11px; font-weight:700; opacity:.65; margin-bottom:3px; text-transform:uppercase;">
+            ${m.role === 'user' ? '👤 Vous' : '🧠 Llama'}
+          </div>
+          ${m.content.replace(/</g, '&lt;')}
+        </div>
+      </div>
+    `).join('');
+
+    body.scrollTop = body.scrollHeight;
+  } catch (e) {
+    body.innerHTML = `<p style="color:#B91C1C; font-size:14px;">Erreur de chargement : ${e.message}</p>`;
+  }
+    
+}
+
+// Met à jour le badge (nombre) discrètement après chaque analyse, sans ouvrir le panneau
+async function rafraichirBadgeHistorique() {
+  try {
+    const reponse = await fetch('/historique');
+    const { messages } = await reponse.json();
+    document.getElementById('badgeHistorique').textContent = messages.length;
+    if (historiqueOuvert) chargerHistorique();
+  } catch (e) { /* silencieux — non bloquant */ }
 }
 </script>
 </body>

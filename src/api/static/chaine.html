@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Extraction en chaîne — YB-TECHs</title>
+<style>
+  :root {
+    --dark: #0D1B2A; --dark2: #1E3A5F; --teal: #02C39A; --teal2: #028090;
+    --text: #1E293B; --grey: #64748B; --light: #F0F4F8; --border: #D9DDE3;
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family:-apple-system,"Segoe UI",Calibri,sans-serif; background:var(--light); color:var(--text); }
+  header { background:var(--dark); color:white; padding:24px 40px; display:flex; justify-content:space-between; align-items:center; }
+  header h1 { margin:0; font-size:20px; }
+  header a { color: var(--teal); text-decoration:none; font-size:14px; font-weight:600; }
+
+  main { max-width:960px; margin:32px auto; padding:0 20px 60px; }
+
+  .card { background:white; border-radius:12px; padding:26px; box-shadow:0 1px 3px rgba(0,0,0,.08); margin-bottom:24px; }
+  .card h2 { margin-top:0; font-size:17px; }
+  .card p.desc { color:var(--grey); font-size:14px; margin-top:-6px; }
+
+  .formats { display:grid; grid-template-columns:1fr; gap:20px; }
+  @media (min-width:760px) { .formats { grid-template-columns:1fr 1fr; } }
+
+  .format-box { border:1.5px solid var(--border); border-radius:10px; overflow:hidden; }
+  .format-header { background:var(--light); padding:10px 14px; font-size:13px; font-weight:700; color:var(--teal2); border-bottom:1.5px solid var(--border); }
+
+  table.exemple { width:100%; border-collapse:collapse; font-size:13px; }
+  table.exemple th { background:var(--dark2); color:white; padding:8px 10px; text-align:left; font-size:12px; }
+  table.exemple td { padding:8px 10px; border-top:1px solid var(--border); }
+  table.exemple tr:nth-child(even) td { background:#FAFBFC; }
+
+  pre.exemple-json { margin:0; padding:14px; background:var(--dark); color:var(--teal); font-family:"Cascadia Code","Consolas",monospace; font-size:12.5px; overflow-x:auto; }
+
+  .zone-upload {
+    border:2px dashed var(--border); border-radius:10px; padding:30px; text-align:center;
+    cursor:pointer; transition:border-color .15s, background .15s;
+  }
+  .zone-upload:hover, .zone-upload.survol { border-color:var(--teal2); background:#F0FAF9; }
+  .zone-upload input[type=file] { display:none; }
+  .zone-upload .icone { font-size:32px; }
+  .zone-upload .nom-fichier { margin-top:10px; font-weight:600; color:var(--teal2); font-size:14px; }
+
+  button.principal {
+    margin-top:18px; background:var(--teal2); color:white; border:none;
+    padding:13px 26px; border-radius:8px; font-size:15px; font-weight:600;
+    cursor:pointer; width:100%;
+  }
+  button.principal:hover { background:var(--dark2); }
+  button.principal:disabled { background:var(--border); cursor:not-allowed; }
+
+  .status { margin-top:14px; font-size:14px; color:var(--grey); display:none; align-items:center; gap:8px; }
+  .status.actif { display:flex; }
+  .spinner { width:14px; height:14px; border:2px solid var(--border); border-top-color:var(--teal2); border-radius:50%; animation:tourner .7s linear infinite; }
+  @keyframes tourner { to { transform:rotate(360deg); } }
+
+  .erreur { background:#FEF2F2; border:1px solid #FCA5A5; color:#B91C1C; border-radius:8px; padding:14px; margin-top:14px; font-size:14px; display:none; }
+  .succes { background:#DCFCE7; border:1px solid #86EFAC; color:#166534; border-radius:8px; padding:14px; margin-top:14px; font-size:14px; display:none; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>⛓️ Extraction en chaîne</h1>
+  <a href="/">← Retour à l'analyse simple</a>
+</header>
+
+<main>
+
+  <div class="card">
+    <h2>1. Format du fichier attendu</h2>
+    <p class="desc">Deux colonnes obligatoires : <strong>url</strong> et <strong>question</strong>. Un exemple à 3 lignes ci-dessous pour chaque format accepté.</p>
+
+    <div class="formats">
+      <div class="format-box">
+        <div class="format-header">📊 Fichier Excel (.xlsx)</div>
+        <table class="exemple">
+          <tr><th>url</th><th>question</th></tr>
+          <tr><td>https://yb-techs.eu/</td><td>Les contacts</td></tr>
+          <tr><td>https://yb-techs.eu/</td><td>Les services proposés</td></tr>
+          <tr><td>https://qtatech.com/fr</td><td>De quoi parle ce site ?</td></tr>
+        </table>
+      </div>
+
+      <div class="format-box">
+        <div class="format-header">🧾 Fichier JSON (.json)</div>
+        <pre class="exemple-json">[
+  {
+    "url": "https://yb-techs.eu/",
+    "question": "Les contacts"
+  },
+  {
+    "url": "https://yb-techs.eu/",
+    "question": "Les services proposés"
+  },
+  {
+    "url": "https://qtatech.com/fr",
+    "question": "De quoi parle ce site ?"
+  }
+]</pre>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>2. Envoyer ton fichier</h2>
+    <p class="desc">Chaque ligne sera traitée par le pipeline complet (Selenium → OCR → OmniParser), puis un rapport PDF récapitulatif te sera proposé au téléchargement.</p>
+
+    <label class="zone-upload" id="zoneUpload" for="fichierInput">
+      <div class="icone">📁</div>
+      <div>Clique ici ou dépose ton fichier (.xlsx ou .json)</div>
+      <div class="nom-fichier" id="nomFichier"></div>
+      <input type="file" id="fichierInput" accept=".xlsx,.xls,.json">
+    </label>
+
+    <button class="principal" id="btnEnvoyer" onclick="envoyer()" disabled>Lancer l'extraction en chaîne</button>
+
+    <div class="status" id="status">
+      <div class="spinner"></div>
+      <span>Traitement en cours — peut prendre plusieurs minutes selon le nombre de cas…</span>
+    </div>
+    <div class="erreur" id="erreurBox"></div>
+    <div class="succes" id="succesBox"></div>
+  </div>
+
+</main>
+
+<script>
+const input = document.getElementById('fichierInput');
+const zone = document.getElementById('zoneUpload');
+const btn = document.getElementById('btnEnvoyer');
+
+input.addEventListener('change', () => {
+  if (input.files.length) {
+    document.getElementById('nomFichier').textContent = '✅ ' + input.files[0].name;
+    btn.disabled = false;
+  }
+});
+
+zone.addEventListener('dragover', (e) => { e.preventDefault(); zone.classList.add('survol'); });
+zone.addEventListener('dragleave', () => zone.classList.remove('survol'));
+zone.addEventListener('drop', (e) => {
+  e.preventDefault();
+  zone.classList.remove('survol');
+  if (e.dataTransfer.files.length) {
+    input.files = e.dataTransfer.files;
+    document.getElementById('nomFichier').textContent = '✅ ' + input.files[0].name;
+    btn.disabled = false;
+  }
+});
+
+async function envoyer() {
+  const fichier = input.files[0];
+  if (!fichier) return;
+
+  const status = document.getElementById('status');
+  const erreurBox = document.getElementById('erreurBox');
+  const succesBox = document.getElementById('succesBox');
+
+  btn.disabled = true;
+  status.classList.add('actif');
+  erreurBox.style.display = 'none';
+  succesBox.style.display = 'none';
+
+  const formData = new FormData();
+  formData.append('fichier', fichier);
+
+  try {
+    const reponse = await fetch('/api/traiter-chaine', { method: 'POST', body: formData });
+
+    if (!reponse.ok) {
+      const erreur = await reponse.json().catch(() => ({ erreur: `Erreur serveur (${reponse.status})` }));
+      throw new Error(erreur.erreur || 'Erreur inconnue');
+    }
+
+    const blob = await reponse.blob();
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'rapport_chaine.pdf';
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+
+    succesBox.textContent = '✅ Rapport généré et téléchargé.';
+    succesBox.style.display = 'block';
+  } catch (e) {
+    erreurBox.textContent = '❌ ' + e.message;
+    erreurBox.style.display = 'block';
+  } finally {
+    btn.disabled = false;
+    status.classList.remove('actif');
+  }
+}
+</script>
+</body>
+</html>

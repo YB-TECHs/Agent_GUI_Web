@@ -1,0 +1,40 @@
+# --- Selenium & extraction DOM ---
+selenium>=4.15
+beautifulsoup4>=4.12
+lxml>=5.0
+
+# --- OCR ---
+easyocr>=1.7
+opencv-python>=4.9
+
+# --- OmniParser (YOLO + Florence-2) ---
+# Versions figées suite au débogage S4 (voir Rapport OmniParser Partie 2) :
+# huggingface_hub 1.x est incompatible avec transformers/tokenizers/gradio.
+transformers==4.49.0
+huggingface_hub>=0.26.0,<1.0
+torch>=2.0
+ultralytics
+timm
+einops
+supervision
+yarl==1.24.2
+zopfli==0.4.3
+zstandard==0.25.0
+
+# --- Nettoyage, stockage, rapports ---
+pandas>=2.1
+jinja2>=3.1
+
+# --- Orchestrateur LLM ---
+requests>=2.31
+
+# --- API web ---
+fastapi>=0.110
+uvicorn>=0.27
+python-multipart
+openpyxl
+
+# --- Tests ---
+pytest>=8.0
+pytest-cov
+httpx

@@ -1,15 +1,15 @@
 {
-  "question": "Ce site parle de quoi?",
+  "question": "Les services proposés",
   "url": "https://yb-techs.eu",
   "source": "selenium",
-  "timestamp": "2026-08-24T08:04:07.782072",
+  "timestamp": "2026-08-31T10:43:39.554527",
   "resultats": {
     "CONTACTS_EMAIL": [
       "ybtechs.io@gmail.com"
     ],
     "CONTACTS_TEL": [
-      "+237 6 76 65 71 62",
-      "+33 6 59 28 72 21"
+      "+33 6 59 28 72 21",
+      "+237 6 76 65 71 62"
     ],
     "LOCALISATION": [
       "14200 hérouville-saint clair, france opening hours monday to frid",
@@ -37,13 +37,13 @@
       "instagram": "https://www.instagram.com/106851293"
     }
   },
-  "reponse_finale": "Ce site présente une entreprise (YB-TECHS) qui propose des solutions basées sur l'intelligence artificielle pour les petites et moyennes entreprises, en particulier dans le domaine du reconnaissance d'images et des biométriques. L'entreprise vise à aider ses clients à automatiser leurs processus grâce aux modèles algorithmiques personnalisés.",
+  "reponse_finale": "Selon les informations disponibles, YB-TECHS propose des solutions basées sur l'intelligence artificielle (IA) pour aider les petites entreprises. Voici quelques détails sur leurs offres :\n\n* Conception d'algorithmes de IA personnalisés\n* Développement d'applications Web/Mobiles\n* Big Data & Business Intelligence\n* Conseil et assistance technique\n\nEn résumé, YB-TECHS semble proposer des services liés à l'intelligence artificielle pour aider les entreprises en leur permettant de transformer leurs données en informations utiles.",
   "erreur_llm": false,
   "prediction_llm": {
     "type_interface": "selenium",
     "confiance": 0.9,
-    "justification": "La page est un site web standard avec du texte HTML accessible.",
-    "prompt_extraction": "Extrait le contenu principal de la page en utilisant Selenium."
+    "justification": "La page est un site web standard avec du texte HTML accessible, ce qui rend la méthode selenium idéale.",
+    "prompt_extraction": "Exécutez une requête Selenium pour extraire le contenu de la page et saisissez les informations dans l'interface."
   },
   "concordance": true
 }

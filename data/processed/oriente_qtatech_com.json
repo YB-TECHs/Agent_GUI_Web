@@ -2,24 +2,25 @@
   "question": "De quoi parle ce site ?",
   "url": "https://qtatech.com/fr",
   "source": "selenium",
-  "timestamp": "2026-08-23T01:34:27.282829",
+  "timestamp": "2026-08-31T10:45:24.405828",
   "resultats": {
     "CONTACTS_EMAIL": [
-      "info@qtatech.com",
-      "support@qtatech.com"
+      "support@qtatech.com",
+      "info@qtatech.com"
     ],
     "CONTACTS_TEL": [
-      "+229) 61 32 23 02",
-      "+237)682 422 147",
+      "010 - 160",
       "+32) 465 29 09 43",
-      "+237) 682 422 147"
+      "+237) 682 422 147",
+      "+229) 61 32 23 02",
+      "+237)682 422 147"
     ],
     "LOCALISATION": [
-      "rue étienne soubre 3, 4000. liège, belgium support@qtatech.com ",
-      "2026 3 jours (21 hrs) en savoir plus formation à l'ux et à la st",
-      "2026 2 jours (14 hrs) en savoir plus formation intelligence arti",
+      "2026 4 jours (30 hrs) en savoir plus formation alfresco expert :",
       "rue douala bercy, douala visit us info@qtatech.com email addres",
-      "2026 2 jour (14 hrs) en savoir plus formation intelligence artif"
+      "2026 5 jous (40h) en savoir plus formation cisco ccna 200-301 av",
+      "2026 5 jours (35 heures) en savoir plus formation cisco ccna 200",
+      "2026 3 jours (21 hrs) en savoir plus formation à la certificatio"
     ],
     "IDENTITE": [
       "Main navigation",
@@ -45,13 +46,13 @@
       "linkedin": "https://linkedin.com/company/qtatech"
     }
   },
-  "reponse_finale": "Ce site présente une agence de transformation digitale et créative nommée QTA Tech qui propose des services tels que le développement d'applications Web/Mobiles, la Big Data & Business Intelligence ainsi qu'un conseil technique. L'agence semble également offrir des solutions cloud pour les entreprises et a plusieurs contacts (info@qtatech.com) disponibles sur sa page.",
+  "reponse_finale": "Ce site présente une entreprise (QTA TECH) qui offre des services de transformation digitale et créative. L'entreprise propose différentes formations pour les entreprises, notamment en matière d'applications Web/Mobiles, Big Data & Business Intelligence ainsi que du conseil technique.\n\nEn résumé, ce site semble parler de l'agence QTA TECH qui aide les petites entreprises à développer leurs activités numériques et à améliorer leur efficacité grâce aux solutions digitales.",
   "erreur_llm": false,
   "prediction_llm": {
     "type_interface": "selenium",
     "confiance": 0.9,
-    "justification": "La page est un site web standard avec du texte HTML accessible, ce qui rend possible une extraction efficace grâce à selenium.",
-    "prompt_extraction": "Exécutez la commande `driver.get('https://qtatech.com/fr')` puis utilisez le méthode de navigation sur les éléments pour extraire l'information requise."
+    "justification": "La page est un site web standard avec du texte HTML accessible, ce qui rend possible une extraction efficace grâce à Selenium.",
+    "prompt_extraction": "Exécutez la commande `driver.get('https://qtatech.com/fr')` puis utilisez les méthodes de navigation pour récupérer le contenu principal."
   },
   "concordance": true
 }
