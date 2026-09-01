@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Dashboard — YB-TECHs</title>
+<style>
+  :root {
+    --dark:#0D1B2A; --dark2:#1E3A5F; --teal:#02C39A; --teal2:#028090;
+    --text:#1E293B; --grey:#64748B; --light:#F0F4F8; --border:#D9DDE3;
+    --green:#16A34A; --amber:#D97706;
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:-apple-system,"Segoe UI",Calibri,sans-serif; background:var(--light); color:var(--text); }
+  header { background:var(--dark); color:white; padding:24px 40px; display:flex; justify-content:space-between; align-items:center; }
+  header h1 { margin:0; font-size:20px; }
+  header a { color:var(--teal); text-decoration:none; font-size:14px; font-weight:600; }
+
+  main { max-width:1100px; margin:32px auto; padding:0 20px 60px; }
+
+  .cartes { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:16px; margin-bottom:24px; }
+  .carte { background:white; border-radius:12px; padding:20px; box-shadow:0 1px 3px rgba(0,0,0,.08); }
+  .carte .valeur { font-size:28px; font-weight:700; color:var(--teal2); }
+  .carte .label { font-size:13px; color:var(--grey); margin-top:4px; }
+
+  .card { background:white; border-radius:12px; padding:24px; box-shadow:0 1px 3px rgba(0,0,0,.08); margin-bottom:20px; }
+  .card h2 { margin-top:0; font-size:16px; }
+
+  table { width:100%; border-collapse:collapse; font-size:13px; }
+  th { background:var(--dark2); color:white; padding:8px 10px; text-align:left; position:sticky; top:0; }
+  td { padding:8px 10px; border-top:1px solid var(--border); }
+  tr:nth-child(even) td { background:#FAFBFC; }
+  .tableau-scroll { max-height:420px; overflow-y:auto; }
+
+  .badge { padding:2px 8px; border-radius:10px; font-size:11px; font-weight:600; }
+  .badge-ok { background:#DCFCE7; color:var(--green); }
+  .badge-err { background:#FEF9C3; color:var(--amber); }
+
+  .rafraichir { background:var(--teal2); color:white; border:none; padding:8px 16px; border-radius:8px; cursor:pointer; font-size:13px; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>📊 Dashboard des extractions</h1>
+  <a href="/">← Retour à l'analyse</a>
+</header>
+
+<main>
+  <div class="cartes" id="cartes"></div>
+
+  <div class="card">
+    <div style="display:flex; justify-content:space-between; align-items:center;">
+      <h2>Historique des extractions</h2>
+      <button class="rafraichir" onclick="charger()">🔄 Rafraîchir</button>
+    </div>
+    <div class="tableau-scroll">
+      <table>
+        <thead>
+          <tr><th>Date</th><th>Source</th><th>URL</th><th>Question</th><th>Statut</th><th>Durée</th></tr>
+        </thead>
+        <tbody id="corpsTable"><tr><td colspan="6">Chargement…</td></tr></tbody>
+      </table>
+    </div>
+  </div>
+</main>
+
+<script>
+async function charger() {
+  const reponse = await fetch('/api/stats');
+  const { statistiques, extractions } = await reponse.json();
+
+  const cartes = document.getElementById('cartes');
+    cartes.innerHTML = `
+    <div class="carte"><div class="valeur">${statistiques.total}</div><div class="label">Extractions totales</div></div>
+    <div class="carte"><div class="valeur">${(1 - statistiques.taux_erreur_llm).toLocaleString('fr-FR', {style:'percent'})}</div><div class="label">Taux de succès LLM</div></div>
+    <div class="carte"><div class="valeur">${statistiques.duree_moyenne_extraction_secondes}s</div><div class="label">Durée moyenne — extraction</div></div>
+    <div class="carte"><div class="valeur">${statistiques.duree_moyenne_discussion_secondes}s</div><div class="label">Durée moyenne — discussion</div></div>
+    <div class="carte"><div class="valeur">${Object.keys(statistiques.par_source).length}</div><div class="label">Couches utilisées</div></div>
+  `;
+
+  const corps = document.getElementById('corpsTable');
+  if (extractions.length === 0) {
+    corps.innerHTML = '<tr><td colspan="6">Aucune extraction enregistrée pour l\'instant.</td></tr>';
+    return;
+  }
+  corps.innerHTML = extractions.map(e => `
+    <tr>
+      <td>${new Date(e.timestamp).toLocaleString('fr-FR')}</td>
+      <td>${e.source}</td>
+      <td title="${e.url}">${(e.url || '').slice(0, 40)}</td>
+      <td title="${e.question}">${(e.question || '').slice(0, 40)}</td>
+      <td><span class="badge ${e.erreur_llm ? 'badge-err' : 'badge-ok'}">${e.erreur_llm ? 'erreur LLM' : 'succès'}</span></td>
+      <td>${e.duree_secondes ?? '—'}s</td>
+    </tr>
+  `).join('');
+}
+
+charger();
+</script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+[
+  {
+    "role": "user",
+    "content": "Données extraites :\nCONTACTS_EMAIL: ['info@qtatech.com', 'support@qtatech.com']\nCONTACTS_TEL: ['+32) 465 29 09 43', '+229) 61 32 23 02', '+237) 682 422 147', '+237)682 422 147']\nLOCALISATION: ['2026 5 jours en savoir plus formation vmware vsphere® 8 : instal', '2026 5 jours (35 hrs) en savoir plus formation microsoft azure d', '2026 1 jour (8 hrs) en savoir plus notre méthode de travail nos ', 'rue douala bercy, douala visit us info@qtatech.com email addres', '2026 5 jours(40 hrs) en savoir plus formation comptia cysa+ fcfa']\nIDENTITE: ['Main navigation', 'Accueil', 'Transformez votre entreprise avec notre agence créative', 'Nos activités', 'Développement/Consultation Drupal', \"Développement d'applications Web/Mobiles\", 'Big Data & Business Intelligence', 'Conseil & assistance technique']\nINFORMATIONS: ['Accueil | Agence de transformation digitale & créative | QTA tech Aller au contenu principal Contactez nos experts pour estimer votre idée de projet et en faire une réalité commerciale', ' (+237)682 422 147 Ave King Akwa, Douala Agla zéro souci, Cotonou EN FR (+237) 682 422 147 Phone line Mon to Sat 8:00-17:30 Working hours Ave King Akwa, Rue Douala Bercy, Douala Visit us info@qtatech', 'com Email add [...tronqué]\n\nQuestion : Les contacts"
+  },
+  {
+    "role": "assistant",
+    "content": "Les emails trouvés sont :\n\ninfo@qtatech.com\nsupport@qtatech.com"
+  },
+  {
+    "role": "user",
+    "content": "Données extraites :\nCONTACTS_EMAIL: ['ybtechs.io@gmail.com']\nCONTACTS_TEL: ['+237 6 76 65 71 62', '+33 6 59 28 72 21']\nLOCALISATION: ['14200 hérouville-saint clair, france opening hours monday to frid', '2026.  all rights reserved.']\nIDENTITE: ['Innovate with YB-TECHs', 'About Us', '3', '5', 'Our Services', 'Customer Reviews', 'Our Location']\nINFORMATIONS: [' Your information thus becomes a real lever for growth and performance', ' We design AI models and algorithms tailored to your specific needs to automate, predict, and optimize your processes', ' Our solutions use AI to recognize, identify, and secure', ' From image recognition to biometrics, we develop intelligent systems for greater efficiency and accuracy', ' AI Consulting Digital Consulting & Support About Us At YB-TECHS (Why Be Techs) , we transform data into actionable insights and AI-powered solutions for SMEs across five continents']\nRESEAUX_SOCIAUX: {'linkedin': '/httpswwwlinkedincominyris-brice-wandji-piugie', 'facebook': 'https://www.facebook.com/yrbrtechs', 'instagram': 'https://www.instagram.com/106851293'}\n\nQuestion : La localisation"
+  },
+  {
+    "role": "assistant",
+    "content": "La localisation est :\n\n14200 Hérouville-Saint Clair, France."
+  }
+]

@@ -1,4 +1,7 @@
 # src/api/app.py
+import time  # à ajouter en haut si absent
+from src.storage.log_extractions import enregistrer_extraction
+
 import json
 import shutil
 import tempfile
@@ -45,19 +48,28 @@ class Requete(BaseModel):
 
 @app.post("/analyser")
 def analyser(requete: Requete):
+    debut = time.perf_counter()
     url = requete.url.strip()
 
     if not url:
         reponse = repondre_discussion(requete.question)
-        return {
+        sortie = {
             'question': requete.question, 'url': None, 'source': 'discussion',
             'timestamp': datetime.now().isoformat(),
             'resultats': {}, 'reponse_finale': reponse,
             'erreur_llm': reponse is None,
             'prediction_llm': None, 'concordance': None,
         }
+    else:
+        sortie = pipeline_oriente(url, requete.question)
 
-    return pipeline_oriente(url, requete.question)
+    enregistrer_extraction(
+        url=sortie.get('url') or '(discussion)', question=sortie['question'],
+        source=sortie['source'], erreur_llm=sortie['erreur_llm'],
+        duree_secondes=round(time.perf_counter() - debut, 2),
+        reponse_finale=sortie['reponse_finale'],
+    )
+    return sortie
 
 def lire_cas_usage(chemin: Path) -> list[dict]:
     """Lit un fichier .xlsx/.xls ou .json et retourne [{'url':..., 'question':...}]."""
@@ -94,17 +106,27 @@ async def traiter_chaine(fichier: UploadFile = File(...)):
         return JSONResponse(status_code=400, content={"erreur": "Aucun cas d'usage trouvé dans le fichier."})
 
     resultats_session = []
+
     for cas in cas_usage:
+        debut_cas = time.perf_counter()
         try:
             sortie = pipeline_oriente(cas['url'], cas['question'])
             df = nettoyer(sortie)
             validation = valider_dataframe(df)
+            statut = 'erreur' if sortie['erreur_llm'] else 'succes'
         except Exception as e:
             df = pd.DataFrame([{'categorie': 'ERREUR', 'cle': 'exception', 'valeur': str(e)}])
-            sortie = {'reponse_finale': None}
+            sortie = {'reponse_finale': None, 'erreur_llm': True, 'source': 'erreur'}
             validation = {}
+            statut = 'exception'
+        enregistrer_extraction(
+            url=cas['url'], question=cas['question'], source=sortie.get('source', 'inconnu'),
+            erreur_llm=sortie.get('erreur_llm', True),
+            duree_secondes=round(time.perf_counter() - debut_cas, 2),
+            reponse_finale=sortie.get('reponse_finale'), statut=statut,
+        )
         resultats_session.append({'cas': cas, 'reponse_finale': sortie.get('reponse_finale'), 'df': df, 'validation': validation})
-
+    
     lignes = []
     validation_session = {}
     for i, r in enumerate(resultats_session, 1):
@@ -124,5 +146,12 @@ async def traiter_chaine(fichier: UploadFile = File(...)):
     chemin_pdf = generer_rapport_pdf(chemin_html, 'data/processed/rapport_chaine.pdf')
 
     return FileResponse(chemin_pdf, media_type='application/pdf', filename='rapport_chaine.pdf')
+
+from src.storage.log_extractions import lire_extractions, statistiques
+
+
+@app.get("/api/stats")
+def api_stats():
+    return {'statistiques': statistiques(), 'extractions': lire_extractions(limite=100)}
 
 app.mount("/", StaticFiles(directory="src/api/static", html=True), name="static")

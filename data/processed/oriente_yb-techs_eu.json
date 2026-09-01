@@ -1,15 +1,15 @@
 {
-  "question": "Les services proposés",
-  "url": "https://yb-techs.eu",
+  "question": "La localisation",
+  "url": "https://yb-techs.eu/",
   "source": "selenium",
-  "timestamp": "2026-08-31T10:43:39.554527",
+  "timestamp": "2026-09-01T16:18:51.283950",
   "resultats": {
     "CONTACTS_EMAIL": [
       "ybtechs.io@gmail.com"
     ],
     "CONTACTS_TEL": [
-      "+33 6 59 28 72 21",
-      "+237 6 76 65 71 62"
+      "+237 6 76 65 71 62",
+      "+33 6 59 28 72 21"
     ],
     "LOCALISATION": [
       "14200 hérouville-saint clair, france opening hours monday to frid",
@@ -37,13 +37,13 @@
       "instagram": "https://www.instagram.com/106851293"
     }
   },
-  "reponse_finale": "Selon les informations disponibles, YB-TECHS propose des solutions basées sur l'intelligence artificielle (IA) pour aider les petites entreprises. Voici quelques détails sur leurs offres :\n\n* Conception d'algorithmes de IA personnalisés\n* Développement d'applications Web/Mobiles\n* Big Data & Business Intelligence\n* Conseil et assistance technique\n\nEn résumé, YB-TECHS semble proposer des services liés à l'intelligence artificielle pour aider les entreprises en leur permettant de transformer leurs données en informations utiles.",
+  "reponse_finale": "La localisation est :\n\n14200 Hérouville-Saint Clair, France.",
   "erreur_llm": false,
   "prediction_llm": {
     "type_interface": "selenium",
     "confiance": 0.9,
-    "justification": "La page est un site web standard avec du texte HTML accessible, ce qui rend la méthode selenium idéale.",
-    "prompt_extraction": "Exécutez une requête Selenium pour extraire le contenu de la page et saisissez les informations dans l'interface."
+    "justification": "La page est un site web standard avec du texte HTML accessible, ce qui rend selenium la méthode idéale.",
+    "prompt_extraction": "Exécutez une requête Selenium pour extraire le texte de la page et vérifiez que les informations de localisation sont présentes."
   },
   "concordance": true
 }

@@ -1,26 +1,25 @@
 {
-  "question": "De quoi parle ce site ?",
-  "url": "https://qtatech.com/fr",
+  "question": "Les contacts",
+  "url": "https://qtatech.com",
   "source": "selenium",
-  "timestamp": "2026-08-31T10:45:24.405828",
+  "timestamp": "2026-09-01T14:26:29.161682",
   "resultats": {
     "CONTACTS_EMAIL": [
-      "support@qtatech.com",
-      "info@qtatech.com"
+      "info@qtatech.com",
+      "support@qtatech.com"
     ],
     "CONTACTS_TEL": [
-      "010 - 160",
       "+32) 465 29 09 43",
-      "+237) 682 422 147",
       "+229) 61 32 23 02",
+      "+237) 682 422 147",
       "+237)682 422 147"
     ],
     "LOCALISATION": [
-      "2026 4 jours (30 hrs) en savoir plus formation alfresco expert :",
+      "2026 5 jours en savoir plus formation vmware vsphere® 8 : instal",
+      "2026 5 jours (35 hrs) en savoir plus formation microsoft azure d",
+      "2026 1 jour (8 hrs) en savoir plus notre méthode de travail nos ",
       "rue douala bercy, douala visit us info@qtatech.com email addres",
-      "2026 5 jous (40h) en savoir plus formation cisco ccna 200-301 av",
-      "2026 5 jours (35 heures) en savoir plus formation cisco ccna 200",
-      "2026 3 jours (21 hrs) en savoir plus formation à la certificatio"
+      "2026 5 jours(40 hrs) en savoir plus formation comptia cysa+ fcfa"
     ],
     "IDENTITE": [
       "Main navigation",
@@ -46,13 +45,13 @@
       "linkedin": "https://linkedin.com/company/qtatech"
     }
   },
-  "reponse_finale": "Ce site présente une entreprise (QTA TECH) qui offre des services de transformation digitale et créative. L'entreprise propose différentes formations pour les entreprises, notamment en matière d'applications Web/Mobiles, Big Data & Business Intelligence ainsi que du conseil technique.\n\nEn résumé, ce site semble parler de l'agence QTA TECH qui aide les petites entreprises à développer leurs activités numériques et à améliorer leur efficacité grâce aux solutions digitales.",
+  "reponse_finale": "Les emails trouvés sont :\n\ninfo@qtatech.com\nsupport@qtatech.com",
   "erreur_llm": false,
   "prediction_llm": {
     "type_interface": "selenium",
-    "confiance": 0.9,
-    "justification": "La page est un site web standard avec du texte HTML accessible, ce qui rend possible une extraction efficace grâce à Selenium.",
-    "prompt_extraction": "Exécutez la commande `driver.get('https://qtatech.com/fr')` puis utilisez les méthodes de navigation pour récupérer le contenu principal."
+    "confiance": 0.0,
+    "justification": "LLM indisponible",
+    "prompt_extraction": ""
   },
   "concordance": true
 }
